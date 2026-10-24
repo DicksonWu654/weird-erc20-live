@@ -1,0 +1,480 @@
+{
+ "blind300_sample_n": {
+  "numeric_value": 376,
+  "query": "row count; independent fixed-input +300 replay; no per-token publication",
+  "source_file": "data/verify/blind300/sample_counts.csv",
+  "source_sha256": {
+   "data/verify/blind300/sample_counts.csv": "397332099e195a222bbc563494e5dbceca121d07c94155160d852adcf2ca4795"
+  },
+  "value": "376"
+ },
+ "blind300_table": {
+  "query": "real_0.01_eth; trap-or-high-tax vs sellable; pooled raw metrics sample-conditional, not population recall; <30 trial metrics withheld",
+  "source_file": "data/verify/blind300/summary.csv",
+  "source_sha256": {
+   "data/verify/blind300/summary.csv": "bf7da0e25ef6c70cf1406c789dba32c978e585ad4377e5d39df1e74c70e10f2b"
+  },
+  "value": "| Year | Venue | Known / real-floor sampled | TP/FP/FN/TN | Sample precision [Wilson 95%] | Sample NPV [Wilson 95%] | No liquidity / buy failed / unknown |\n| --- | --- | --- | --- | --- | --- | --- |\n| 2024 | V1/V2 | 59/60 | 29/0/1/29 | Not reported (trials <30) | 96.7% [83.3%, 99.4%] | 0/1/0 |\n| 2024 | V3 | 32/33 | 3/0/0/29 | Not reported (trials <30) | Not reported (trials <30) | 0/1/0 |\n| 2024 | V4 | 0/0 | 0/0/0/0 | NA (no trials) | NA (no trials) | 0/0/0 |\n| 2025 | V1/V2 | 57/60 | 26/1/0/30 | Not reported (trials <30) | 100.0% [88.6%, 100.0%] | 0/3/0 |\n| 2025 | V3 | 32/32 | 2/0/0/30 | Not reported (trials <30) | 100.0% [88.6%, 100.0%] | 0/0/0 |\n| 2025 | V4 | 30/30 | 9/0/0/21 | Not reported (trials <30) | Not reported (trials <30) | 0/0/0 |\n| 2026 | V1/V2 | 59/60 | 28/2/0/29 | 93.3% [78.7%, 98.2%] | Not reported (trials <30) | 0/1/0 |\n| 2026 | V3 | 34/34 | 4/0/0/30 | Not reported (trials <30) | 100.0% [88.6%, 100.0%] | 0/0/0 |\n| 2026 | V4 | 32/32 | 16/0/0/16 | Not reported (trials <30) | Not reported (trials <30) | 0/0/0 |\n| 2024 | all | 91/93 | 32/0/1/58 | 100.0% [89.3%, 100.0%] | 98.3% [91.0%, 99.7%] | 0/2/0 |\n| 2025 | all | 119/122 | 37/1/0/81 | 97.4% [86.5%, 99.5%] | 100.0% [95.5%, 100.0%] | 0/3/0 |\n| 2026 | all | 125/126 | 48/2/0/75 | 96.0% [86.5%, 98.9%] | 100.0% [95.1%, 100.0%] | 0/1/0 |\n| all | all | 335/341 | 117/3/1/214 | 97.5% [92.9%, 99.1%] | 99.5% [97.4%, 99.9%] | 0/6/0 |"
+ },
+ "chain_rank_table": {
+  "query": "per chain \u00d7 rank band; feature-specific measured denominators; no extras",
+  "source_file": "data/matrix/prevalence_by_chain_rank.csv",
+  "source_sha256": {
+   "data/matrix/prevalence_by_chain_rank.csv": "f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9"
+  },
+  "value": "| Chain | Rank band | Missing transfer return | Observed transfer fee | Share capability | Observed drift | Blocklist union | EOA upgrade path |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Ethereum | 1-100 | 2/99 (2.0%) | 0/93 (0.0%) | 4/99 (4.0%) | 3/99 (3.0%) | 31/100 (31.0%) | 15/100 (15.0%) |\n| Ethereum | 101-500 | 5/399 (1.3%) | 0/380 (0.0%) | 19/396 (4.8%) | 5/396 (1.3%) | 75/400 (18.8%) | 24/395 (6.1%) |\n| Ethereum | 501-2000 | 8/1,496 (0.5%) | 13/1,469 (0.9%) | 96/1,492 (6.4%) | 13/1,490 (0.9%) | 371/1,500 (24.7%) | 76/1,494 (5.1%) |\n| Base | 1-100 | 0/100 (0.0%) | 0/91 (0.0%) | 3/100 (3.0%) | 0/0 (Not reported (n<30)) | 13/100 (13.0%) | 8/92 (8.7%) |\n| Base | 101-500 | 0/400 (0.0%) | 2/393 (0.5%) | 17/400 (4.2%) | 0/1 (Not reported (n<30)) | 48/400 (12.0%) | 27/381 (7.1%) |\n| Arbitrum | 1-100 | 0/99 (0.0%) | 0/93 (0.0%) | 7/99 (7.1%) | 0/0 (Not reported (n<30)) | 26/99 (26.3%) | 8/99 (8.1%) |\n| Arbitrum | 101-500 | 0/397 (0.0%) | 1/390 (0.3%) | 131/397 (33.0%) | 0/0 (Not reported (n<30)) | 155/397 (39.0%) | 34/398 (8.5%) |\n| BNB Smart Chain | 1-100 | 0/97 (0.0%) | 0/93 (0.0%) | 2/97 (2.1%) | 0/0 (Not reported (n<30)) | 18/97 (18.6%) | 17/97 (17.5%) |\n| BNB Smart Chain | 101-500 | 0/393 (0.0%) | 6/391 (1.5%) | 18/393 (4.6%) | 0/0 (Not reported (n<30)) | 94/393 (23.9%) | 49/398 (12.3%) |\n| Polygon | 1-100 | 0/99 (0.0%) | 0/90 (0.0%) | 1/100 (1.0%) | 1/100 (1.0%) | 19/100 (19.0%) | 11/100 (11.0%) |\n| Polygon | 101-500 | 0/398 (0.0%) | 6/390 (1.5%) | 8/398 (2.0%) | 4/398 (1.0%) | 47/399 (11.8%) | 34/399 (8.5%) |\n| Optimism | 1-100 | 0/100 (0.0%) | 1/97 (1.0%) | 1/100 (1.0%) | 0/0 (Not reported (n<30)) | 8/100 (8.0%) | 8/99 (8.1%) |\n| Optimism | 101-500 | 0/98 (0.0%) | 0/96 (0.0%) | 13/98 (13.3%) | 0/0 (Not reported (n<30)) | 16/98 (16.3%) | 3/98 (3.1%) |"
+ },
+ "crosschain_tests": {
+  "query": "market_cap ranks 1-500; Ethereum vs rest; saved feature\u00d7comparison Holm family",
+  "source_file": "data/matrix/cross_chain_tests.csv",
+  "source_sha256": {
+   "data/matrix/cross_chain_tests.csv": "e6d550ce30bbb63e1da39e139a2f23bf89e9356b82e1550290e79c5bccb92b41"
+  },
+  "value": "| Feature | Ethereum | Rest | Raw Fisher p | Holm p |\n| --- | --- | --- | --- | --- |\n| Missing transfer return | 7/498 | 0/2,181 | 7.41e-06 | 0.00864 |\n| False on failure | 7/498 | 1/2,181 | 4.97e-05 | 0.0571 |\n| Approval race guard | 13/496 | 4/2,179 | 3.06e-07 | 0.000363 |\n| Bounded-integer limit | 6/473 | 3/2,123 | 0.00181 | 1 |"
+ },
+ "delayed_2024_v1v2_surviving_n_positive": {
+  "numeric_value": 7.0,
+  "query": "{'year': 2024, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_positive; small-support diagnostic counts",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "7"
+ },
+ "delayed_2024_v1v2_surviving_n_sampled": {
+  "numeric_value": 438.0,
+  "query": "{'year': 2024, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_sampled; small-support diagnostic counts",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "438"
+ },
+ "delayed_2025_v1v2_surviving_n_positive": {
+  "numeric_value": 7.0,
+  "query": "{'year': 2025, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_positive; small-support diagnostic counts",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "7"
+ },
+ "delayed_2025_v1v2_surviving_n_sampled": {
+  "numeric_value": 303.0,
+  "query": "{'year': 2025, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_sampled; small-support diagnostic counts",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "303"
+ },
+ "delayed_2026_v1v2_surviving_n_positive": {
+  "numeric_value": 19.0,
+  "query": "{'year': 2026, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_positive; small-support diagnostic counts",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "19"
+ },
+ "delayed_2026_v1v2_surviving_n_sampled": {
+  "numeric_value": 110.0,
+  "query": "{'year': 2026, 'venue': 'V1/V2', 'followup': 'exact_plus7200', 'normal_definition': 'normal_or_owner_controlled'},metric=delayed_trap_given_survives; column=n_sampled; stratified cluster bootstrap/FPC interval; denominator support",
+  "source_file": "data/verify/delayed/transitions_by_year.csv",
+  "source_sha256": {
+   "data/verify/delayed/transitions_by_year.csv": "1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961"
+  },
+  "value": "110"
+ },
+ "delayed_reviewed_cases_n": {
+  "numeric_value": 24,
+  "query": "sum(n) where hand_reviewed=true; purposive mechanism sample, not population prevalence",
+  "source_file": "data/verify/delayed/case_counts.csv",
+  "source_sha256": {
+   "data/verify/delayed/case_counts.csv": "2a6ff5de4ea51fbbf744a4d1c892d48da5cee50ed05d0f5e5e1d8b139001dabe"
+  },
+  "value": "24"
+ },
+ "delayed_reviewed_eip7702_n": {
+  "numeric_value": 9,
+  "query": "sum(n) where hand_reviewed=true AND mechanism_group=fee_recipient_eip7702_activation; delegation installation, no intent attribution",
+  "source_file": "data/verify/delayed/case_counts.csv",
+  "source_sha256": {
+   "data/verify/delayed/case_counts.csv": "2a6ff5de4ea51fbbf744a4d1c892d48da5cee50ed05d0f5e5e1d8b139001dabe"
+  },
+  "value": "9"
+ },
+ "fee_activation_block": {
+  "numeric_value": 24106378,
+  "query": "activation_block",
+  "source_file": "data/verify/dust/fee_activation.json",
+  "source_sha256": {
+   "data/verify/dust/fee_activation.json": "ad315455c52569259ca3ee045497f55039c9586a6c5b386e87379abcd8453991"
+  },
+  "value": "24,106,378"
+ },
+ "fee_formula_checks": {
+  "numeric_value": 10,
+  "query": "row count; independent integer-formula checks",
+  "source_file": "data/verify/dust/fee_mint_formula.csv",
+  "source_sha256": {
+   "data/verify/dust/fee_mint_formula.csv": "71bc5b4239a4e922d179c059b0691da7d4ddc1781c0feabe492b5f1a418e897b"
+  },
+  "value": "10"
+ },
+ "golden_result": {
+  "query": "count(match=true)/row count",
+  "source_file": "data/probe-golden/report.csv",
+  "source_sha256": {
+   "data/probe-golden/report.csv": "532531358a46c553109356f7151a3331017a30ce40cde5c98e79495d00cb2fdd"
+  },
+  "value": "107/114 (93.9%)"
+ },
+ "main_upgrade_class_counts": {
+  "value": {
+   "authority_unverified": 32,
+   "contract_other_or_unresolved": 43,
+   "eoa": 302,
+   "eoa_7702": 12,
+   "frozen": 20,
+   "governor_dao": 9,
+   "l1_alias": 2,
+   "multisig_no_timelock": 875,
+   "no_known_path": 141,
+   "not_applicable": 2339,
+   "timelock": 407,
+   "unresolved": 16,
+   "upgradeable_yes": 1682,
+   "upgradeable_measured": 4041
+  },
+  "query": "matrix column upgrade_authority_class, rows whose rank band is not extras, all six chains; count of rows by class. upgradeable_measured = rows where column upgradeable is answered yes or no; upgradeable_yes = rows answered yes",
+  "source_file": [
+   "data/matrix-ethereum.json",
+   "data/matrix-base.json",
+   "data/matrix-arbitrum.json",
+   "data/matrix-bsc.json",
+   "data/matrix-polygon.json",
+   "data/matrix-optimism.json"
+  ],
+  "source_sha256": {
+   "data/matrix-ethereum.json": "3a80d594f7994c4316258cb026e25e687d78d8231e71d5023436fcef0656ecdf",
+   "data/matrix-base.json": "925820354d49d2d0d248389e5b330aba77d408a5d4f48a44d414215d68c4f69c",
+   "data/matrix-arbitrum.json": "479a6b3db72919efb3cf9cb1a659bd46e4ba329f0c3277d51f98840b1b85da2f",
+   "data/matrix-bsc.json": "d4ece97c6f994c0e49696f76541e45c100143bc8e7bab6f53bc6cc154feaf87e",
+   "data/matrix-polygon.json": "1b66576a577c4209055495212934fab4c1873caa59fb331d9d6a53929b81c8bd",
+   "data/matrix-optimism.json": "ec978e2c378c65c2379085f5fcf6781f138beee98a78b31e66e0055e4929dd84"
+  }
+ },
+ "main_upgrade_eoa_n_yes": {
+  "numeric_value": 314,
+  "query": "{'chain': 'all', 'rank_band': 'all_market_cap'}, feature=upgrade_single_eoa, column=n_yes",
+  "source_file": "data/matrix/prevalence_by_chain_rank.csv",
+  "source_sha256": {
+   "data/matrix/prevalence_by_chain_rank.csv": "f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9"
+  },
+  "value": "314"
+ },
+ "n_chains": {
+  "numeric_value": 6,
+  "query": "len(subsets.inventory.by_chain)",
+  "source_file": "data/matrix/subsets.json",
+  "source_sha256": {
+   "data/matrix/subsets.json": "8e14b0ecb3cf14407ce8ce4f7ac82dc4959514d4dd92f295f8edd8aa70720299"
+  },
+  "value": "6"
+ },
+ "n_extras": {
+  "numeric_value": 542,
+  "query": "subsets.extras.n_tokens",
+  "source_file": "data/matrix/subsets.json",
+  "source_sha256": {
+   "data/matrix/subsets.json": "8e14b0ecb3cf14407ce8ce4f7ac82dc4959514d4dd92f295f8edd8aa70720299"
+  },
+  "value": "542"
+ },
+ "n_main": {
+  "numeric_value": 4198,
+  "query": "subsets.ranked.n_tokens",
+  "source_file": "data/matrix/subsets.json",
+  "source_sha256": {
+   "data/matrix/subsets.json": "8e14b0ecb3cf14407ce8ce4f7ac82dc4959514d4dd92f295f8edd8aa70720299"
+  },
+  "value": "4198"
+ },
+ "n_universe": {
+  "numeric_value": 4740,
+  "query": "subsets.inventory.n_tokens",
+  "source_file": "data/matrix/subsets.json",
+  "source_sha256": {
+   "data/matrix/subsets.json": "8e14b0ecb3cf14407ce8ce4f7ac82dc4959514d4dd92f295f8edd8aa70720299"
+  },
+  "value": "4740"
+ },
+ "named_upgrade_table": {
+  "query": "All four specified issuer examples with independent verified caller/stranger differential and empty-code check",
+  "source_file": "data/verify/claims/checks/core_ethereum.json",
+  "source_sha256": {
+   "data/verify/claims/checks/core_ethereum.json": "dc79ddcac87f02caab0866e44c415308df46426863cd1005f7b2623e93ca1706"
+  },
+  "value": "| Ethereum deployment | Reproduced method | Terminal EOA | Pinned block | Differential result |\n| --- | --- | --- | --- | --- |\n| USDC | upgradeTo(address) | 0x807a96288a1a408dbc13de2b1d087d10356395d2 | 26247291 | Authority succeeds; stranger reverts |\n| cbBTC | upgradeTo(address) | 0x42d90b3faf2287475cdc863706bd7cc3e938c2af | 26247291 | Authority succeeds; stranger reverts |\n| BUIDL | setTarget(address) | 0xe01605f6b6dc593b7d2917f4a0940db2a625b09e | 26247293 | Authority succeeds; stranger reverts |\n| PYUSD | upgradeTo(address) | 0xc94bcf6e1d8b3558e3b62e743630d50497e3851c | 26247292 | Authority succeeds; stranger reverts |"
+ },
+ "prevalence_table": {
+  "query": "chain=all,rank_band=all_market_cap,measure_type=d_xo_section; separate observed/capability rows; ex-securities same features",
+  "source_file": [
+   "data/matrix/prevalence_by_chain_rank.csv",
+   "data/matrix/prevalence_ex_securities.csv"
+  ],
+  "source_sha256": {
+   "data/matrix/prevalence_by_chain_rank.csv": "f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9",
+   "data/matrix/prevalence_ex_securities.csv": "aae19a8cb83615d7bb81d6be0fad643c2a6c44e6769d705f8cf84a2ec3cd073d"
+  },
+  "value": "| Behavior / capability | Ranked: yes / measured (rate) | Descriptive Wilson 95% interval | Excluding securities: yes / measured (rate) |\n| --- | --- | --- | --- |\n| Reentrant calls (hooks) | 16/4,065 (0.4%) | 0.2%\u20130.6% | 16/3,576 (0.4%) |\n| Missing return values | 15/4,170 (0.4%) | 0.2%\u20130.6% | 15/3,656 (0.4%) |\n| Fee on transfer | 29/4,066 (0.7%) | 0.5%\u20131.0% | 29/3,577 (0.8%) |\n| Observed balance drift | 26/2,484 (1.0%) | 0.7%\u20131.5% | 24/2,192 (1.1%) |\n| Share-accounting capability | 320/4,169 (7.7%) | 6.9%\u20138.5% | 86/3,655 (2.4%) |\n| Upgrade authority exists | 1,682/4,041 (41.6%) | 40.1%\u201343.2% | 1,175/3,531 (33.3%) |\n| Flash mintable tokens | 15/4,170 (0.4%) | 0.2%\u20130.6% | 15/3,664 (0.4%) |\n| Blocklist capability or tested-address rejection | 921/4,183 (22.0%) | 20.8%\u201323.3% | 439/3,669 (12.0%) |\n| Pausable tokens | 1,097/4,183 (26.2%) | 24.9%\u201327.6% | 817/3,669 (22.3%) |\n| Approval race protections | 47/4,170 (1.1%) | 0.8%\u20131.5% | 47/3,656 (1.3%) |\n| Revert on approval to zero address | 3,712/4,175 (88.9%) | 87.9%\u201389.8% | 3,221/3,661 (88.0%) |\n| Revert on zero-value approvals | 14/4,175 (0.3%) | 0.2%\u20130.6% | 14/3,661 (0.4%) |\n| Revert on zero-value transfers | 138/4,078 (3.4%) | 2.9%\u20134.0% | 138/3,589 (3.8%) |\n| Multiple token addresses / forwarding | 13/4,155 (0.3%) | 0.2%\u20130.5% | 13/3,649 (0.4%) |\n| Low decimals (<=5) | 79/4,183 (1.9%) | 1.5%\u20132.3% | 67/3,669 (1.8%) |\n| High decimals (>18) | 2/4,183 (0.0%) | 0.0%\u20130.2% | 2/3,669 (0.1%) |\n| transferFrom with src == msg.sender | 145/4,175 (3.5%) | 3.0%\u20134.1% | 145/3,661 (4.0%) |\n| Non-string metadata | 4/4,183 (0.1%) | 0.0%\u20130.2% | 4/3,669 (0.1%) |\n| Revert on transfer to zero address | 3,957/4,175 (94.8%) | 94.1%\u201395.4% | 3,457/3,661 (94.4%) |\n| No revert on failure | 24/4,175 (0.6%) | 0.4%\u20130.9% | 24/3,661 (0.7%) |\n| Revert on large approvals/transfers (uint96) | 35/4,070 (0.9%) | 0.6%\u20131.2% | 35/3,581 (1.0%) |\n| Code injection via token name | 0/4,183 (0.0%) | 0.0%\u20130.1% | 0/3,669 (0.0%) |\n| Unusual permit (DAI-style) | 15/4,183 (0.4%) | 0.2%\u20130.6% | 15/3,669 (0.4%) |\n| Transfer of less than amount (max-uint = all) | 0/4,175 (0.0%) | 0.0%\u20130.1% | 0/3,661 (0.0%) |\n| ERC-20 representation of native currency | 1/4,155 (0.0%) | 0.0%\u20130.1% | 1/3,649 (0.0%) |"
+ },
+ "site_counts": {
+  "query": "saved JSON pointer count inventory; upstream input digests in data/release-projections.json; site rebuild independently binds each displayed domain",
+  "source_file": "data/site-counts.json",
+  "source_sha256": {
+   "data/site-counts.json": "3d27877a0dcd959aab63113b4fbea7d9d3e9768f41f9d552ec72a9a19f1eb546"
+  },
+  "value": {
+   "/upgrade_paths/counts/authority_unverified": 32,
+   "/upgrade_paths/counts/contract_other_or_unresolved": 45,
+   "/upgrade_paths/counts/eoa": 314,
+   "/upgrade_paths/counts/eoa_7702": 12,
+   "/upgrade_paths/counts/frozen": 22,
+   "/upgrade_paths/counts/governor_dao": 12,
+   "/upgrade_paths/counts/l1_alias": 2,
+   "/upgrade_paths/counts/multisig_no_timelock": 1054,
+   "/upgrade_paths/counts/no_known_path": 173,
+   "/upgrade_paths/counts/not_applicable": 2636,
+   "/upgrade_paths/counts/timelock": 415,
+   "/upgrade_paths/counts/unresolved": 23
+  }
+ },
+ "tokenized_security_counts": {
+  "value": {
+   "total": 510,
+   "upgradeable": 507,
+   "blocklist": 474
+  },
+  "query": "matrix rows whose categories include tokenized_security and whose rank band is not extras, all six chains. total = those rows; upgradeable = column upgradeable answers yes; blocklist = column blocklist_any answers yes. The tag groups tokenized stocks and funds by issuer name or listing; a listing does not prove who issued a token.",
+  "source_file": [
+   "data/matrix-ethereum.json",
+   "data/matrix-base.json",
+   "data/matrix-arbitrum.json",
+   "data/matrix-bsc.json",
+   "data/matrix-polygon.json",
+   "data/matrix-optimism.json"
+  ],
+  "source_sha256": {
+   "data/matrix-ethereum.json": "3a80d594f7994c4316258cb026e25e687d78d8231e71d5023436fcef0656ecdf",
+   "data/matrix-base.json": "925820354d49d2d0d248389e5b330aba77d408a5d4f48a44d414215d68c4f69c",
+   "data/matrix-arbitrum.json": "479a6b3db72919efb3cf9cb1a659bd46e4ba329f0c3277d51f98840b1b85da2f",
+   "data/matrix-bsc.json": "d4ece97c6f994c0e49696f76541e45c100143bc8e7bab6f53bc6cc154feaf87e",
+   "data/matrix-polygon.json": "1b66576a577c4209055495212934fab4c1873caa59fb331d9d6a53929b81c8bd",
+   "data/matrix-optimism.json": "ec978e2c378c65c2379085f5fcf6781f138beee98a78b31e66e0055e4929dd84"
+  }
+ },
+ "universe_table": {
+  "query": "is_proxy rows; n_tokens by chain and band; extras separate",
+  "source_file": [
+   "data/matrix/prevalence_by_chain_rank.csv",
+   "data/matrix/prevalence_extras.csv"
+  ],
+  "source_sha256": {
+   "data/matrix/prevalence_by_chain_rank.csv": "f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9",
+   "data/matrix/prevalence_extras.csv": "1b7280b199fb4fb6a970bfd0c80d063c03db13a7eb9c23f7dc732be1b997b885"
+  },
+  "value": "| Chain | Ranks 1\u2013100 | 101\u2013500 | 501\u20132000 | Extras |\n| --- | --- | --- | --- | --- |\n| Ethereum | 100 | 400 | 1500 | 103 |\n| Base | 100 | 400 | 0 | 82 |\n| Arbitrum | 100 | 400 | 0 | 152 |\n| BNB Smart Chain | 100 | 400 | 0 | 93 |\n| Polygon | 100 | 400 | 0 | 45 |\n| Optimism | 100 | 98 | 0 | 67 |"
+ },
+ "v21_2024_all_harm_or_emptied": {
+  "numeric_value": 0.5538595125683354,
+  "query": "year=2024,venue=all,metric=harmful_or_emptied_within_hour_given_first_funded; column=share; descriptive, not attributed harm",
+  "source_file": "data/tier2/v2/launch_liquidity_by_year_venue.csv",
+  "source_sha256": {
+   "data/tier2/v2/launch_liquidity_by_year_venue.csv": "e6fbcfc132106894a99a5d13dc25b53ef735cf72e68ab8aa9d6482a674dbb13c"
+  },
+  "value": "55.4%"
+ },
+ "v21_2025_all_harm_or_emptied": {
+  "numeric_value": 0.602017630405527,
+  "query": "year=2025,venue=all,metric=harmful_or_emptied_within_hour_given_first_funded; column=share; descriptive, not attributed harm",
+  "source_file": "data/tier2/v2/launch_liquidity_by_year_venue.csv",
+  "source_sha256": {
+   "data/tier2/v2/launch_liquidity_by_year_venue.csv": "e6fbcfc132106894a99a5d13dc25b53ef735cf72e68ab8aa9d6482a674dbb13c"
+  },
+  "value": "60.2%"
+ },
+ "v21_2026_all_harm_or_emptied": {
+  "numeric_value": 0.7403073060152026,
+  "query": "year=2026,venue=all,metric=harmful_or_emptied_within_hour_given_first_funded; column=share; descriptive, not attributed harm",
+  "source_file": "data/tier2/v2/launch_liquidity_by_year_venue.csv",
+  "source_sha256": {
+   "data/tier2/v2/launch_liquidity_by_year_venue.csv": "e6fbcfc132106894a99a5d13dc25b53ef735cf72e68ab8aa9d6482a674dbb13c"
+  },
+  "value": "74.0%"
+ },
+ "v21_combined_table": {
+  "query": "year\u00d7venue; pooled combined description and initially-funded combined description are distinct; expansion-weight depletion counts use saved approximate sampling intervals; not rug attribution",
+  "source_file": "data/tier2/v2/launch_liquidity_by_year_venue.csv",
+  "source_sha256": {
+   "data/tier2/v2/launch_liquidity_by_year_venue.csv": "e6fbcfc132106894a99a5d13dc25b53ef735cf72e68ab8aa9d6482a674dbb13c"
+  },
+  "value": "| Year | Venue | Harm or below floor / pooled [approx. 95%] | Unknown-state upper | Harmful or emptied / initially funded [approx. 95%] | Estimated initially funded then depleted [approx. 95%] |\n| --- | --- | --- | --- | --- | --- |\n| 2017 | All | Not reported (effective support <30) | Not reported | NA | NA |\n| 2018 | All | Not reported (effective support <30) | Not reported | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2018 | V1/V2 | Not reported (effective support <30) | Not reported | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2019 | All | 14.4% [12.9%, 16.1%] | 83.7% | 18.2% [14.7%, 22.2%] | 72 [58, 88] |\n| 2019 | V1/V2 | 43.9% [40.0%, 47.9%] | 50.2% | 18.2% [14.7%, 22.2%] | 72 [58, 88] |\n| 2020 | All | 46.9% [44.5%, 49.4%] | 54.7% | 48.8% [46.2%, 51.4%] | 6,166 [5,679, 6,683] |\n| 2020 | V1/V2 | 49.6% [47.1%, 52.2%] | 52.1% | 48.8% [46.2%, 51.4%] | 6,166 [5,679, 6,683] |\n| 2021 | All | 63.0% [61.1%, 64.9%] | 70.4% | 65.5% [63.5%, 67.4%] | 8,594 [7,983, 9,238] |\n| 2021 | V1/V2 | 68.1% [66.2%, 70.0%] | 70.4% | 68.1% [66.1%, 70.0%] | 8,451 [7,848, 9,083] |\n| 2021 | V3 | Not reported (effective support <30) | Not reported | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2022 | All | 61.1% [59.1%, 63.0%] | 71.1% | 64.6% [62.6%, 66.6%] | 30,161 [28,757, 31,699] |\n| 2022 | V1/V2 | 65.2% [63.2%, 67.2%] | 69.6% | 65.2% [63.1%, 67.2%] | 29,886 [28,490, 31,416] |\n| 2022 | V3 | Not reported (effective support <30) | Not reported | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2023 | All | 55.1% [53.2%, 57.0%] | 62.6% | 57.0% [55.1%, 58.9%] | 67,279 [64,186, 70,457] |\n| 2023 | V1/V2 | 57.0% [55.1%, 58.9%] | 60.9% | 56.9% [54.9%, 58.8%] | 64,916 [61,665, 68,026] |\n| 2023 | V3 | 65.3% [54.8%, 74.5%] | 69.1% | 63.1% [50.8%, 74.0%] | 2,363 [1,602, 3,169] |\n| 2024 | All | 53.1% [51.3%, 55.0%] | 61.2% | 55.4% [53.5%, 57.3%] | 40,041 [38,008, 42,020] |\n| 2024 | V1/V2 | 55.6% [53.6%, 57.5%] | 58.8% | 55.2% [53.2%, 57.1%] | 37,359 [35,411, 39,166] |\n| 2024 | V3 | 57.0% [49.6%, 64.1%] | 67.8% | 59.5% [50.8%, 67.6%] | 2,682 [2,081, 3,377] |\n| 2024 | V4 | Not reported (effective support <30) | Not reported | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2025 | All | 58.7% [57.2%, 60.1%] | 64.3% | 60.2% [58.6%, 61.8%] | 41,656 [40,161, 43,170] |\n| 2025 | V1/V2 | 62.9% [61.4%, 64.4%] | 64.6% | 61.2% [59.6%, 62.8%] | 40,676 [39,137, 42,145] |\n| 2025 | V3 | 51.3% [47.7%, 55.3%] | 53.8% | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2025 | V4 | 65.5% [58.5%, 71.9%] | 80.3% | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2026 | All | 74.5% [73.1%, 75.9%] | 82.4% | 74.0% [71.9%, 76.2%] | 35,611 [33,907, 37,270] |\n| 2026 | V1/V2 | 75.5% [73.2%, 77.5%] | 76.3% | 74.2% [71.8%, 76.5%] | 29,931 [28,276, 31,409] |\n| 2026 | V3 | 90.8% [88.9%, 92.8%] | 92.5% | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2026 | V4 | 72.4% [69.6%, 75.2%] | 81.9% | 75.2% [69.3%, 80.7%] | 5,301 [4,492, 6,212] |"
+ },
+ "v2_2020_measurable_share": {
+  "numeric_value": 0.27065724346348924,
+  "query": "year=2020,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "27.1%"
+ },
+ "v2_2020_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.2947817293684121,
+  "query": "year=2020,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "29.5%"
+ },
+ "v2_2021_measurable_share": {
+  "numeric_value": 0.513009728005265,
+  "query": "year=2021,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "51.3%"
+ },
+ "v2_2021_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.2826159980666988,
+  "query": "year=2021,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "28.3%"
+ },
+ "v2_2022_measurable_share": {
+  "numeric_value": 0.3529013477923651,
+  "query": "year=2022,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "35.3%"
+ },
+ "v2_2022_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.4292923231786596,
+  "query": "year=2022,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "42.9%"
+ },
+ "v2_2023_measurable_share": {
+  "numeric_value": 0.25194095533110705,
+  "query": "year=2023,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "25.2%"
+ },
+ "v2_2023_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.4126042656435817,
+  "query": "year=2023,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "41.3%"
+ },
+ "v2_2024_measurable_share": {
+  "numeric_value": 0.23235843375274823,
+  "query": "year=2024,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "23.2%"
+ },
+ "v2_2024_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.40372953681583884,
+  "query": "year=2024,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "40.4%"
+ },
+ "v2_2025_measurable_share": {
+  "numeric_value": 0.07735099853086934,
+  "query": "year=2025,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "7.7%"
+ },
+ "v2_2025_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.5558164254028523,
+  "query": "year=2025,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "55.6%"
+ },
+ "v2_2026_measurable_share": {
+  "numeric_value": 0.08672765200374666,
+  "query": "year=2026,denominator=measurable_pooled,label=headline_trade_harm,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "8.7%"
+ },
+ "v2_2026_no_meaningful_liquidity_pooled": {
+  "numeric_value": 0.7262750633007418,
+  "query": "year=2026,pooled_tokens,label=no_meaningful_liquidity,column=share",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "72.6%"
+ },
+ "v2_annual_table": {
+  "query": "annual headline at +300; real V4 principal floor; rates with effective support <30 withheld; 2025 all-new excludes February",
+  "source_file": [
+   "data/tier2/v2/annual_shares.csv",
+   "data/tier2/v2/bounds.csv"
+  ],
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29",
+   "data/tier2/v2/bounds.csv": "c53939a28bbf5553793a32212f7f619f5b3ffef394cbec95cbcbe8ed9c39da19"
+  },
+  "value": "| Creation year | Primary \u22650.01 ETH [approx. 95%] | Buy-failure range / all-unknown upper | All-new [approx. 95%] |\n| --- | --- | --- | --- |\n| 2017 | NA | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2018 | Not reported (effective support <30) | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2019 | Not reported (effective support <30) | Not reported (effective support <30) | Not reported (effective support <30) |\n| 2020 | 27.1% [24.3%, 30.0%] | 27.1%\u201328.8% / 29.7% | 5.1% [4.6%, 5.7%] |\n| 2021 | 51.3% [48.9%, 53.7%] | 51.3%\u201354.0% / 56.2% | 16.3% [15.4%, 17.2%] |\n| 2022 | 35.3% [32.9%, 37.8%] | 35.3%\u201342.3% / 43.8% | 11.8% [10.9%, 12.7%] |\n| 2023 | 25.2% [23.1%, 27.4%] | 25.2%\u201331.4% / 32.0% | 10.8% [9.8%, 11.8%] |\n| 2024 | 23.2% [21.2%, 25.4%] | 23.2%\u201328.8% / 29.5% | 9.1% [8.2%, 10.0%] |\n| 2025 | 7.7% [6.5%, 8.9%] | 7.7%\u201310.4% / 12.1% | 1.4% [1.1%, 1.6%] |\n| 2026 Jan\u2013Sep | 8.7% [6.4%, 11.2%] | 8.7%\u201310.1% / 18.4% | 0.9% [0.7%, 1.2%] |"
+ },
+ "v2_count_table": {
+  "query": "2024-2026 expansion-weight token counts and saved approximate sampling count intervals; overlapping outcomes are not added",
+  "source_file": "data/tier2/v2/annual_shares.csv",
+  "source_sha256": {
+   "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29"
+  },
+  "value": "| Year | Estimated sale/tax-harm tokens [approx. 95%] | Estimated below-floor pooled tokens [approx. 95%] |\n| --- | --- | --- |\n| 2024 | 13,205 [11,989, 14,521] | 41,743 [39,649, 43,705] |\n| 2025 | 3,193 [2,671, 3,703] | 56,543 [55,050, 57,964] |\n| 2026 | 1,868 [1,374, 2,428] | 72,555 [71,058, 74,154] |"
+ },
+ "v2_pooled_n": {
+  "numeric_value": 27090,
+  "query": "sum(n) for active pooled groups",
+  "source_file": "data/tier2/v2/cohort_weights.csv",
+  "source_sha256": {
+   "data/tier2/v2/cohort_weights.csv": "acc68fba7e774a301d7383fb389d144328e34c17ae8bb6836f0d5df8640e5dbc"
+  },
+  "value": "27090"
+ }
+}

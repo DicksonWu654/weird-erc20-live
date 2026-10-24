@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "ratio_rows_checked": 1480,
+  "cross_table_identities": 76,
+  "source_labels_checked": 43268,
+  "distinct_upstream_raw_evidence_hashes_checked": 44026,
+  "distinct_raw_evidence_hashes_checked": 44893,
+  "manually_reviewed_cases": 24,
+  "diagnostic_simulations_checked": 48,
+  "new_http_attempts_checked": 979,
+  "saved_transport_error_attempts": 1,
+  "saved_rpc_error_attempts": 14,
+  "issues": []
+}

@@ -1,0 +1,9 @@
+# Current-state provider comparison: public aggregates
+
+Main scope is current-state Ethereum V2/V3 with the earlier cohort/pool choices; V4 diagnostics and legacy full-cohort reconciliations are separate. Provider execution blocks are undisclosed. Retrieval timestamps and observed RPC heads do not identify provider execution states. No unknown is a negative and no adjudicated accuracy is reported.
+
+`summary.csv` contains dataset x comparison x task x selection stratum x lag group x weighting rows. `headline.csv` selects main all-strata/all-lag rows; `counts.csv` provides the count cells. `n00,n01,n10,n11` are observed integer pair counts in party A/B order. `w00..w11` are weighted totals. Agreement, Wilson limits, Cohen kappa/bootstrap limits, positive/negative specific agreement and PABAK remain descriptive agreement metrics, not accuracy against truth. Missing and degenerate cells stay NA.
+
+`weights.csv` records candidate-frame calibration; it describes the selected newer-token liquidity composition, not design-unbiased population accuracy. Selection strata overlap and must not be added. `matched_comparisons.csv` compares matched old/new timing groups. `exclusions.csv` groups unknown reasons. `timing_counts.csv` retains only chain/count for ledger cohort scope; individual timing/token rows and all `local/` provider bodies are omitted.
+
+Honeypot labels use the respective known Boolean; high tax means a known buy/sell/transfer tax >=10%, or a positive revised simulator high-tax label. A negative requires the necessary observed legs. Harm is three-valued OR. The main fresh comparison uses revised rules and a meaningful quote floor. Intervals exclude classification error and provider dependence. GoPlus and honeypot.is supply the upstream service observations and retain their service terms. See the root README for reproduction limits.

@@ -1,0 +1,9 @@
+{
+  "source": {
+    "path": "data/tier2/v2/cohort_weights.csv",
+    "sha256": "acc68fba7e774a301d7383fb389d144328e34c17ae8bb6836f0d5df8640e5dbc"
+  },
+  "domain": "active frame; measurable; selected_dex=uniswap_v2; token creation year",
+  "measure": "sum(harm weight)/sum(domain weight); point estimates only, no supplied domain interval",
+  "code": "scripts/site_export/revision_export.py"
+}

@@ -1,0 +1,20 @@
+# Card phrases for specimen highlights. Columns: matrix column id <TAB> exact raw decoded value <TAB> phrase shown on the card.
+# The raw value stays in the evidence drawer. build.py fails if a card value has no row here; check_numbers.py re-verifies each pair.
+ret_missing_transfer	no_return_value	returns no value
+approve_race_guard	reverts(approve_race_protection:must_reset_to_0_first)	must reset approval to zero first
+blocklist_capability	blacklist(address),isBlacklisted,unBlacklist	blacklist, isBlacklisted, unBlacklist
+blocklist_capability	blacklist(address,bool),blacklists	blacklist and blacklists functions
+sanction_block_ronin	reverts	transfer reverted
+sanction_block_tornado	reverts	transfer reverted
+transfer_zero_reverts	reverts	transfer reverted
+balance_drift_7d	same_slot_value_different_balance_7d	balance changed, storage didn’t
+transfer_rounding	rounding_up_to_2_base_units	off by up to two base units
+uint96_limit	revert_string:Uni::transfer: amount exceeds 96 bits	reverts: amount exceeds uint96
+approve_max_capped	capped_to_uint96_max	capped at the uint96 maximum
+tf_owner_no_allowance	owner_can_transferFrom_own_tokens_without_allowance	can spend its own tokens without approval
+upgrade_single_eoa	eoa	one externally owned account
+owner_renounced	renounced	renounced
+permissioned_transfer	permissioned	rejected: permission required
+false_on_failure	transfer_insufficient,transferFrom_no_allowance,transferFrom_exceed_a…	returns false when balance or allowance falls short
+fee_on_transfer_observed	recipient_receives_less+sender_debited_less_than_amount+token_contrac…	receiver got less than sent
+fresh_address_nonzero_balance	balanceOf(never-used address)=9000000000	a never-used address shows a balance

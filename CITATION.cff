@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this research snapshot when using its data or software."
+type: dataset
+title: "Weird ERC-20 Live: ERC-20 behaviour measurement snapshot"
+authors:
+  - given-names: "Dickson"
+    family-names: "Wu"
+version: "2026-10-22"
+date-released: 2026-10-22
+license: CC-BY-4.0
+abstract: "Pinned-state ERC-20 behaviour observations and publication aggregates across six EVM chains. Source-specific exceptions are listed in LICENSE-DATA.txt."

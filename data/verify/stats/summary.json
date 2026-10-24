@@ -1,0 +1,17 @@
+{
+  "monthly_cells": 3510,
+  "monthly_point_differences_gt_1pp": 0,
+  "ci_endpoint_method_differences": 5802,
+  "ci_cells_with_method_difference": 3500,
+  "ht_sensitivity_differences_gt_1pp": 831,
+  "unidentified_ratio_cells": 17,
+  "sparse_label_cells": 2990,
+  "sparse_positive_label_cells": 1778,
+  "phase2_eligible_checked": 533,
+  "phase2_eligible_rug_positive": 179,
+  "annual_paper_entries_match": 114,
+  "additional_paper_scalar_checks": 42,
+  "additional_paper_mismatches": 2,
+  "diffs_rows": 6658,
+  "ht_shares_outside_unit": 77
+}

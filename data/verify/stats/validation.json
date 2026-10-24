@@ -1,0 +1,11 @@
+{
+  "cells": 3510,
+  "unique_cells": true,
+  "partition_and_union_identities": true,
+  "intervals_contain_working_points": true,
+  "input_snapshot_hashes_unchanged": true,
+  "audit_script_hash_matches": true,
+  "checks_total": 5152,
+  "checks_passed": 5132,
+  "documented_frame_count_differences": 20
+}

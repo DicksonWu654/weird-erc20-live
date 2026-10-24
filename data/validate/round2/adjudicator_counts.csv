@@ -1,0 +1,15 @@
+first_verdict,blind_verdict,n
+ambiguous,ambiguous,1
+ambiguous,definition_gap,12
+ambiguous,ours_right,2
+definition_gap,ambiguous,1
+definition_gap,definition_gap,22
+definition_gap,ours_right,1
+definition_gap,provider_right,1
+ours_right,definition_gap,12
+ours_right,ours_right,3
+ours_right,provider_right,1
+provider_right,ambiguous,3
+provider_right,definition_gap,17
+provider_right,ours_right,2
+provider_right,provider_right,4

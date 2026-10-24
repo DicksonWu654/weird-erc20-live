@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29",
+    "data/tier2/v2/venue_by_year.csv": "8ac072ea881f01829fd75ebf559b7c1168571fb09db4869a9312c3c6d470500b",
+    "data/tier2/v2/standardized.csv": "a23f2bf6a0099ff839b4fd79978d506198c2dcf8513b5b328b0270b6a9fa8df1",
+    "data/tier2/v2/sensitivity.csv": "680d56f9ba63fcbae826fa3cf4b567de8d6cd5e93b38719d9a84267c2e017271",
+    "data/tier2/v2/monthly_shares.csv": "fe58e1a2dd6d7dd6f4ec48fb7eb5c4fd1561c1e306a57ed0c07123ecf0d83984",
+    "data/tier2/v2/cohort_weights.csv": "acc68fba7e774a301d7383fb389d144328e34c17ae8bb6836f0d5df8640e5dbc"
+  },
+  "generator": "article/build_numbers.py",
+  "scope": "completed launch-state estimates; no preview data"
+}

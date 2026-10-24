@@ -1,0 +1,5 @@
+scenario,domain,replicates,bootstrap_replicates,empirical_coverage,true_share,synthetic_only,seed
+ordinary_clusters,all,200,300,0.93,0.17113934728739388,True,1720261023
+ordinary_clusters,measurable,200,300,0.93,0.17365174758817017,True,1720261023
+rare_bursty_clusters,all,200,300,0.635,0.4248809880488698,True,1720261023
+rare_bursty_clusters,measurable,200,300,0.635,0.4242040154126952,True,1720261023

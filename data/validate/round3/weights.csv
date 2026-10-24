@@ -1,0 +1,4 @@
+stratum,candidate_N,sample_n,calibration_weight
+dust,7410,190,39.0
+liquid,89,60,1.4833333333333334
+thin,64,50,1.28

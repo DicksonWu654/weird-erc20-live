@@ -1,0 +1,11 @@
+{
+  "rows": 60,
+  "counts": {
+    "rugged_insider": 21,
+    "died_by_selling": 5,
+    "migrated_or_legit_removal": 0,
+    "stable_or_growing": 8,
+    "undetermined": 26
+  },
+  "censored": 3
+}

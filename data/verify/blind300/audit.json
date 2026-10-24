@@ -1,0 +1,31 @@
+{
+  "raw_files": 3879,
+  "http_attempts": 1944,
+  "endpoint_rate_checks": {
+    "https://eth.drpc.org": {
+      "attempts": 1750,
+      "minimum_start_gap_seconds": 0.6667021430039313
+    },
+    "https://gateway.tenderly.co/public/mainnet": {
+      "attempts": 194,
+      "minimum_start_gap_seconds": 0.6667334800004028
+    }
+  },
+  "n_sample": 376,
+  "n_details": 376,
+  "verdict_counts": {
+    "high_tax": 76,
+    "sellable": 242,
+    "honeypot": 51,
+    "could_not_buy": 7
+  },
+  "v4_position_active_liquidity_matches": 97,
+  "production_imports": false,
+  "frozen_before_label_join": true,
+  "summary_pooled_totals_match": true,
+  "selection_reproduced": true,
+  "analysis_weight_max_error": 6.821210263296962e-13,
+  "synthetic_case_control_zero_miss_fixture_pass": true,
+  "synthetic_fixture_sensitivity_lower_ci": 0.05634981467387554,
+  "status": "pass"
+}

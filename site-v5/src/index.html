@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weird ERC-20 Live: every token says ERC-20, but they don't work the same</title>
+<meta name="description" content="Every token says ERC-20 on the label. I opened up thousands of the biggest tokens on six chains, then simulated buying and selling thousands of brand-new ones. They don't work the same. Every number links to its evidence.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="%%SITE_URL%%">
+<meta property="og:title" content="Every token says ERC-20 on the label. They don't work the same.">
+<meta property="og:description" content="USDT on Ethereum answers nothing, decimals can be off by a trillion, some tokens take a cut, and someone else may hold the pause switch or the key that swaps the code. Every number links to its evidence.">
+<meta property="og:image" content="%%OG_IMAGE%%">
+<meta property="og:image:alt" content="Three jars, each labelled ERC-20: one answers nothing, one skims a fee on every send, one lets a single key swap the code.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Every token says ERC-20 on the label. They don't work the same.">
+<meta name="twitter:description" content="USDT on Ethereum answers nothing, decimals can be off by a trillion, some tokens take a cut, and someone else may hold the switch.">
+<meta name="twitter:image" content="%%OG_IMAGE%%">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/martian-mono-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>
+  (function(){try{var t=localStorage.getItem('wel-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="wordmark" href="#top">Weird&nbsp;ERC-20&nbsp;Live</a>
+  <nav aria-label="Sections">
+    <a href="#trusted">Biggest tokens</a>
+    <a href="#chains">Same ticker</a>
+    <a href="#keys">Who holds the keys</a>
+    <a href="#newer">New launches</a>
+    <a href="#data">Explore</a>
+  </nav>
+  <button type="button" class="theme" id="theme" aria-label="Switch colour theme"><span class="theme-ic" aria-hidden="true"></span><span class="theme-tx">Theme</span></button>
+</header>
+
+<main id="main">
+
+<!-- HOOK ================================================================== -->
+<section class="hero" id="top">
+  <pre class="hexwall" aria-hidden="true" data-nocheck="decorative evidence digests"><!--GEN:hex--></pre>
+  <div class="hero-copy">
+    <h1>Every token says <span class="q">ERC-20</span> on the label.</h1>
+    <p class="dek">That is supposed to mean they all work the same way, so apps can treat them the same. I opened up {{L:n_universe}} tokens on {{L:n_chains}} chains, including the {{L:n_main}} biggest by market cap, and tested what they actually do. Then I simulated buying and selling {{L:v2_pooled_n}} brand-new ones an hour after launch. <b>They don’t work the same.</b></p>
+    <p class="honest">Built with a swarm of AI agents, so there will be mistakes. Every number links to its evidence. <a href="%%REPO%%/issues">Corrections welcome</a>.</p>
+    <p class="hero-links"><a class="btn" href="#why">Start reading</a> <a class="btn ghost" href="#data">Explore the data</a></p>
+    <details class="whats-in">
+      <summary>What is in the {{L:n_universe}}?</summary>
+      <p>The top {{V:ethereum|coingecko_mcap}} tokens by market cap on Ethereum, the top {{V:bsc,base,arbitrum,polygon|coingecko_mcap}} on each of BNB Chain, Base, Arbitrum and Polygon, and the {{V:optimism|coingecko_mcap}} ranked on Optimism. On top of that, tokens on Uniswap’s default list and tokens with high DEX volume.</p>
+    </details>
+  </div>
+
+  <figure class="shelf">
+    <div class="jars" role="img" aria-label="Three jars, each labelled ERC-20. One answers nothing, one skims a fee on every send, one lets a single key swap the code.">
+      <div class="jar j1"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f1">answers nothing</div></div></div>
+      <div class="jar j2"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f2">skims a fee on every send</div></div></div>
+      <div class="jar j3"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f3">one key can swap the code</div></div></div>
+    </div>
+    <figcaption>Same label. Different contents.</figcaption>
+  </figure>
+</section>
+
+<!-- WHY IT MATTERS ======================================================== -->
+<section class="chapter why" id="why" aria-labelledby="why-h">
+  <div class="sec-head">
+    <h2 id="why-h">This has cost real money.</h2>
+    <p>Apps are written on the assumption that a token behaves like any other. Twice in {{Y:2020}} it didn’t.</p>
+  </div>
+  <div class="incidents">
+    <article class="inc">
+      <span class="when">{{C:June 2020}}</span>
+      <p class="what">A token that <b>skims a fee</b> on every transfer</p>
+      <span class="down" aria-hidden="true">↓</span>
+      <p class="hit"><span>Balancer pools</span><span class="stamp">drained</span></p>
+      <p class="src">Sources: <a href="https://www.certik.com/skynet-report/little-pains-great-gains-balancer-defi-contract-was-drained" rel="noopener">CertiK’s analysis</a>, <a href="https://www.theblock.co/news/defi/2020-06-29-balancer-pools-drained-of-more-than-450000-due-to-an-exploit-connected-to-deflationary-tokens-69785" rel="noopener">The Block</a></p>
+    </article>
+    <article class="inc">
+      <span class="when">{{C:April 2020}}</span>
+      <p class="what"><b>imBTC</b>: extra transfer hooks (<span class="nw">ERC-777</span>) that run code on every send</p>
+      <span class="down" aria-hidden="true">↓</span>
+      <p class="hit"><span>Lendf.me and a Uniswap pool</span><span class="stamp">drained</span></p>
+      <p class="src">Source: <a href="https://support.tokenlon.im/hc/en-us/articles/360042172392-imBTC-fully-restored-transfer-trading-mint-and-redeem" rel="noopener">Tokenlon’s imBTC notice</a></p>
+    </article>
+  </div>
+  <p class="why-end">So what do the biggest tokens actually do? Start with the biggest stablecoin.</p>
+</section>
+
+<!-- PART ONE: THE BIGGEST TOKENS ============================================ -->
+<section class="chapter trusted" id="trusted" aria-labelledby="tr-h">
+  <div class="sec-head">
+    <p class="part"><span class="hole" aria-hidden="true"></span>Part one: the biggest tokens</p>
+    <h2 id="tr-h">What the biggest tokens actually do</h2>
+    <p>Things the standard does not promise. Each one can break an app or surprise a holder.</p>
+  </div>
+
+  <article class="case" id="usdt" aria-labelledby="c1-h">
+    <div class="case-text">
+      <h3 id="c1-h">USDT’s <code>transfer()</code> says nothing back.</h3>
+      <p>The standard says <code>transfer()</code> should answer <code>true</code> when it works. USDT on Ethereum answers nothing.</p>
+      <p class="breaks"><b>What breaks</b> An app written by the book rejects every USDT transfer on Ethereum. It is rare, with {{T:prevalence_table|row=Missing return values|col=Ranked: yes / measured (rate)|part=num}} of {{T:prevalence_table|row=Missing return values|col=Ranked: yes / measured (rate)|part=den}} measured top tokens doing it, but the biggest stablecoin is one of them.</p>
+      <p class="fixit">That is why DeFi code wraps token calls in helpers like <span data-nocheck="identifier">SafeERC20</span> from OpenZeppelin.</p>
+      <p>Some tokens fail the other way. When a transfer cannot happen, LDO on Ethereum answers false instead of reverting, so an app that never reads the answer carries on as if the money moved {{XS:ethereum|0x5a98fcbea516cf06857215779fd812ca3bef1b32|false_on_failure}}. {{T:prevalence_table|row=No revert on failure|col=Ranked: yes / measured (rate)|part=num}} of {{T:prevalence_table|row=No revert on failure|col=Ranked: yes / measured (rate)|part=den}} measured tokens do this.</p>
+    </div>
+    <div class="case-fig">
+      <div class="cmp">
+        <div class="pane std"><h4>What the standard says</h4>
+          <div class="term"><p><span class="dim">›</span> transfer(to, amount)</p><p><span class="dim">‹</span> <span class="ans">true</span></p></div></div>
+        <div class="pane got"><h4>What USDT on Ethereum does</h4>
+          <div class="term"><p><span class="dim">›</span> transfer(to, amount)</p><p><span class="dim">‹</span> <span class="none">(nothing)</span></p></div></div>
+      </div>
+      <div class="crash">
+        <div class="app"><span class="lab">An app written to the standard</span><code>require(transfer(to, amount) == true)</code></div>
+        <span class="arr" aria-hidden="true">↓</span>
+        <p class="fail"><span class="x" aria-hidden="true">✕</span>The transfer fails</p>
+      </div>
+      <p class="rec">Saved call on Ethereum USDT: block {{M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|ret_missing_transfer|block}}, call {{M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|ret_missing_transfer|call}}, recorded as <span class="mark">{{M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|ret_missing_transfer|decoded}}</span>. Press a number to open the evidence.</p>
+    </div>
+    <p class="bridge">That is what a token says back. What it counts in can differ too.</p>
+  </article>
+
+  <article class="case" id="decimals" aria-labelledby="c2-h">
+    <div class="case-text">
+      <h3 id="c2-h">Same name, a trillion apart.</h3>
+      <p>Tokens store amounts as whole numbers. The <i>decimals</i> setting says where the decimal point goes. USDT on Ethereum has {{M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}} decimals. Binance-Peg USDT on BNB Chain has {{M:bsc|0x55d398326f99059ff775485246999027b3197955|decimals|decoded}}.</p>
+      <p class="breaks"><b>What breaks</b> Carry the same number over without converting and the amount is off by a factor of a trillion.</p>
+    </div>
+    <div class="case-fig">
+      <div class="drow">
+        <p class="who">USDT on Ethereum<small>decimals {{M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}}</small></p>
+        <p class="units">{{W:M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}}<small>units sent</small></p>
+        <span class="eq" aria-hidden="true">=</span>
+        <p class="worth ok"><span class="num">{{U:M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded;M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}}</span> USDT</p>
+      </div>
+      <div class="drow">
+        <p class="who">Binance-Peg USDT on BNB Chain<small>decimals {{M:bsc|0x55d398326f99059ff775485246999027b3197955|decimals|decoded}}</small></p>
+        <p class="units">{{W:M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}}<small>units sent</small></p>
+        <span class="eq" aria-hidden="true">=</span>
+        <p class="worth tiny"><span class="num">{{U:M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded;M:bsc|0x55d398326f99059ff775485246999027b3197955|decimals|decoded}}</span> USDT</p>
+      </div>
+      <p class="gap"><span class="pow"><span data-nocheck="base of a power of ten">10</span><sup>{{D:sub|M:bsc|0x55d398326f99059ff775485246999027b3197955|decimals|decoded;M:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|decimals|decoded}}</sup></span><span>the gap between the two readings</span></p>
+    </div>
+    <p class="bridge">Even with the right decimals, the amount you sent is not always the amount that arrives.</p>
+  </article>
+
+  <article class="case" id="cut" aria-labelledby="c3-h">
+    <div class="case-text">
+      <h3 id="c3-h">Some tokens quietly take a cut.</h3>
+      <p>{{T:prevalence_table|row=Fee on transfer|col=Ranked: yes / measured (rate)|part=num}} of {{T:prevalence_table|row=Fee on transfer|col=Ranked: yes / measured (rate)|part=den}} measured top tokens ({{T:prevalence_table|row=Fee on transfer|col=Ranked: yes / measured (rate)|part=pct}}) charge a fee on transfer, so less arrives than you sent. That is the kind of mismatch behind the Balancer drain.</p>
+      <p>Others change your balance with no transfer at all. {{T:prevalence_table|row=Observed balance drift|col=Ranked: yes / measured (rate)|part=num}} of {{T:prevalence_table|row=Observed balance drift|col=Ranked: yes / measured (rate)|part=den}} drifted on their own during a week of watching.</p>
+      <p class="breaks"><b>What breaks</b> An app that books the amount it sent holds less than it recorded. An app that saves a balance finds a different number later.</p>
+      <p class="fixit">Check balances before and after, not the amount you asked for.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">A transfer with a fee</p>
+      <div class="flow" role="img" aria-label="Two bars. The amount sent is the full bar. The amount that arrived is shorter, with the missing part marked as the cut.">
+        <div class="fl"><span class="fl-l">sent</span><span class="fl-bar sent"></span></div>
+        <div class="fl"><span class="fl-l">arrived</span><span class="fl-bar got"><i class="cutpart"><em>the cut</em></i></span></div>
+      </div>
+      <p class="rec">Example, KISHU on Ethereum: {{X:ethereum|0xa2b4c0af19cc16a6cfacce81f192b024d625817d|fee_on_transfer_observed}}.</p>
+      <p class="fig-k split">No transfer at all</p>
+      <div class="drift" role="img" aria-label="A balance on day one, then a different balance a week later, with no transfer in between.">
+        <div class="db"><span class="bt">Your balance</span>day one</div>
+        <span class="dline" aria-hidden="true"><em>a week, no transfer</em></span>
+        <div class="db bad"><span class="bt">Your balance</span>a week later, different</div>
+      </div>
+      <p class="rec">Example, stETH on Ethereum: {{X:ethereum|0xae7ab96520de3a18e5e111b5eaab095312d7fe84|balance_drift_7d}}.</p>
+    </div>
+    <p class="bridge">And some rules nobody wrote down at all.</p>
+  </article>
+
+  <article class="case" id="rules" aria-labelledby="c4-h">
+    <div class="case-text">
+      <h3 id="c4-h">Then the small rules.</h3>
+      <p>Code that has never met one finds out the hard way. A payout batch with one zero amount in it, sent in BNB on Ethereum, fails as a whole.</p>
+    </div>
+    <div class="case-fig">
+      <ul class="rules">
+        <li>
+          <p class="rn">{{T:prevalence_table|row=Revert on zero-value transfers|col=Ranked: yes / measured (rate)|part=num}}<span class="rof">of {{T:prevalence_table|row=Revert on zero-value transfers|col=Ranked: yes / measured (rate)|part=den}} measured</span></p>
+          <div class="rb"><p class="rr">tokens refuse a transfer of zero. BNB on Ethereum is one of them {{XS:ethereum|0xb8c77482e45f1f44de1745f52c74426c631bdd52|transfer_zero_reverts}}.</p>
+          <p class="rk">An app that sends a zero amount, to batch a payout for example, gets a revert for the whole batch.</p></div>
+        </li>
+        <li>
+          <p class="rn">{{T:prevalence_table|row=Revert on large approvals/transfers (uint96)|col=Ranked: yes / measured (rate)|part=num}}<span class="rof">of {{T:prevalence_table|row=Revert on large approvals/transfers (uint96)|col=Ranked: yes / measured (rate)|part=den}} measured</span></p>
+          <div class="rb"><p class="rr">tokens stop at about {{G:96|18}} whole tokens ({{E:uni-allowance-cap|2^96}} base units at {{M:ethereum|0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2|decimals|decoded}} decimals). UNI, COMP and ONDO are among them.</p>
+          <p class="rk">Send more and the transfer reverts. Approve “unlimited” and you get a cap instead. UNI: {{XS:ethereum|0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|approve_max_capped}}.</p></div>
+        </li>
+        <li>
+          <p class="rn word">USDT</p>
+          <div class="rb"><p class="rr">on Ethereum makes you reset an approval to zero before changing it {{XS:ethereum|0xdac17f958d2ee523a2206206994597c13d831ec7|approve_race_guard}}.</p>
+          <p class="rk">An app that raises an allowance in one step gets a revert.</p></div>
+        </li>
+        <li>
+          <p class="rn word">WETH</p>
+          <div class="rb"><p class="rr">lets an owner move its own tokens with no approval at all {{XS:ethereum|0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2|tf_owner_no_allowance}}.</p>
+          <p class="rk">An app that treats an approval as the gate for moving tokens finds no gate for the owner.</p></div>
+        </li>
+        <li>
+          <p class="rn word">DACITY</p>
+          <div class="rb"><p class="rr">on Base shows a balance for an address that has never been used {{XS:base|0xd5fac3ea6c5d1133be9325a3d463c987851cf7e2|fresh_address_nonzero_balance}}.</p>
+          <p class="rk">An app that treats a nonzero balance as a real, funded user is fooled.</p></div>
+        </li>
+      </ul>
+    </div>
+    <p class="bridge">All of that is about one chain at a time. The same ticker on another chain can be a different token.</p>
+  </article>
+
+  <article class="case" id="chains" aria-labelledby="c5-h">
+    <div class="case-text">
+      <h3 id="c5-h">Same ticker, different token.</h3>
+      <p>Remember USDT and its decimals: one coin, a trillion apart on two chains. That is not a one-off. The same ticker on another chain is usually a separate contract, deployed by someone else, with its own rules. What a token does on one chain tells you little about the same ticker elsewhere.</p>
+      <p>PayPal’s PYUSD shows it. I simulated sending each copy a transfer to the Tornado Cash router, an address the US sanctions authority delisted on {{P:2025-03-21}}. On Ethereum and Arbitrum the token refuses. On Polygon it lets the transfer through. It is not in our tested set on the other three chains.</p>
+      <p><b>Why?</b> The test sends to the same router address on every chain, so a refusal means that copy keeps its own list with the address on it. What the data does show is that the copies run {{K:distinct|paypal-usd}} different pieces of code. Polygon’s is a small {{K:size|polygon|0x99aF3EeA856556646C98c8B9b2548Fe815240750}}-byte shell that {{K:count|polygon|0x99aF3EeA856556646C98c8B9b2548Fe815240750}} tokens in our set use, PYUSD one of them, so it was built differently from the other two. A refusal can also come from a list nobody updated after the delisting. Exactly why Polygon’s copy lets the transfer through, I do not know.</p>
+      <p class="breaks"><b>What breaks</b> An app that assumes one chain’s behaviour carries over to another gets it wrong in either direction.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">PYUSD on each chain: does it refuse a transfer to the Tornado Cash router?</p>
+<!--GEN:family_pyusd-->
+      <p class="figcap">Press a square to open the saved call.</p>
+    </div>
+  </article>
+
+  <article class="case" id="chains-uni" aria-labelledby="c6-h">
+    <div class="case-text">
+      <h3 id="c6-h">UNI’s quirk never left Ethereum.</h3>
+      <p>Earlier, UNI on Ethereum capped an “unlimited” approval. On the other four chains it does not. The copies are again different code, and here the data says a bit more. On Arbitrum, UNI runs one {{K:size|arbitrum|0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0}}-byte contract shared by {{K:count|arbitrum|0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0}} tokens in our set, UNI and LINK among them. On Polygon it is another shared contract, {{K:size|polygon|0xb33EaAd8d922B1083446DC23f610c2567fB5180f}} bytes.</p>
+      <p>A template shared by many unrelated tokens is what bridge-issued tokens tend to look like, and it would explain why they carry none of the original’s quirks. On Polygon our data marks UNI as a bridged copy, along with {{K:bridged|polygon|0xb33EaAd8d922B1083446DC23f610c2567fB5180f}} of the {{K:others|polygon|0xb33EaAd8d922B1083446DC23f610c2567fB5180f}} other tokens that share its code. On Arbitrum the pattern looks the same, but I have not traced those copies to a bridge.</p>
+      <p class="breaks"><b>What breaks</b> Testing the Ethereum token and assuming the rest match, or the other way round.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">UNI on each chain: does it cap approve(max)?</p>
+<!--GEN:family_uni-->
+    </div>
+  </article>
+
+  <article class="case" id="chains-more" aria-labelledby="c7-h">
+    <div class="case-text">
+      <h3 id="c7-h">It is not just two tokens.</h3>
+      <p>The old quirks of the standard live on Ethereum. All {{T:prevalence_table|row=Missing return values|col=Ranked: yes / measured (rate)|part=num}} top tokens whose <code>transfer()</code> says nothing back are Ethereum tokens. Among the top five hundred on the other five chains, it is {{T:crosschain_tests|row=Missing transfer return|col=Rest|part=num}} of {{T:crosschain_tests|row=Missing transfer return|col=Rest|part=den}}.</p>
+      <p>Individual tokens scatter the same way. USDe, LINK and WBTC each answer differently from chain to chain. There is no chain you can test and then assume for the rest.</p>
+      <p class="fixit">Test the deployment you will actually use, not the ticker.</p>
+    </div>
+    <div class="case-fig">
+<!--GEN:crosstests-->
+      <p class="fig-k">Three more tokens, chain by chain</p>
+      <div class="xwrap" tabindex="0" role="region" aria-label="Same token across chains">
+<!--GEN:crosschain_more-->
+      </div>
+      <p class="key"><span class="k s-quirk"><span class="glyph"></span>behaviour present</span><span class="k s-pass"><span class="glyph"></span>absent</span><span class="k s-unprobeable"><span class="glyph"></span>could not test</span><span class="k none"><span class="glyph"></span>not in the tested set</span></p>
+    </div>
+    <p class="bridge">Someone decides which of those lists and switches exist. Who holds them?</p>
+  </article>
+
+  <article class="case" id="switches" aria-labelledby="c8-h">
+    <div class="case-text">
+      <h3 id="c8-h">Then the switches someone else holds.</h3>
+      <p>Some tokens ship with a pause button or a freeze list, and you are not the one holding it. Tokenized stocks and funds are the extreme case: {{B:blocklist}} of the {{B:total}} among the top tokens have a blocklist.</p>
+      <p>BUIDL, a tokenized fund, goes further: it rejects transfers to wallets it has not approved {{XS:ethereum|0x7712c34205737192402172409a8f7ccef8aa2aec|permissioned_transfer}}. PEPE still has a blocklist in its code, but its owner gave up the role {{XS:ethereum|0x6982508145454ce325ddbe47a25d4ec3d2311933|owner_renounced}}. Whether anyone can still use the list, the code alone does not say.</p>
+      <p class="breaks"><b>What breaks</b> A paused token fails every transfer. A blocked address keeps its balance but can’t send it.</p>
+    </div>
+    <div class="case-fig">
+<!--GEN:switches-->
+      <p class="rec">Example, USDC on Ethereum has blocklist functions: {{X:ethereum|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|blocklist_capability}}.</p>
+    </div>
+    <p class="bridge">A switch can stop your tokens. A key can rewrite them.</p>
+  </article>
+
+  <article class="case keys" id="keys" aria-labelledby="c9-h">
+    <div class="case-text">
+      <h3 id="c9-h">Some household names answer to one key.</h3>
+      <p>The upgrade call is the proof. On Ethereum I replayed it at a pinned block: from the one wallet that holds the key it succeeds, from anyone else it reverts. USDC, PYUSD, cbBTC and BlackRock’s BUIDL all behave this way.</p>
+      <p>About four in ten of the top tokens can have their code replaced: {{N:upgradeable.yes}} of the {{N:upgradeable.measured}} we could read. For {{L:main_upgrade_eoa_n_yes}}, a single wallet key can do it, with no multisig and no timelock in the way. For {{N:multisig_no_timelock}} more it takes a multisig, still with no timelock, so there is no delay and no warning before a change. Tokenized stocks and funds are a big part of it: {{B:upgradeable}} of the {{B:total}} can be upgraded.</p>
+      <p class="breaks"><b>What breaks</b> Whoever holds the key can change what the token does for every holder at once. On-chain you can see which account holds the key, not how it is kept.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">Upgrade calls reproduced on Ethereum</p>
+      <div class="tscroll" tabindex="0" role="region" aria-label="Reproduced upgrade calls">
+<!--GEN:named-->
+      </div>
+<!--GEN:upgradestory-->
+    </div>
+  </article>
+</section>
+
+<!-- PART TWO: THE NEWEST TOKENS ================================================ -->
+<section class="chapter newer" id="newer" aria-labelledby="nw-h">
+  <div class="sec-head">
+    <p class="part"><span class="hole" aria-hidden="true"></span>Part two: brand-new tokens</p>
+    <h2 id="nw-h">Now the newest tokens.</h2>
+    <p>Those are the biggest, best-known tokens on six chains. The newest tokens get far less scrutiny, so I went looking at them next.</p>
+  </div>
+
+  <article class="case" id="launches" aria-labelledby="n1-h">
+    <div class="case-text">
+      <h3 id="n1-h">Buy it, wait an hour, try to sell.</h3>
+      <p>Anyone can launch a token in minutes, and it can look fine on day one. So I took brand-new Ethereum tokens, found each one’s first trading pool, and waited about an hour ({{P:300 blocks}}). Then I simulated a test buy of {{P:0.01 ETH}} and a sale in the next block. Nothing was ever sent on-chain: every test is replayed against saved chain state.</p>
+      <p>{{L:v2_pooled_n}} tokens that got a pool went through this, sampled by the month they were created.</p>
+      <p class="breaks"><b>What breaks</b> A token you can buy may be one you cannot sell. Here that means the sale fails, or a tax of {{P:10% or more}} takes the proceeds.</p>
+    </div>
+    <div class="case-fig">
+      <div class="headnum">
+        <p class="hn">{{L:v21_2026_all_harm_or_emptied}}</p>
+        <p class="hs">of new tokens that launched with real liquidity in {{Y:2026}} so far were a trap, or had already been emptied, within the hour. About three in four.</p>
+      </div>
+      <ol class="steps" aria-label="How each new token was tested">
+        <li><b>A token launches</b><span>on Ethereum</span></li>
+        <li><b>Its first pool gets liquidity</b><span>time zero</span></li>
+        <li><b>Wait about an hour</b><span>{{P:300 blocks}}</span></li>
+        <li><b>Simulate a buy</b><span>{{P:0.01 ETH}}</span></li>
+        <li><b>Then try to sell</b><span>in the next block</span></li>
+      </ol>
+      <ul class="verdicts" aria-label="Possible outcomes">
+        <li class="v-ok"><b>Sells normally</b><span>the sale goes through</span></li>
+        <li class="v-bad"><b>A trap</b><span>the sale fails, or is taxed {{P:10% or more}}</span></li>
+        <li class="v-gone"><b>Nothing to sell into</b><span>the pool is already drained</span></li>
+      </ul>
+    </div>
+    <p class="bridge">That is the headline. It breaks into two stories, and the first one is good news.</p>
+  </article>
+
+  <article class="case" id="goodnews" aria-labelledby="n2-h">
+    <div class="case-text">
+      <h3 id="n2-h">The good news: far fewer traps.</h3>
+      <p>Take the new tokens that still had real liquidity an hour in, at least {{P:0.01 ETH}} in the pool. Of those created in {{Y:2024}}, {{L:v2_2024_measurable_share}} blocked the sale or taxed it {{P:10% or more}}. In {{Y:2025}} it was {{L:v2_2025_measurable_share}}. In {{Y:2026}} so far it is {{L:v2_2026_measurable_share}}.</p>
+      <p>The peak was {{Y:2021}}, when {{T:v2_annual_table|row=2021|col=Primary ≥0.01 ETH [approx. 95%]|part=point}} were traps.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">Share of new tokens with real liquidity an hour in where the sale failed or was taxed</p>
+<!--GEN:goodnews-->
+      <details class="evid">
+        <summary>The table behind these bars</summary>
+<!--GEN:annual-->
+      </details>
+    </div>
+    <p class="bridge">That looks like progress. It is only half the picture.</p>
+  </article>
+
+  <article class="case" id="twist" aria-labelledby="n3-h">
+    <div class="case-text">
+      <h3 id="n3-h">The twist: the trap moved from “can’t sell” to “nothing left”.</h3>
+      <p>Those shares only count tokens whose pool still had liquidity an hour in. For the rest there is nothing to sell into. Among all new tokens with a pool, the share already drained below {{P:0.01 ETH}} went from {{L:v2_2024_no_meaningful_liquidity_pooled}} for {{Y:2024}} launches to {{L:v2_2025_no_meaningful_liquidity_pooled}} in {{Y:2025}} and {{L:v2_2026_no_meaningful_liquidity_pooled}} in {{Y:2026}} so far.</p>
+      <p>In estimated counts, sale-blocking or heavily taxed tokens fell from about {{T:v2_count_table|row=2024|col=Estimated sale/tax-harm tokens [approx. 95%]|part=point}} among {{Y:2024}} launches to about {{T:v2_count_table|row=2026|col=Estimated sale/tax-harm tokens [approx. 95%]|part=point}} so far in {{Y:2026}}. Drained pools went the other way, from about {{T:v2_count_table|row=2024|col=Estimated below-floor pooled tokens [approx. 95%]|part=point}} among {{Y:2024}} launches to {{T:v2_count_table|row=2026|col=Estimated below-floor pooled tokens [approx. 95%]|part=point}} so far in {{Y:2026}}.</p>
+      <p>Put the two together. Of the tokens that started with real liquidity, the share that were a trap or emptied within the hour rose from {{L:v21_2024_all_harm_or_emptied}} to {{L:v21_2025_all_harm_or_emptied}} to {{L:v21_2026_all_harm_or_emptied}}.</p>
+      <p class="breaks"><b>What breaks</b> A falling trap rate hides the bigger risk: the pool you wanted to sell into is gone. This describes liquidity, not who removed it.</p>
+    </div>
+    <div class="case-fig">
+      <figure class="chart">
+<!--GEN:scissors-->
+        <figcaption>The trap line: share of new tokens with at least {{P:0.01 ETH}} of liquidity an hour in where the sale failed or the tax was {{P:10% or more}}. The drained line: share of all new tokens with a pool whose pool was already below that floor. Years with too little data are left out.</figcaption>
+      </figure>
+      <p class="fig-k split">Of tokens that launched with real liquidity: a trap, or emptied within the hour</p>
+<!--GEN:twistbars-->
+      <details class="evid">
+        <summary>The table behind these bars</summary>
+<!--GEN:combined-->
+      </details>
+    </div>
+    <p class="bridge">Some of the traps do not show up until later.</p>
+  </article>
+
+  <article class="case" id="later" aria-labelledby="n4-h">
+    <div class="case-text">
+      <h3 id="n4-h">Some wait before they turn.</h3>
+      <p>A token that sells normally at launch can change its mind. Among new tokens that looked normal at launch and kept their main pool (Uniswap V1 or V2), {{L:delayed_2026_v1v2_surviving_n_positive}} of {{L:delayed_2026_v1v2_surviving_n_sampled}} sampled in {{Y:2026}} so far were later restricted or taxed. That compares with {{L:delayed_2024_v1v2_surviving_n_positive}} of {{L:delayed_2024_v1v2_surviving_n_sampled}} in {{Y:2024}} and {{L:delayed_2025_v1v2_surviving_n_positive}} of {{L:delayed_2025_v1v2_surviving_n_sampled}} in {{Y:2025}}. The samples are small, but the jump is big: about one in six, up from about one in sixty.</p>
+      <p>I read {{L:delayed_reviewed_cases_n}} of these cases by hand. They were fees raised to confiscatory levels, restrictions imposed from outside, and code installed at a fee wallet that used to be empty. In {{L:delayed_reviewed_eip7702_n}} of them that code was an EIP-7702 delegation, an Ethereum feature that lets an ordinary wallet run code.</p>
+      <p class="breaks"><b>What breaks</b> A clean test at launch says nothing about next week. A token can be fine when you buy and a trap when you want out.</p>
+    </div>
+    <div class="case-fig">
+      <ol class="delayed" aria-label="Tokens that looked normal at launch, with later restrictions marked">
+        <li><span class="dy">{{Y:2024}}</span><div class="dots small" data-yes-from="d2024y" data-n-from="d2024n" aria-hidden="true"></div><span class="dc"><span id="d2024y">{{L:delayed_2024_v1v2_surviving_n_positive}}</span> of <span id="d2024n">{{L:delayed_2024_v1v2_surviving_n_sampled}}</span></span></li>
+        <li><span class="dy">{{Y:2025}}</span><div class="dots small" data-yes-from="d2025y" data-n-from="d2025n" aria-hidden="true"></div><span class="dc"><span id="d2025y">{{L:delayed_2025_v1v2_surviving_n_positive}}</span> of <span id="d2025n">{{L:delayed_2025_v1v2_surviving_n_sampled}}</span></span></li>
+        <li><span class="dy">{{Y:2026}}</span><div class="dots small" data-yes-from="d2026y" data-n-from="d2026n" aria-hidden="true"></div><span class="dc"><span id="d2026y">{{L:delayed_2026_v1v2_surviving_n_positive}}</span> of <span id="d2026n">{{L:delayed_2026_v1v2_surviving_n_sampled}}</span></span></li>
+      </ol>
+      <p class="figcap">Each dot is a sampled token that sold normally an hour after launch and kept its V1/V2 pool. Filled dots turned harmful later.</p>
+    </div>
+    <p class="bridge">One last thing: my own measuring almost fooled me.</p>
+  </article>
+
+  <article class="case" id="feeswitch" aria-labelledby="n5-h">
+    <div class="case-text">
+      <h3 id="n5-h">The measurement that almost fooled me.</h3>
+      <p>Counting drained pools needs a line: a pool counts as live only above {{P:0.01 ETH}}. My first version used a tiny line, and it showed a strange blip. On {{P:2025-12-27}}, at Ethereum block {{L:fee_activation_block}}, Uniswap V2 switched on its protocol fee. After that, when a provider pulled out of a pool, the protocol could be left holding a sliver of shares, and a small balance stayed behind.</p>
+      <p>That leftover could sit just above my tiny line, so a drained pool looked alive again. The balance was real, but it was only the protocol’s sliver plus the small amount every V2 pool locks away forever. The provider had left, and nothing had come back. I reproduced the fee formula on {{L:fee_formula_checks}} saved receipts to be sure, then moved the line to {{P:0.01 ETH}} and applied it the same way on every venue.</p>
+      <p class="breaks"><b>What breaks</b> A line set too low counts a drained pool as alive, and new launches look healthier than they are.</p>
+    </div>
+    <div class="case-fig">
+      <div class="tank-row" role="img" aria-label="Three pool balances. Before the exit the pool is full. After the exit only a sliver remains, above the old tiny line but below the new line.">
+        <div class="tank"><span class="tk-lab">Provider adds liquidity</span><div class="vessel"><span class="water full"></span></div></div>
+        <div class="tank"><span class="tk-lab">Provider pulls out</span><div class="vessel"><span class="water sliver"></span><span class="ln old"><em>old tiny line</em></span><span class="ln new"><em>new line, {{P:0.01 ETH}}</em></span></div></div>
+      </div>
+      <p class="figcap">Illustration, not to scale. The sliver is the protocol’s share from the V2 fee. It sits above the old line, so a drained pool read as live.</p>
+    </div>
+    <p class="bridge">So how do I know the other checks are not fooling me too?</p>
+  </article>
+
+  <article class="case" id="checked" aria-labelledby="n6-h">
+    <div class="case-text">
+      <h3 id="n6-h">How I checked my own checks.</h3>
+      <p>A simulator can be wrong, so I tested it against known answers. On a golden set of tokens whose behaviour is already documented, the probes matched {{L:golden_result|num}} of the {{L:golden_result|den}} expected results.</p>
+      <p>For launches, an independent harness replayed {{L:blind300_sample_n}} launch states blind, freezing its verdicts before it saw my labels. {{T:blind300_table|row=all,all|col=Known / real-floor sampled|part=num}} of {{T:blind300_table|row=all,all|col=Known / real-floor sampled|part=den}} states above the liquidity floor gave a clear sellable-or-not answer, and the two disagreed on {{D:add|T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s2;T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s3}} of them.</p>
+      <p>It is a sample, so it cannot catch everything. Tests I could not replay this way rest on the simulator alone.</p>
+    </div>
+    <div class="case-fig">
+      <p class="fig-k">Blind replay against my simulator</p>
+      <div class="conf" role="img" aria-label="Four counts: traps both agreed on, disagreements in each direction, and normal tokens both agreed on.">
+        <div class="cf ok"><b>{{T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s1}}</b><span>a trap, and the replay agreed</span></div>
+        <div class="cf bad"><b>{{T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s2}}</b><span>I said trap, the replay said fine</span></div>
+        <div class="cf bad"><b>{{T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s3}}</b><span>I said fine, the replay found a trap</span></div>
+        <div class="cf ok"><b>{{T:blind300_table|row=all,all|col=TP/FP/FN/TN|part=s4}}</b><span>fine, and the replay agreed</span></div>
+      </div>
+      <details class="evid">
+        <summary>The replay table by year</summary>
+<!--GEN:blind-->
+      </details>
+    </div>
+  </article>
+</section>
+
+<!-- TAKEAWAY ================================================================ -->
+<section class="takeaway" id="takeaway" aria-labelledby="tk-h">
+  <div class="tk-inner">
+    <h2 id="tk-h">The ERC-20 label tells you very little.</h2>
+    <div class="tk-cols">
+      <div><h3>If you build</h3><p>Check balances before and after instead of trusting return values, test the deployment you will use rather than the ticker, and plan for pauses and freezes.</p></div>
+      <div><h3>If you hold</h3><p>Someone else may hold the switch.</p></div>
+      <div><h3>If you buy new tokens</h3><p>Of new tokens that launched with liquidity in {{Y:2026}} so far, about three in four were a trap or empty within the hour. Try a small sale first.</p></div>
+    </div>
+    <p class="tk-links"><a class="btn" href="#data">Explore the data yourself</a> <a class="btn ghost" href="%%REPO%%">Code and data</a></p>
+    <p class="tk-honest"><a href="%%REPO%%/issues">Corrections welcome</a>.</p>
+  </div>
+</section>
+
+<!-- EXPLORE IT YOURSELF ====================================================== -->
+<section class="data" id="data" aria-labelledby="da-h">
+  <div class="sec-head">
+    <h2 id="da-h">Explore the data yourself</h2>
+    <p>Everything above is a slice of this: every token, every test, one row at a time. Press any cell for the saved call, the block and the hash of the response.</p>
+  </div>
+
+  <section class="explore" id="explore" aria-labelledby="xp-h">
+    <h3 id="xp-h">Matrix explorer</h3>
+    <p class="sub">Pick a chain, then search for a token or filter to a family of tests.</p>
+    <div class="xp-controls">
+      <div class="chains" role="tablist" aria-label="Chain">
+        <button role="tab" type="button" data-chain="ethereum" aria-selected="true">Ethereum</button>
+        <button role="tab" type="button" data-chain="base" aria-selected="false">Base</button>
+        <button role="tab" type="button" data-chain="arbitrum" aria-selected="false">Arbitrum</button>
+        <button role="tab" type="button" data-chain="bsc" aria-selected="false">BNB Chain</button>
+        <button role="tab" type="button" data-chain="polygon" aria-selected="false">Polygon</button>
+        <button role="tab" type="button" data-chain="optimism" aria-selected="false">Optimism</button>
+      </div>
+      <div class="filters">
+        <label class="f-search"><span>Search</span><input id="xp-q" type="search" placeholder="Symbol, name or address" autocomplete="off" spellcheck="false"></label>
+        <label><span>Tests</span><select id="xp-fam"></select></label>
+        <label><span>Rank</span><select id="xp-rank"><option value="">All bands</option></select></label>
+        <label class="f-check"><input id="xp-only" type="checkbox"> <span>Only tokens with a hit in these tests</span></label>
+      </div>
+      <p class="xp-status" id="xp-status" aria-live="polite">The explorer loads its data when you reach it.</p>
+    </div>
+    <div class="grid-wrap" id="xp-wrap">
+      <div class="grid" id="xp-grid" role="grid" aria-label="Token by test matrix" aria-rowcount="0" aria-colcount="0" tabindex="0">
+        <div class="g-head" id="xp-head" role="row"></div>
+        <div class="g-body" id="xp-body"></div>
+      </div>
+    </div>
+    <p class="key"><span class="k s-quirk"><span class="glyph"></span>yes: behaviour or capability present</span><span class="k s-pass"><span class="glyph"></span>no</span><span class="k s-unprobeable"><span class="glyph"></span>could not test (reason in the record)</span><span class="k s-meta"><span class="glyph"></span>value</span></p>
+  </section>
+
+  <section class="dsec" id="reference" aria-labelledby="rf-h">
+    <h3 id="rf-h">The reference shelf</h3>
+    <p class="sub">The tables behind the chapters above, folded away. Open any of them.</p>
+
+    <details class="evid" id="taxonomy">
+      <summary>Everything we measured, one bar per behaviour</summary>
+      <p class="sub">The classic weird-ERC-20 catalogue across the ranked tokens. Bar: the share that show it, with its descriptive interval. Reverting on a transfer or approval to the zero address is what modern libraries do, so a long bar there is normal. The second figure on each row repeats the share without the tokenized stocks and funds.</p>
+<!--GEN:prevalence-->
+    </details>
+
+    <details class="evid" id="upgrades">
+      <summary>Who can change the code: all twelve classes</summary>
+      <p class="sub">For every one of the {{L:n_universe}} tokens I followed the upgrade path to its end and recorded the weakest kind of account that can swap the code.</p>
+<!--GEN:upgradebar-->
+    </details>
+
+    <details class="evid" id="chains-tables">
+      <summary>What was tested, by chain and rank band</summary>
+<!--GEN:universe-->
+<!--GEN:chainrank-->
+    </details>
+  </section>
+
+  <section class="dsec" id="methods" aria-labelledby="me-h">
+    <h3 id="me-h">How it was measured</h3>
+    <div class="cols methods">
+      <div>
+        <h4>The biggest tokens</h4>
+        <ul>
+          <li>Tested set: the top CoinGecko rank bands on each chain plus {{L:n_extras}} extras, {{L:n_universe}} deployments in all. Rates use the {{L:n_main}} ranked deployments; extras are shown separately. Only rank bands are published, never market data.</li>
+          <li>Every test is a read-only call or a local simulation against archive state; nothing is broadcast. Each cell keeps the raw request and response pointer, block, retrieval time and a sha256 of the saved response.</li>
+          <li>“Yes” answers the column’s question. Capability columns record what the code exposes; how or whether anyone uses it is outside what calls can show.</li>
+          <li>“Could not test” always carries a reason (no balance slot, transfers blocked, timeouts). It counts as neither yes nor no.</li>
+          <li>An upgrade path that ends at an externally owned account describes the on-chain account type. How that key is held (a person, MPC, a hardware module) is invisible on-chain.</li>
+          <li>Tornado Cash router rejections can come from a stale or independent policy list. The tested router is the one OFAC delisted on {{P:2025-03-21}}.</li>
+          <li>{{B:total}} ranked deployments are tokenized stocks and funds, found by issuer name or listing. They lift the upgrade and blocklist shares, so the catalogue shows each rate with and without them.</li>
+          <li>Named issuers appear only next to a reproduced on-chain check, with the deployment and block stated.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>The new launches</h4>
+        <ul>
+          <li>A probability sample of new Ethereum tokens by creation month; each token’s earliest pool with liquidity.</li>
+          <li>The test buy is {{P:0.01 ETH}}, simulated {{P:300 blocks}} after first liquidity, with the sale in the following block.</li>
+          <li>A pool counts as live when its real quote liquidity at that moment is at least {{P:0.01 ETH}}, on every venue (V1/V2, V3, V4).</li>
+          <li>A trap means the sale fails or the tax is {{P:10% or more}}. “Could not buy”, unresolved routes and below-floor pools are reported as their own categories.</li>
+          <li>Brackets are approximate {{P:95%}} sampling intervals. They exclude classification error.</li>
+          <li>Any rate resting on an effective sample {{P:below 30}} is withheld and shown as “Not reported”.</li>
+          <li>Drained pools are a description of liquidity, with no attribution to whoever withdrew it.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="dsec" id="ledger" aria-labelledby="lg-h">
+    <h3 id="lg-h">Ledger</h3>
+    <p class="sub">This is the ledger for this page. Every number on the page is bound to an entry here or to a cell of the matrix files, and each entry lists its query and the sha256 of the source files. The same entries are in the <code>numbers.json</code> download.</p>
+    <details class="ledger">
+      <summary>Show all ledger entries used on this page</summary>
+      <ol class="lgl">
+<!--GEN:ledger-->
+      </ol>
+    </details>
+  </section>
+
+  <section class="dsec" id="downloads" aria-labelledby="dl-h">
+    <h3 id="dl-h">Downloads</h3>
+    <p class="sub">The matrix for each chain and the ledger, as plain JSON.</p>
+<!--GEN:downloads-->
+  </section>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-main">
+    <p class="foot-title">Weird ERC-20 Live</p>
+    <p>Every token says <span class="nw">ERC-20</span>. I opened up the biggest ones, and the newest, to see what they actually do.</p>
+  </div>
+  <nav class="foot-links" aria-label="Project links">
+    <a href="%%REPO%%">Code and data on GitHub</a>
+    <a href="%%REPO%%/issues">Report a correction</a>
+    <a href="#ledger">Ledger</a>
+  </nav>
+  <p class="foot-small">Rank bands: Powered by CoinGecko. Fonts: Newsreader and Martian Mono, SIL Open Font License.</p>
+</footer>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="false" aria-labelledby="dr-h" hidden>
+  <div class="dr-inner">
+    <button type="button" class="dr-close" id="dr-close" aria-label="Close evidence">Close</button>
+    <p class="dr-kicker" id="dr-kicker"></p>
+    <h3 id="dr-h">Evidence</h3>
+    <div id="dr-body"></div>
+  </div>
+</div>
+
+<!--GEN:evidence-->
+<script src="app.js" defer></script>
+</body>
+</html>

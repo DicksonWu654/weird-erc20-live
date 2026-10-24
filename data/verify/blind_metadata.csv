@@ -1,0 +1,6 @@
+set,metric,value
+v4,standard_size_sellable,18
+v4,lot_exceptions,1
+v4,lot_eth,0.5
+v4,lot_lp_fee,95%
+v23,dust_max_wei,164

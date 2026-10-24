@@ -1,0 +1,11 @@
+year,n_pooled,n_same_pool,n_comparable_known_later_state,comparable_weight,n_early_harm,early_harm_weight,n_early_harm_later_below_floor,early_harm_later_below_floor_weight,share_early_harm_later_below_floor,scope
+2017,547,0,0,0.0,0,0.0,0,0.0,,descriptive matched-pool subset; no rug attribution; not a population CI
+2018,1439,20,19,19.0,0,0.0,0,0.0,,descriptive matched-pool subset; no rug attribution; not a population CI
+2019,1836,601,500,500.0,0,0.0,0,0.0,,descriptive matched-pool subset; no rug attribution; not a population CI
+2020,2977,2291,2211,21238.76,252,4068.212,200,3257.076,0.8006160937532263,descriptive matched-pool subset; no rug attribution; not a population CI
+2021,3000,2826,2792,31140.064,1019,11304.099999999999,508,5992.887999999999,0.5301517148645182,descriptive matched-pool subset; no rug attribution; not a population CI
+2022,3000,2785,2744,65826.936,732,12604.892,317,6101.183999999999,0.4840330246383705,descriptive matched-pool subset; no rug attribution; not a population CI
+2023,3250,3115,3046,157242.332,464,22453.832,235,11707.159999999998,0.5213880641843227,descriptive matched-pool subset; no rug attribution; not a population CI
+2024,3000,2860,2811,96720.69600000001,379,12887.919999999998,239,8160.159999999999,0.6331634584944661,descriptive matched-pool subset; no rug attribution; not a population CI
+2025,4533,4340,4323,97029.97400000002,143,3167.2834999999995,81,1753.393,0.5535952181104092,descriptive matched-pool subset; no rug attribution; not a population CI
+2026,3508,3188,3185,91338.26530597016,54,1825.1997686567172,27,1009.5445149253732,0.5531145314950168,descriptive matched-pool subset; no rug attribution; not a population CI

@@ -1,0 +1,7 @@
+scenario_harm,scenario_rug,outcome,replicates,identified_replicates,empirical_coverage,true_share
+0.08,0.04,headline_trade_harm,500,500,0.946,0.08100289296046287
+0.08,0.04,headline_measurable_domain,500,500,0.932,0.08025682182985554
+0.08,0.04,liquidity_pulled,500,500,1.0,0.01639344262295082
+0.35,0.25,headline_trade_harm,500,500,0.964,0.3713991769547325
+0.35,0.25,headline_measurable_domain,500,500,0.952,0.3655536028119508
+0.35,0.25,liquidity_pulled,500,500,1.0,0.1111111111111111

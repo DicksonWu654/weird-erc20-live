@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weird ERC-20 Live social card</title>
+<style>
+@font-face { font-family: "Newsreader"; font-style: normal; font-weight: 200 800; src: url(../src/fonts/newsreader-latin-standard-normal.woff2) format("woff2-variations"); }
+@font-face { font-family: "Newsreader"; font-style: italic; font-weight: 200 800; src: url(../src/fonts/newsreader-latin-standard-italic.woff2) format("woff2-variations"); }
+@font-face { font-family: "Martian Mono"; font-weight: 100 800; font-stretch: 75% 112.5%; src: url(../src/fonts/martian-mono-latin-standard-normal.woff2) format("woff2-variations"); }
+:root { --ground: #e9ede6; --card: #f6f7f2; --ink: #17201b; --ink-2: #4a5850; --ink-3: #5c6961; --rule: #bfc9c0; --stamp: #2532c2; --flag: #b4153f; --marker: #ece15a; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { width: 1200px; height: 630px; overflow: hidden; background: var(--ground); color: var(--ink); font-family: "Newsreader", Georgia, serif; position: relative; }
+a.n, span.n { color: inherit; text-decoration: none; }
+.hexwall { position: absolute; inset: 0 0 0 48%; margin: 0; font: 400 13px/1.6 "Martian Mono", monospace; font-stretch: 75%; color: rgba(37, 50, 194, .12); white-space: pre-wrap; word-break: break-all; overflow: hidden;
+  -webkit-mask-image: radial-gradient(ellipse 75% 80% at 60% 50%, #000 30%, transparent 78%); mask-image: radial-gradient(ellipse 75% 80% at 60% 50%, #000 30%, transparent 78%); }
+.left { position: absolute; left: 72px; top: 72px; width: 600px; }
+.word { font: 600 17px/1 "Martian Mono", monospace; font-stretch: 87.5%; margin: 0 0 40px; }
+.nw { white-space: nowrap; }
+h1 { font-weight: 330; font-variation-settings: "opsz" 72; font-size: 92px; line-height: .9; letter-spacing: -.035em; margin: 0 0 34px; }
+.sub { font-size: 29px; line-height: 1.3; margin: 0; color: var(--ink); max-width: 17em; }
+.sub em { color: var(--ink-2); }
+.shelf { position: absolute; right: 64px; top: 120px; width: 470px; display: flex; align-items: flex-end; gap: 18px; padding: 0 6px; border-bottom: 12px solid var(--ink); border-radius: 0 0 3px 3px; }
+.jar { flex: 1 1 0; transform-origin: 50% 100%; }
+.j1 { transform: rotate(-1.6deg); } .j2 { transform: rotate(1.2deg); } .j3 { transform: rotate(-.8deg); }
+.lid { height: 24px; width: 72%; margin: 0 auto; background: var(--ink); border-radius: 8px 8px 0 0; }
+.glass { position: relative; aspect-ratio: 204 / 420; border: 3px solid var(--ink); border-radius: 24px 24px 30px 30px; background: var(--card); overflow: hidden; }
+.label { position: relative; z-index: 2; margin: 10% 7% 0; padding: .55em 0 .5em; border: 3px double var(--ink); background: var(--ground); text-align: center; font: 700 20px/1 "Martian Mono", monospace; font-stretch: 87.5%; }
+.label small { display: block; margin-top: .45em; font: 500 9px/1 "Martian Mono", monospace; font-stretch: 87.5%; color: var(--ink-3); }
+.fill { position: absolute; left: 0; right: 0; bottom: 0; height: 50%; border-top: 3px solid var(--ink); padding: 9% 6% 0; text-align: center; font-size: 19px; line-height: 1.12; font-weight: 520; color: var(--ink); }
+.f1 { background: rgba(236,225,90,.88); } .f2 { background: #f1ccd6; } .f3 { background: #c9cdf3; }
+.q { font-family: "Martian Mono", monospace; font-stretch: 87.5%; font-size: .7em; letter-spacing: -.03em; font-weight: 560; color: var(--stamp); }
+</style>
+</head>
+<body>
+<pre class="hexwall" aria-hidden="true" data-nocheck="decorative evidence digests"><!--GEN:hex--></pre>
+<div class="left">
+  <p class="word">Weird ERC-20 Live</p>
+  <h1>Every token says <span class="q">ERC-20</span> on the label.</h1>
+  <p class="sub"><span class="n">{{L:n_universe}}</span> tokens opened and tested, plus <span class="n">{{L:v2_pooled_n}}</span> brand-new ones bought and sold. <em>They don’t work the same.</em></p>
+</div>
+<div class="shelf" aria-hidden="true">
+  <div class="jar j1"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f1">answers nothing</div></div></div>
+  <div class="jar j2"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f2">skims a fee on every send</div></div></div>
+  <div class="jar j3"><div class="lid"></div><div class="glass"><div class="label">ERC-20<small>standard token</small></div><div class="fill f3">one key can swap the code</div></div></div>
+</div>
+</body>
+</html>

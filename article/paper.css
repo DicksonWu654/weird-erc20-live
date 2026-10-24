@@ -1,0 +1,20 @@
+html { color: #182532; background: #fff; }
+body { max-width: 78rem; margin: 2.5rem auto; padding: 0 1.25rem; font-family: Georgia, serif; line-height: 1.55; }
+p, ul, ol { max-width: 78ch; }
+h1 { max-width: 34ch; line-height: 1.2; }
+h2 { margin-top: 2.5rem; }
+h3 { margin-top: 1.8rem; }
+a { color: #165b87; }
+table { display: block; width: max-content; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: .86rem; font-variant-numeric: tabular-nums; margin: 1.2rem 0 2rem; }
+th, td { text-align: left; vertical-align: top; padding: .5rem .65rem; border-bottom: 1px solid #dce1e5; min-width: 4.5rem; max-width: 23rem; overflow-wrap: anywhere; }
+th { background: #f3f6f8; }
+figure { margin: 2rem 0; }
+img { max-width: 100%; height: auto; }
+figcaption { max-width: 100ch; font-size: .9rem; color: #384c5d; }
+pre { padding: .8rem; overflow-x: auto; background: #f3f6f8; }
+code { font-size: .88em; }
+.csl-entry { margin-bottom: .8rem; max-width: 90ch; }
+.key-results { max-width: 78ch; margin: 1.6rem 0 2rem; padding: 1rem 1.25rem; border: 1px solid #c9d8e3; border-left: .3rem solid #165b87; background: #f3f7fa; }
+.key-results > p:first-child { margin-top: 0; }
+.key-results li + li { margin-top: .55rem; }
+@media print { body { max-width: none; margin: 0; padding: 0; font-size: 10pt; } table { display: table; width: 100%; font-size: 7pt; } th, td { min-width: 0; padding: .25rem; } figure { break-inside: avoid; } }

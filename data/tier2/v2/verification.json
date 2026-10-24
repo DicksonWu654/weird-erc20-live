@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "rules_version": "3.3",
+  "n_rows": 47963,
+  "n_pooled": 27091,
+  "completed_snapshot": 27091,
+  "selected_snapshot": 22455,
+  "pair_raw_hashes_checked": 22455,
+  "http_attempt_hashes_checked": 35478,
+  "c26_http_attempt_hashes_checked": 7273,
+  "real_v4_state_replays_checked": 2528,
+  "stateview_pools_checked": 24,
+  "n_first_liquidity_known": 22372,
+  "table_rows": {
+    "annual": 480,
+    "quarterly": 1872,
+    "monthly": 5616
+  },
+  "raw_bytes": 801136832
+}

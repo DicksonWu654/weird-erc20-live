@@ -1,0 +1,179 @@
+{
+  "scope": "Public sufficient statistics; upstream restricted inputs are not shipped",
+  "inputs": [
+    {
+      "source": "data/census/sample_frame.parquet",
+      "source_sha256": "d55d5198df9d67315cd201feb9d399ebb12db0bb862c8702562c6a3d3398aa01",
+      "public": "data/census/frame_stats.csv",
+      "public_sha256": "fd4474685290740ab027198ee37921bd60abe7984762c56e31010b3732f409a2"
+    },
+    {
+      "source": "data/tier2/v2/token_results.parquet",
+      "source_sha256": "b3b6aaf2a5bec0064bc6808bbc7ff72e23caa7cb0a884e758bba2e952327fe25",
+      "public": "data/tier2/v2/cohort_weights.csv",
+      "public_sha256": "acc68fba7e774a301d7383fb389d144328e34c17ae8bb6836f0d5df8640e5dbc"
+    },
+    {
+      "source": "data/tier2/v2/origin_attribution.csv",
+      "source_sha256": "8ff2ba02378e0c7f00b654c13423cc73a19901bd03c285c33f451299c85ee066",
+      "public": "data/tier2/v2/origin_counts.csv",
+      "public_sha256": "f53669abc649b5255ad95ad69170746ba5b9c2e45f5d5cca3a118549feeda8dc"
+    },
+    {
+      "source": "data/validate/round3/timing.csv",
+      "source_sha256": "7a0584e543d699fea553873c5950c7d9953f8e54234e33af1e7af2a4b5c17cf3",
+      "public": "data/validate/round3/timing_counts.csv",
+      "public_sha256": "202d97c01c541d6225bc05533ae71760ba695ee9b9eab67fcee1c39953c89197"
+    },
+    {
+      "source": "data/verify/delayed/cases.csv",
+      "source_sha256": "862adc3a09a04a82c97a9f56b05a39c8d25a79e627ce6d947ef361c6dd870fa2",
+      "public": "data/verify/delayed/case_counts.csv",
+      "public_sha256": "2a6ff5de4ea51fbbf744a4d1c892d48da5cee50ed05d0f5e5e1d8b139001dabe"
+    },
+    {
+      "source": "data/validate/round2/b20_case_study.json",
+      "source_sha256": "1d949a16b2f0679c82015be893d7894835edc14edd82d5afca7ffe0337933ac2",
+      "public": "data/validate/round2/b20_router_counts.csv",
+      "public_sha256": "5a4baf2381c0c9725ea46e01645cdc15e9958db2612812a45995d38aed2ee158"
+    },
+    {
+      "source": "data/validate/round2/adjudication.csv",
+      "source_sha256": "69d7120bb7d2327e0cdb83b3f8eae0e395f59e014377e841ce5c3880cf3a28de",
+      "public": "data/validate/round2/adjudicator_counts.csv",
+      "public_sha256": "b3b4411748b0a67e866ec91fe62bf509c8ffcff8b905aabff2a90a68d5c2434f"
+    },
+    {
+      "source": "data/validate/round2-blind/verdicts_a.csv",
+      "source_sha256": "8d1c1e7bc709318962ea8bf001a53e044aeb18e4146dcf94c01e5aaebd183a97",
+      "public": "data/validate/round2/adjudicator_counts.csv",
+      "public_sha256": "b3b4411748b0a67e866ec91fe62bf509c8ffcff8b905aabff2a90a68d5c2434f"
+    },
+    {
+      "source": "data/validate/round2-blind/verdicts_b.csv",
+      "source_sha256": "0b4967c25582727dbdfd86387213c661d46134ef081dd9100cdc9f9eeac0479f",
+      "public": "data/validate/round2/adjudicator_counts.csv",
+      "public_sha256": "b3b4411748b0a67e866ec91fe62bf509c8ffcff8b905aabff2a90a68d5c2434f"
+    },
+    {
+      "source": "data/matrix/matrix.parquet",
+      "source_sha256": "6c67a34b5e9ffbe54e97210f16cd7fd9192d4c187570872f48128ca1d6473d0d",
+      "public": "data/matrix/b20_membership_counts.csv",
+      "public_sha256": "3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e"
+    },
+    {
+      "source": "data/matrix/tokenized_securities.csv",
+      "source_sha256": "5862097c3879a3a93f07005b9403ab510afb500746bd7f46fd56b42d11578c4d",
+      "public": "data/matrix/b20_membership_counts.csv",
+      "public_sha256": "3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e"
+    },
+    {
+      "source": "research/findings/base-0xef-tokens/data/coinbase_api_tokens.json",
+      "source_sha256": "92cb1a9a9fc0527079186734f198bcd47f12e85736b11895381ab94984db168d",
+      "public": "data/matrix/b20_membership_counts.csv",
+      "public_sha256": "3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e"
+    },
+    {
+      "source": "data/raw/F1/http/coinbase_tokenized_stocks_page0.json",
+      "source_sha256": "da549d65e2fb2e933456764de5fabec5f22208b6371e52b9610f5f8b1d750dbe",
+      "public": "data/matrix/b20_membership_counts.csv",
+      "public_sha256": "3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e"
+    },
+    {
+      "source": "research/findings/base-0xef-tokens/data/survey.csv",
+      "source_sha256": "89b56978aa1b87edba64a58a6b02a298d89a4084476319dbc9228b98493deaa0",
+      "public": "data/matrix/b20_membership_counts.csv",
+      "public_sha256": "3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e"
+    },
+    {
+      "source": "data/verify/blind300/sample.csv",
+      "source_sha256": "4482cd6fb6a6790c8526ace5173aac7fc47f06f890f2b7c6efc336ee52e6bc34",
+      "public": "data/verify/blind300/sample_counts.csv",
+      "public_sha256": "397332099e195a222bbc563494e5dbceca121d07c94155160d852adcf2ca4795"
+    },
+    {
+      "source": "data/tier2/v2/offset_transitions.parquet",
+      "source_sha256": "f0728c9d166ad83a37bf7b3d61b170850e0c59fc7c706df675dc4689aabf4a65",
+      "public": "data/tier2/v2/transition_weights.csv",
+      "public_sha256": "7301041635ae52414cf25af263508df9844e94aab8a791e33abd5d6b2ea3d8dd"
+    },
+    {
+      "source": "data/verify/delayed/matched_rows.parquet",
+      "source_sha256": "160c0311d21befbe30b29c8f441b78965e5952a7178897bbdcef5903353b98a6",
+      "public": "data/verify/delayed/matched_weights.csv",
+      "public_sha256": "4dbedfdbb9c7442582dd5ad2ff061790f9c678f2b1e98c0edb2bc7d0f2bbaa09"
+    },
+    {
+      "source": "data/verify/dust/fee_mint_formula.csv",
+      "source_sha256": "49e94fcead9d6f13e4c7928cf3b8386b2b2ff1217f65f9e05f77a79eab2f6cc6",
+      "public": "data/verify/dust/fee_mint_formula.csv",
+      "public_sha256": "71bc5b4239a4e922d179c059b0691da7d4ddc1781c0feabe492b5f1a418e897b"
+    }
+  ],
+  "additional_inputs": [
+    {
+      "source": "data/tier2/v2/token_results.parquet",
+      "source_sha256": "b3b6aaf2a5bec0064bc6808bbc7ff72e23caa7cb0a884e758bba2e952327fe25",
+      "public": "data/tier2/v2/below_origin_stats.csv",
+      "public_sha256": "41a1c8ebe16ad394923184613a521ee778a97b4867dbd348ef7e932bccf0a6b7"
+    },
+    {
+      "source": "data/tier2/v2/blind_comparisons.csv",
+      "source_sha256": "57de2a4ab257ff0bdf612c205e13d4529bd85f9b97f67390092c0370b2669146",
+      "public": "data/tier2/v2/blind_pair_counts.csv",
+      "public_sha256": "d511f9ff8954b4de5ab573c1f801f23991fd2cdea124cefb19b3655fbcacd031"
+    },
+    {
+      "source": "data/verify/blind300/comparisons.csv",
+      "source_sha256": "5feb9da3223e9784c43e5108a16c0992f4418b5ca1f76d05d2a6642eea86c01b",
+      "public": "data/verify/blind300/comparison_groups.csv",
+      "public_sha256": "6a06e5ee1abd8848873a7abb9d2bdd665ef99699e7092e0ea742b9aa797c9466"
+    }
+  ],
+  "site_count_inputs": {
+    "article/simulator_blind_baseline.json": "35f945c6c17ae583126803cdf106364e019af277d7f02580d81989f0074acf69",
+    "data/census/monthly_counts.csv": "28d74732bba2f071e554b9aa14fca9ea4246d32e40c901bf9e6fa7dde0d669e7",
+    "data/matrix/cross_chain_tests.csv": "e6d550ce30bbb63e1da39e139a2f23bf89e9356b82e1550290e79c5bccb92b41",
+    "data/matrix/findings/crosschain_families.csv": "62eecaae4fa2e1b74bfffe2c93bdf7643e590d2ec7a6cf1e2f955bfb9b2ed90b",
+    "data/matrix/matrix.json": "ee6b5becfb393d1183d10c56d6eedd76489a0cddaf7c9b847083c6190cbd8263",
+    "data/matrix/prevalence_by_chain_rank.csv": "f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9",
+    "data/matrix/prevalence_ex_securities.csv": "aae19a8cb83615d7bb81d6be0fad643c2a6c44e6769d705f8cf84a2ec3cd073d",
+    "data/matrix/tokens.csv": "959872744b546a390997daf5309095d08a4e7ed48e80c6f857a8ac2f5be2085e",
+    "data/tier2/coverage_check.csv": "901f9fdcf026ac26b8e2c6322c2ace763d0a7cbe68f2c7ddf972d7cb06b71d42",
+    "data/tier2/precision_vs_blind.csv": "a3722a8640d18f1860353375d39dc24c2aab089926eb1b06b8419d64b146d7f2",
+    "data/tier2/v2/annual_shares.csv": "bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29",
+    "data/tier2/v2/bounds.csv": "c53939a28bbf5553793a32212f7f619f5b3ffef394cbec95cbcbe8ed9c39da19",
+    "data/tier2/v2/method_by_year.csv": "353de485dd962feb63e2c2a8e61204e147e5ab48078591d0fa8c5c720e04664a",
+    "data/tier2/v2/misclass_adjusted.csv": "387d1892fcd1cec575973a9a6771c0fdf23d01b8fcf675984d95756672fa062b",
+    "data/tier2/v2/monthly_shares.csv": "fe58e1a2dd6d7dd6f4ec48fb7eb5c4fd1561c1e306a57ed0c07123ecf0d83984",
+    "data/tier2/v2/quarterly_shares.csv": "b40d82b1515ab37fa339b08425e1e7d53dc23952ff6718a4ac712469c404cae7",
+    "data/tier2/v2/sensitivity.csv": "680d56f9ba63fcbae826fa3cf4b567de8d6cd5e93b38719d9a84267c2e017271",
+    "data/tier2/v2/standardized.csv": "a23f2bf6a0099ff839b4fd79978d506198c2dcf8513b5b328b0270b6a9fa8df1",
+    "data/tier2/v2/token_results.parquet": "b3b6aaf2a5bec0064bc6808bbc7ff72e23caa7cb0a884e758bba2e952327fe25",
+    "data/tier2/v2/venue_by_year.csv": "8ac072ea881f01829fd75ebf559b7c1168571fb09db4869a9312c3c6d470500b",
+    "data/validate/round2/summary.csv": "1b1f81b1c919daddc7cb4bfd251ddd8b96bc422d2a437f291f34a50a5af34eea",
+    "data/validate/round3/summary.csv": "57b01760e6c91319e1a9acd9bcb9bbc1a22966c25395b0ac18b838a361188b5d",
+    "data/verify/rug/verdicts.csv": "5d9239ed47103b95e6e6b6340fe0ea2d0e77bc0092663c6094148133701264b1",
+    "data/verify/stats/summary.json": "454d7cea167100c1a96ea687d3bd91f51b77b5b56e350bbe8a39645effa256a9",
+    "data/verify/stats/validation.json": "b1d219cb4ffc266005fdb386436bdc5fe94507438f85cebd7760739e458f4937",
+    "data/verify/v23/verdicts.csv": "6189ee79246b9b65f29e9cd7e39d167415374a52a01b840e5f012d6b9a8f2f8b",
+    "data/verify/v4/summary.json": "4992f81fbba12daff244480b23e3bbf7d0ad4ee5ee09254e7a02b408dc92766f",
+    "data/verify/v4/verdicts.csv": "f960fe2c399a89d83b94ee768ca6413f2d3b7aa0329e1ffbc9e4139f84967ef7",
+    "research/findings/base-0xef-tokens/data/coinbase_api_tokens.json": "92cb1a9a9fc0527079186734f198bcd47f12e85736b11895381ab94984db168d",
+    "research/findings/base-0xef-tokens/data/survey.csv": "89b56978aa1b87edba64a58a6b02a298d89a4084476319dbc9228b98493deaa0"
+  },
+  "transform": "Group by non-identity domain/category columns; n=count, weight=sum(w), weight_sq=sum(w*w); frame=row count; origins/timing/mechanisms=count; B20 API-address join checked privately then counts only; adjudicator exact scope join then pair counts only; replay outcomes grouped with weight sums; fee formula=remove sample/evidence/transaction identifiers",
+  "private_row_invariants_checked": [
+    "unique sample IDs",
+    "offset +300",
+    "floor 0.01 ETH",
+    "tax threshold 0.1",
+    "harm category union",
+    "harm measurable",
+    "known quote >=floor for measurable",
+    "below-floor not measurable",
+    "delayed same-pool +7200 predicate",
+    "launch-normal predicate",
+    "late above/below disjoint"
+  ]
+}

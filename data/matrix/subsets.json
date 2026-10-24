@@ -1,0 +1,759 @@
+{
+  "unit": "deployment (chain, token), not unique economic asset or issuer",
+  "subsets": {
+    "inventory": {
+      "definition": "all six-chain universe deployments, including convenience extras",
+      "n_tokens": 4740,
+      "by_chain": {
+        "arbitrum": 652,
+        "base": 582,
+        "bsc": 593,
+        "ethereum": 2103,
+        "optimism": 265,
+        "polygon": 545
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "inventory"
+    },
+    "ranked": {
+      "definition": "CoinGecko market-cap rows; main prevalence denominator before feature measurability",
+      "n_tokens": 4198,
+      "by_chain": {
+        "arbitrum": 500,
+        "base": 500,
+        "bsc": 500,
+        "ethereum": 2000,
+        "optimism": 198,
+        "polygon": 500
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "ranked"
+    },
+    "extras": {
+      "definition": "non-market-cap inclusion routes; separate descriptive convenience sample",
+      "n_tokens": 542,
+      "by_chain": {
+        "arbitrum": 152,
+        "base": 82,
+        "bsc": 93,
+        "ethereum": 103,
+        "optimism": 67,
+        "polygon": 45
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "extras"
+    },
+    "top500_ranked": {
+      "definition": "per-chain market-cap ranks 1-500; cross-chain-test domain; OP has 198",
+      "n_tokens": 2698,
+      "by_chain": {
+        "arbitrum": 500,
+        "base": 500,
+        "bsc": 500,
+        "ethereum": 500,
+        "optimism": 198,
+        "polygon": 500
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "top500_ranked"
+    },
+    "top200_ranked": {
+      "definition": "top-200 candidate EOA table domain; OP has 198",
+      "n_tokens": 1198,
+      "by_chain": {
+        "arbitrum": 200,
+        "base": 200,
+        "bsc": 200,
+        "ethereum": 200,
+        "optimism": 198,
+        "polygon": 200
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "top200_ranked"
+    },
+    "ronin_rejecting": {
+      "definition": "saved restriction subset = baseline funded clean-recipient transfer succeeds, tested Ronin-exploiter recipient transfer reverts; original W1 amount",
+      "n_tokens": 526,
+      "by_chain": {
+        "arbitrum": 74,
+        "base": 29,
+        "bsc": 78,
+        "ethereum": 314,
+        "optimism": 16,
+        "polygon": 15
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "ronin_rejecting"
+    },
+    "tornado_rejecting": {
+      "definition": "baseline funded clean-recipient transfer succeeds, tested formerly sanctioned Tornado router transfer reverts; original W1 amount",
+      "n_tokens": 33,
+      "by_chain": {
+        "arbitrum": 2,
+        "base": 4,
+        "bsc": 3,
+        "ethereum": 20,
+        "optimism": 1,
+        "polygon": 3
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "tornado_rejecting"
+    },
+    "ronin_and_tornado_rejecting": {
+      "definition": "intersection of the two original W1 positive differential recipient tests; subset eligible for C10 restriction retest",
+      "n_tokens": 32,
+      "by_chain": {
+        "arbitrum": 2,
+        "base": 4,
+        "bsc": 3,
+        "ethereum": 19,
+        "optimism": 1,
+        "polygon": 3
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "ronin_and_tornado_rejecting"
+    },
+    "tornado_only_rejecting": {
+      "definition": "Tornado-positive outside the Ronin-positive saved restriction subset; not included in C10 restriction retest",
+      "n_tokens": 1,
+      "by_chain": {
+        "ethereum": 1
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "tornado_only_rejecting"
+    },
+    "blocklist_capability": {
+      "definition": "strict static selector or answering blocklist view; capability, not observed transfer rejection",
+      "n_tokens": 483,
+      "by_chain": {
+        "arbitrum": 118,
+        "base": 50,
+        "bsc": 45,
+        "ethereum": 198,
+        "optimism": 14,
+        "polygon": 58
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "blocklist_capability"
+    },
+    "blocklist_any": {
+      "definition": "union of strict blocklist capability OR Ronin recipient revert OR Tornado recipient revert",
+      "n_tokens": 943,
+      "by_chain": {
+        "arbitrum": 182,
+        "base": 67,
+        "bsc": 119,
+        "ethereum": 480,
+        "optimism": 26,
+        "polygon": 69
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "blocklist_any"
+    },
+    "original_security_tag": {
+      "definition": "original category_hint plus build.SEC_RX name/symbol classification; matrix categories preserved",
+      "n_tokens": 511,
+      "by_chain": {
+        "arbitrum": 144,
+        "base": 10,
+        "bsc": 54,
+        "ethereum": 280,
+        "optimism": 11,
+        "polygon": 12
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "original_security_tag"
+    },
+    "tokenized_securities": {
+      "definition": "original security category supplemented with saved Base B20 stock-policy 5 deployments (F1); not a legal classification; explicit basis per token in tokenized_securities.csv",
+      "n_tokens": 523,
+      "by_chain": {
+        "arbitrum": 144,
+        "base": 22,
+        "bsc": 54,
+        "ethereum": 280,
+        "optimism": 11,
+        "polygon": 12
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "tokenized_securities"
+    },
+    "b20": {
+      "definition": "Base 0xB200 deployments in this universe; separate from external B20 factory census and 120-address SDN mirror",
+      "n_tokens": 17,
+      "by_chain": {
+        "base": 17
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "b20"
+    },
+    "rank_1-100": {
+      "definition": "market-cap band 1-100; pooled over six chains",
+      "n_tokens": 600,
+      "by_chain": {
+        "arbitrum": 100,
+        "base": 100,
+        "bsc": 100,
+        "ethereum": 100,
+        "optimism": 100,
+        "polygon": 100
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "rank_1-100"
+    },
+    "rank_101-500": {
+      "definition": "market-cap band 101-500; pooled over six chains",
+      "n_tokens": 2098,
+      "by_chain": {
+        "arbitrum": 400,
+        "base": 400,
+        "bsc": 400,
+        "ethereum": 400,
+        "optimism": 98,
+        "polygon": 400
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "rank_101-500"
+    },
+    "rank_501-2000": {
+      "definition": "market-cap band 501-2000; Ethereum only",
+      "n_tokens": 1500,
+      "by_chain": {
+        "ethereum": 1500
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "rank_501-2000"
+    },
+    "category_stablecoin": {
+      "definition": "saved universe category hint; can overlap other categories",
+      "n_tokens": 357,
+      "by_chain": {
+        "arbitrum": 42,
+        "base": 50,
+        "bsc": 33,
+        "ethereum": 148,
+        "optimism": 23,
+        "polygon": 61
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "category_stablecoin"
+    },
+    "category_lst_lrt": {
+      "definition": "saved universe category hint; can overlap other categories",
+      "n_tokens": 142,
+      "by_chain": {
+        "arbitrum": 20,
+        "base": 19,
+        "bsc": 17,
+        "ethereum": 66,
+        "optimism": 13,
+        "polygon": 7
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "category_lst_lrt"
+    },
+    "category_meme": {
+      "definition": "saved universe category hint; can overlap other categories",
+      "n_tokens": 347,
+      "by_chain": {
+        "arbitrum": 26,
+        "base": 41,
+        "bsc": 58,
+        "ethereum": 185,
+        "optimism": 8,
+        "polygon": 29
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "category_meme"
+    },
+    "category_wrapped_bridged": {
+      "definition": "saved universe category hint; can overlap other categories",
+      "n_tokens": 207,
+      "by_chain": {
+        "arbitrum": 35,
+        "base": 35,
+        "bsc": 20,
+        "ethereum": 68,
+        "optimism": 27,
+        "polygon": 22
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "category_wrapped_bridged"
+    },
+    "ranked_ex_securities": {
+      "definition": "main market-cap rows minus the saved tokenized_security category; same per-chain rank positions",
+      "n_tokens": 3680,
+      "by_chain": {
+        "arbitrum": 356,
+        "base": 482,
+        "bsc": 447,
+        "ethereum": 1720,
+        "optimism": 187,
+        "polygon": 488
+      },
+      "membership_file": "data/matrix/subset_membership.csv",
+      "membership_key": "ranked_ex_securities"
+    },
+    "measurable:funding": {
+      "definition": "funding__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4715,
+      "membership": "data/matrix/matrix.parquet column funding__status"
+    },
+    "measurable:ret_missing_transfer": {
+      "definition": "ret_missing_transfer__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column ret_missing_transfer__status"
+    },
+    "measurable:ret_missing_approve": {
+      "definition": "ret_missing_approve__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column ret_missing_approve__status"
+    },
+    "measurable:ret_missing_transferFrom": {
+      "definition": "ret_missing_transferFrom__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column ret_missing_transferFrom__status"
+    },
+    "measurable:false_on_failure": {
+      "definition": "false_on_failure__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column false_on_failure__status"
+    },
+    "measurable:recipient_not_credited": {
+      "definition": "recipient_not_credited__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4584,
+      "membership": "data/matrix/matrix.parquet column recipient_not_credited__status"
+    },
+    "measurable:fresh_address_nonzero_balance": {
+      "definition": "fresh_address_nonzero_balance__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column fresh_address_nonzero_balance__status"
+    },
+    "measurable:transfer_reverts_fresh_contract": {
+      "definition": "transfer_reverts_fresh_contract__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4704,
+      "membership": "data/matrix/matrix.parquet column transfer_reverts_fresh_contract__status"
+    },
+    "measurable:permissioned_transfer": {
+      "definition": "permissioned_transfer__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column permissioned_transfer__status"
+    },
+    "measurable:transfer_reverts_paused": {
+      "definition": "transfer_reverts_paused__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column transfer_reverts_paused__status"
+    },
+    "measurable:transfer_reverts_market_or_router": {
+      "definition": "transfer_reverts_market_or_router__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column transfer_reverts_market_or_router__status"
+    },
+    "measurable:fee_on_transfer_observed": {
+      "definition": "fee_on_transfer_observed__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4584,
+      "membership": "data/matrix/matrix.parquet column fee_on_transfer_observed__status"
+    },
+    "measurable:transfer_rounding": {
+      "definition": "transfer_rounding__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4594,
+      "membership": "data/matrix/matrix.parquet column transfer_rounding__status"
+    },
+    "measurable:fee_switch_capability": {
+      "definition": "fee_switch_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4724,
+      "membership": "data/matrix/matrix.parquet column fee_switch_capability__status"
+    },
+    "measurable:fee_param_nonzero": {
+      "definition": "fee_param_nonzero__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4724,
+      "membership": "data/matrix/matrix.parquet column fee_param_nonzero__status"
+    },
+    "measurable:approve_race_guard": {
+      "definition": "approve_race_guard__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column approve_race_guard__status"
+    },
+    "measurable:approve_zero_addr_reverts": {
+      "definition": "approve_zero_addr_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column approve_zero_addr_reverts__status"
+    },
+    "measurable:approve_zero_value_reverts": {
+      "definition": "approve_zero_value_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column approve_zero_value_reverts__status"
+    },
+    "measurable:approve_max_capped": {
+      "definition": "approve_max_capped__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column approve_max_capped__status"
+    },
+    "measurable:allowance_helpers": {
+      "definition": "allowance_helpers__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column allowance_helpers__status"
+    },
+    "measurable:tf_owner_no_allowance": {
+      "definition": "tf_owner_no_allowance__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column tf_owner_no_allowance__status"
+    },
+    "measurable:allowance_max_decrements": {
+      "definition": "allowance_max_decrements__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4704,
+      "membership": "data/matrix/matrix.parquet column allowance_max_decrements__status"
+    },
+    "measurable:tf_zero_reverts": {
+      "definition": "tf_zero_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column tf_zero_reverts__status"
+    },
+    "measurable:transfer_zero_reverts": {
+      "definition": "transfer_zero_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4607,
+      "membership": "data/matrix/matrix.parquet column transfer_zero_reverts__status"
+    },
+    "measurable:transfer_zero_returns_false": {
+      "definition": "transfer_zero_returns_false__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4607,
+      "membership": "data/matrix/matrix.parquet column transfer_zero_returns_false__status"
+    },
+    "measurable:to_zero_reverts": {
+      "definition": "to_zero_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column to_zero_reverts__status"
+    },
+    "measurable:to_zero_burns": {
+      "definition": "to_zero_burns__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column to_zero_burns__status"
+    },
+    "measurable:self_transfer_anomaly": {
+      "definition": "self_transfer_anomaly__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column self_transfer_anomaly__status"
+    },
+    "measurable:self_transfer_changes_balance": {
+      "definition": "self_transfer_changes_balance__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column self_transfer_changes_balance__status"
+    },
+    "measurable:to_token_contract_reverts": {
+      "definition": "to_token_contract_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column to_token_contract_reverts__status"
+    },
+    "measurable:to_dead_reverts": {
+      "definition": "to_dead_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column to_dead_reverts__status"
+    },
+    "measurable:uint96_limit": {
+      "definition": "uint96_limit__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4583,
+      "membership": "data/matrix/matrix.parquet column uint96_limit__status"
+    },
+    "measurable:balance_field_le128": {
+      "definition": "balance_field_le128__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4583,
+      "membership": "data/matrix/matrix.parquet column balance_field_le128__status"
+    },
+    "measurable:max_uint_transfer_succeeds": {
+      "definition": "max_uint_transfer_succeeds__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column max_uint_transfer_succeeds__status"
+    },
+    "measurable:full_balance_anomaly": {
+      "definition": "full_balance_anomaly__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4584,
+      "membership": "data/matrix/matrix.parquet column full_balance_anomaly__status"
+    },
+    "measurable:max_tx_limit": {
+      "definition": "max_tx_limit__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4594,
+      "membership": "data/matrix/matrix.parquet column max_tx_limit__status"
+    },
+    "measurable:decimals": {
+      "definition": "decimals__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column decimals__status"
+    },
+    "measurable:decimals_low": {
+      "definition": "decimals_low__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column decimals_low__status"
+    },
+    "measurable:decimals_high": {
+      "definition": "decimals_high__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column decimals_high__status"
+    },
+    "measurable:metadata_nonstring": {
+      "definition": "metadata_nonstring__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column metadata_nonstring__status"
+    },
+    "measurable:name_injection": {
+      "definition": "name_injection__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column name_injection__status"
+    },
+    "measurable:permit_any": {
+      "definition": "permit_any__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column permit_any__status"
+    },
+    "measurable:permit_dai_style": {
+      "definition": "permit_dai_style__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column permit_dai_style__status"
+    },
+    "measurable:pause_capability": {
+      "definition": "pause_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column pause_capability__status"
+    },
+    "measurable:trading_gate_capability": {
+      "definition": "trading_gate_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column trading_gate_capability__status"
+    },
+    "measurable:paused_now": {
+      "definition": "paused_now__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column paused_now__status"
+    },
+    "measurable:pause_w1_any": {
+      "definition": "pause_w1_any__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column pause_w1_any__status"
+    },
+    "measurable:blocklist_capability": {
+      "definition": "blocklist_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column blocklist_capability__status"
+    },
+    "measurable:blocklist_view_answers": {
+      "definition": "blocklist_view_answers__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column blocklist_view_answers__status"
+    },
+    "measurable:botlist_capability": {
+      "definition": "botlist_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column botlist_capability__status"
+    },
+    "measurable:blocklist_any": {
+      "definition": "blocklist_any__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column blocklist_any__status"
+    },
+    "measurable:sanction_block_ronin": {
+      "definition": "sanction_block_ronin__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4595,
+      "membership": "data/matrix/matrix.parquet column sanction_block_ronin__status"
+    },
+    "measurable:sanction_block_tornado": {
+      "definition": "sanction_block_tornado__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4595,
+      "membership": "data/matrix/matrix.parquet column sanction_block_tornado__status"
+    },
+    "measurable:share_accounting_ratio": {
+      "definition": "share_accounting_ratio__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column share_accounting_ratio__status"
+    },
+    "measurable:share_accessors": {
+      "definition": "share_accessors__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column share_accessors__status"
+    },
+    "measurable:share_accounting_capability": {
+      "definition": "share_accounting_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column share_accounting_capability__status"
+    },
+    "measurable:balance_drift_7d": {
+      "definition": "balance_drift_7d__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 2622,
+      "membership": "data/matrix/matrix.parquet column balance_drift_7d__status"
+    },
+    "measurable:rebasing_w1_any": {
+      "definition": "rebasing_w1_any__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column rebasing_w1_any__status"
+    },
+    "measurable:hook_callbacks_observed": {
+      "definition": "hook_callbacks_observed__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4593,
+      "membership": "data/matrix/matrix.parquet column hook_callbacks_observed__status"
+    },
+    "measurable:erc777_static": {
+      "definition": "erc777_static__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4593,
+      "membership": "data/matrix/matrix.parquet column erc777_static__status"
+    },
+    "measurable:callback_into_recipient": {
+      "definition": "callback_into_recipient__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column callback_into_recipient__status"
+    },
+    "measurable:contract_recipient_reverts": {
+      "definition": "contract_recipient_reverts__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4714,
+      "membership": "data/matrix/matrix.parquet column contract_recipient_reverts__status"
+    },
+    "measurable:gas_transfer": {
+      "definition": "gas_transfer__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4715,
+      "membership": "data/matrix/matrix.parquet column gas_transfer__status"
+    },
+    "measurable:anti_bot_controls": {
+      "definition": "anti_bot_controls__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4715,
+      "membership": "data/matrix/matrix.parquet column anti_bot_controls__status"
+    },
+    "measurable:same_block_cooldown": {
+      "definition": "same_block_cooldown__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4595,
+      "membership": "data/matrix/matrix.parquet column same_block_cooldown__status"
+    },
+    "measurable:eoa_vs_contract_differs": {
+      "definition": "eoa_vs_contract_differs__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4690,
+      "membership": "data/matrix/matrix.parquet column eoa_vs_contract_differs__status"
+    },
+    "measurable:forwarding_proxy": {
+      "definition": "forwarding_proxy__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4725,
+      "membership": "data/matrix/matrix.parquet column forwarding_proxy__status"
+    },
+    "measurable:external_balance_storage": {
+      "definition": "external_balance_storage__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4690,
+      "membership": "data/matrix/matrix.parquet column external_balance_storage__status"
+    },
+    "measurable:native_currency_repr": {
+      "definition": "native_currency_repr__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4690,
+      "membership": "data/matrix/matrix.parquet column native_currency_repr__status"
+    },
+    "measurable:flash_mint_capability": {
+      "definition": "flash_mint_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4708,
+      "membership": "data/matrix/matrix.parquet column flash_mint_capability__status"
+    },
+    "measurable:is_proxy": {
+      "definition": "is_proxy__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column is_proxy__status"
+    },
+    "measurable:upgradeable": {
+      "definition": "upgradeable__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4544,
+      "membership": "data/matrix/matrix.parquet column upgradeable__status"
+    },
+    "measurable:upgrade_authority_class": {
+      "definition": "upgrade_authority_class__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column upgrade_authority_class__status"
+    },
+    "measurable:upgrade_single_eoa": {
+      "definition": "upgrade_single_eoa__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4685,
+      "membership": "data/matrix/matrix.parquet column upgrade_single_eoa__status"
+    },
+    "measurable:upgrade_no_timelock": {
+      "definition": "upgrade_no_timelock__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4685,
+      "membership": "data/matrix/matrix.parquet column upgrade_no_timelock__status"
+    },
+    "measurable:owner_path_class": {
+      "definition": "owner_path_class__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column owner_path_class__status"
+    },
+    "measurable:owner_single_eoa": {
+      "definition": "owner_single_eoa__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column owner_single_eoa__status"
+    },
+    "measurable:owner_renounced": {
+      "definition": "owner_renounced__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column owner_renounced__status"
+    },
+    "measurable:controlled": {
+      "definition": "controlled__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column controlled__status"
+    },
+    "measurable:mint_capability": {
+      "definition": "mint_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column mint_capability__status"
+    },
+    "measurable:burn_from_others_capability": {
+      "definition": "burn_from_others_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column burn_from_others_capability__status"
+    },
+    "measurable:rescue_capability": {
+      "definition": "rescue_capability__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column rescue_capability__status"
+    },
+    "measurable:blacklist_hint": {
+      "definition": "blacklist_hint__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column blacklist_hint__status"
+    },
+    "measurable:pauser_role_eoa": {
+      "definition": "pauser_role_eoa__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column pauser_role_eoa__status"
+    },
+    "measurable:blacklister_role_eoa": {
+      "definition": "blacklister_role_eoa__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column blacklister_role_eoa__status"
+    },
+    "measurable:minter_role_eoa": {
+      "definition": "minter_role_eoa__status in [yes,no]; error/unprobeable excluded, never treated as negative",
+      "n_tokens": 4717,
+      "membership": "data/matrix/matrix.parquet column minter_role_eoa__status"
+    },
+    "c10_tornado_confirmed": {
+      "definition": "C10 independent one-raw-unit transfer rejected with successful credited clean-recipient control, among the 526 original Ronin-positive candidates; later pins than W1",
+      "n_tokens": 32,
+      "membership_file": "data/matrix/c10_tornado_confirmed.csv",
+      "evidence": "data/verify/claims/summary.json main_verdicts.N009; data/verify/claims/verdicts.csv N009/N010 and claim_evidence/"
+    },
+    "c10_eoa_candidates": {
+      "definition": "frozen pre-C19 top200_eoa candidate group supplied to C10; independent check verified 77 direct upgrades and left wrappers unresolved",
+      "n_tokens": 109,
+      "membership_file": "data/matrix/c10_eoa_candidates.csv",
+      "evidence": "data/verify/claims/checks/targets.json groups contains top200_eoa"
+    }
+  },
+  "tested_addresses": {
+    "ronin_exploiter": "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
+    "tornado_router": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b"
+  },
+  "tornado_context": "Tornado Cash designations removed by OFAC on 2025-03-21; these tests do not establish current legal sanctions status or issuer intent",
+  "c10_reconciliation": {
+    "original_ronin_subset": 526,
+    "original_tornado_total": 33,
+    "original_overlap": 32,
+    "outside_c10_restriction_scope": 1,
+    "c10_independent_confirmed": 32,
+    "c10_vs_w1_overlap_membership_equal": true,
+    "note": "Independent verification used one raw unit and clean-recipient controls on the Ronin-positive subset; original matrix positives and independent confirmations are distinct. See data/verify/claims/verdicts.csv N009/N010; retain the 10 unresolved controls."
+  },
+  "external_case_study_domains": {
+    "c10_eoa_candidates": "frozen targets.json top200_eoa group; explicit list data/matrix/c10_eoa_candidates.csv; distinct from all classifier-assigned EOA-terminal rows",
+    "sdn_mirror": "120-address saved third-party mirror, registry check at Base block 52936930; not token deployments and not a fresh legal list",
+    "b20_scanner_examples": "5 selected cases NVDAc/OUSD/GOOGLc/MSFTc/cbHYPE; router swaps succeed in 2, unresolved in 3; not a probability sample"
+  }
+}

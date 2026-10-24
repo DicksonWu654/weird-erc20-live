@@ -1,0 +1,56 @@
+{
+  "huynh_addresses": 5043,
+  "golden_source_rows": 171,
+  "address_filtered_expected": 94,
+  "provenance_filtered_expected": 94,
+  "additional_provenance_expected": 43,
+  "golden_removed": {
+    "expected.csv": 137,
+    "observed.csv": 137
+  },
+  "golden_kept": {
+    "expected.csv": 34,
+    "observed.csv": 34
+  },
+  "ledger_entries": 555,
+  "ledger_value_differences": 0,
+  "source_string_updates": {
+    "data/verify/claims/verdicts.csv": {
+      "before_sha256": "3b76a622076d9ffb81858fd54a8168ece78c3906dbc2d21e93fa2cd891b6685b",
+      "after_sha256": "87816a2c50acb1204e53f22efe37da80be44d72cadb412f96dab6b0c8c076a4e",
+      "reason": "Mapped source-only public documentation strings; numeric values unchanged"
+    },
+    "data/matrix/subsets.json": {
+      "before_sha256": "9353d8b3fb069d43ee5644bfe50f59cff2b6fbe3385e1073e502116d7ffe48b1",
+      "after_sha256": "c8124c0b260925a2d14735aa55e55420dfd12837261f9cb10bd6b5b60aebed4f",
+      "reason": "Mapped source-only public documentation strings; numeric values unchanged"
+    }
+  },
+  "site_source": "site-v5",
+  "historical_timeline_policy": "Cited historical news prose in timeline notes is allowed; CoinGecko-derived numeric market data is excluded",
+  "restricted_inputs": {
+    "data/census/sample_frame.parquet": "data/census/frame_stats.csv",
+    "data/tier2/v2/token_results.parquet": "data/tier2/v2/cohort_weights.csv",
+    "data/tier2/v2/origin_attribution.csv": "data/tier2/v2/origin_counts.csv",
+    "data/validate/round3/timing.csv": "data/validate/round3/timing_counts.csv",
+    "data/verify/delayed/cases.csv": "data/verify/delayed/case_counts.csv",
+    "data/validate/round2/b20_case_study.json": "data/validate/round2/b20_router_counts.csv",
+    "data/validate/round2/adjudication.csv": "data/validate/round2/adjudicator_counts.csv",
+    "data/validate/round2-blind/verdicts_a.csv": "data/validate/round2/adjudicator_counts.csv",
+    "data/validate/round2-blind/verdicts_b.csv": "data/validate/round2/adjudicator_counts.csv",
+    "data/matrix/matrix.parquet": "data/matrix/b20_membership_counts.csv",
+    "data/matrix/tokenized_securities.csv": "data/matrix/b20_membership_counts.csv",
+    "research/findings/base-0xef-tokens/data/coinbase_api_tokens.json": "data/matrix/b20_membership_counts.csv",
+    "data/raw/F1/http/coinbase_tokenized_stocks_page0.json": "data/matrix/b20_membership_counts.csv",
+    "research/findings/base-0xef-tokens/data/survey.csv": "data/matrix/b20_membership_counts.csv",
+    "data/verify/blind300/sample.csv": "data/verify/blind300/sample_counts.csv",
+    "data/tier2/v2/offset_transitions.parquet": "data/tier2/v2/transition_weights.csv"
+  },
+  "deployment_scope": "release-copy-only",
+  "deployable_site": "site/dist",
+  "readiness": {
+    "data/tier2/v2/V21_READY": "34dd1370e640bea55e0d6e1a895dc45f06c1a002f8889f8df6fc069d360efa9f",
+    "article/NUMBERS_READY": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "site-v5/LAUNCH_READY": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

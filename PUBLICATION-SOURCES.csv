@@ -1,0 +1,395 @@
+path,licence,attribution,bytes,sha256
+CHANGELOG.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2154,617bd061b6c5ed3aa3c12223035389c34f120572ecceed5a312045c7a05e2738
+CITATION.cff,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,468,c2c67b79dfe1e9ec61f0b7169181d11b9bba6456f24e3c3d5a5be141e7ca364f
+LICENSE-CODE.txt,MIT,Weird ERC-20 Live contributors,1087,5b1ffbc5201517180c2fc5ade81e2d9e7ec1fa9edcdd57345707594520df66d9
+README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,8255,418d2081bd8ce2edc180d4dcbfe2d6706432b3d8c4ef048e87dc3a440968064a
+RELEASE-REPORT.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,3042,5672d36d84c1b0bb22a4c519c44118131aa1e8662df3cd2f5db7bca1fd81ea8a
+article/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1599,0591b38292a998648351cd4e0808f83b8c52898ad6da2138507ee380931f4e70
+article/build_numbers.py,MIT,Weird ERC-20 Live contributors,62151,6c155d9dd568fd173c1dc39bc5cdb2d917117ea513d90d5736477950c2d4a62c
+article/check_numbers.py,MIT,Weird ERC-20 Live contributors,19964,e8534b692fd537e7d5d739ab87a4dcf847ecdae40300d83ac40e33f8e4bf4a22
+article/figures/annual_headline.png,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,146088,12479291dfeddae56954ecb87520f6233fca834cb026fadd2ed849f36a449c61
+article/figures/monthly_series.png,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,129284,ece75298966e17bb83595559ac66ef6032761eb83ea51274d6333ea07f97ab70
+article/figures/sensitivity.png,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,152364,32a3aea0890bf057205ba144046d8217dde2781b62ba2fbda6b6922be076d5a7
+article/figures/sources.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,776,c22590686a85587e04824756ba05dd5a6f4b03fdf57a3e01c3b227075c28ed29
+article/numbers.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,4148325,4ada8ed7a69b538c6e0c73491b157bf13c54d68ee2b69cc07ec7074a344b46db
+article/numeric.csl,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1341,3754ba733369ed62cb3cc772f3bbc0f99ccb44728f9003245b01f0bdfde34f00
+article/paper.css,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1435,6e58ba99aa827956dee0ff6e870ce396f52f688acfcd221fae52b6a00c286a79
+article/paper.html,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,714771,3cc9609b78073b275c661d96eaff2d160e57f9f65c12fe80f2e54614b31413b8
+article/paper.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,91747,218f26992847902a55e101fc515a7d920d23e9fab1e6739339c403ac08c5df87
+article/paper.template.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,56540,7eba9235b1e374dfefdf55386b9d7f79c3dc0c75d144a382b005eb118eb252fd
+article/refs.bib,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,11251,bcf05694919659d7a377f5abf974fb1c3680cf9b7c2353a09f6d8a5c4e5bee5d
+contracts/Probe.sol,MIT,Weird ERC-20 Live contributors,6794,7d5f288572c51c1cea08ddeccda8293e8b900f2d2b32fb08b0efb272d2323f78
+contracts/foundry.toml,MIT,Weird ERC-20 Live contributors,220,ff5733a30425c1faa3f91ce27e7e245594e1d49fc10b24c73fb25e4d588af75b
+data/census/evidence/estimator_sim.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,131807,c96cf8ff9f70521e5f26b847c505a54a2bbd9494e4573075fcb6bce05964d724
+data/census/frame_stats.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,15,fd4474685290740ab027198ee37921bd60abe7984762c56e31010b3732f409a2
+data/census/monthly_counts.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,52421,28d74732bba2f071e554b9aa14fca9ea4246d32e40c901bf9e6fa7dde0d669e7
+data/census/paradigm_monthly.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,4697,7610d6209ef9b020419dea30b817b72a40f4f4acb7cf4282ea023ce68b55104f
+data/census/pool_linked_new_tokens_monthly.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,2488,1efb176cb5b5b6b6506b6d4350dfbbd82b3701b7e850c8b81c196cca7b9748c4
+data/census/proxy_candidates_monthly.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,2471,3785894bddb3c6786f759fa2e7a877cbf80f5e15209c0b374076b8b3c5b99a95
+data/census/validation_sampling_months.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,2844,c6760b7b1daae763e393538daaea7cf4570fb1c041817a8dad7607c4fda21b17
+data/census/zellic_monthly.csv,Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows,Paradigm Data Portal; Zellic aggregate context; project RPC census,1325,14411ca51552871c264134faa36765ffbcb1e7385a01582db7058c4062dd18f7
+data/control/summary.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1147,f807754150efd085d72439849ab96e70d516392e1902a700a4a4e1684d9d76b9
+data/matrix/b20_membership_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,154,3a4fa1b827ecd9185ff3e08ca59ba1a7ab39b35a8d58c920eae7ff57ed00d92e
+data/matrix/c19_verification.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,384,24faf46822ec307b3c33cc5532dd9a5942669af92b09f371be4c5d019b532a23
+data/matrix/cross_chain_tests.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,942710,e6d550ce30bbb63e1da39e139a2f23bf89e9356b82e1550290e79c5bccb92b41
+data/matrix/prevalence_by_chain_rank.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1063954,f79f95b924700a366dfb22b9dbf34baad71117f18c671358eb978853b3255eb9
+data/matrix/prevalence_ex_securities.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1145110,aae19a8cb83615d7bb81d6be0fad643c2a6c44e6769d705f8cf84a2ec3cd073d
+data/matrix/prevalence_extras.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,232490,1b7280b199fb4fb6a970bfd0c80d063c03db13a7eb9c23f7dc732be1b997b885
+data/matrix/security_issuer_composition.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,14354,e4547943f6a5d6792190fa606182320dbd81b658ec230623fd6af04367b878ba
+data/matrix/subsets.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,34807,8e14b0ecb3cf14407ce8ce4f7ac82dc4959514d4dd92f295f8edd8aa70720299
+data/matrix/summary.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1243536,389ba15054ac1f9fbd3307655bcd435e0081af64146a9fe586e864c4d9ae36ca
+data/matrix/value_distributions.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,10991,300314380b129b75108f0c16e144d7840d54f73532bc17ba99c8a32fac112704
+data/probe-golden/report.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,37492,532531358a46c553109356f7151a3331017a30ce40cde5c98e79495d00cb2fdd
+data/release-projections.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,10675,47060304ed2adbdbe6c71846b880f1df680b90d3db4f849f7ef122e87276d7bc
+data/sim-golden/expected.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,14491,c814f269ab7e07a1f9ea6de0baea4a7c6dd1eaedf62c876272c4198be23a99af
+data/sim-golden/observed.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,10781,78ecedcafe089511e69937b3aa15c10f526e4161fd8c7dd8da00ed0590a10d12
+data/site/README.txt,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1393,4424fe7b0c97bf691e9bfa40a1e8058924c7b4baec93a94550b0b3d61faca496
+data/site/index.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,6684198,01354093dacde6581f832120927dba7c9481cba3dfd21c81f8e114da9d236638
+data/site/matrix-arbitrum.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,2274663,479a6b3db72919efb3cf9cb1a659bd46e4ba329f0c3277d51f98840b1b85da2f
+data/site/matrix-base.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1967986,925820354d49d2d0d248389e5b330aba77d408a5d4f48a44d414215d68c4f69c
+data/site/matrix-bsc.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1995292,d4ece97c6f994c0e49696f76541e45c100143bc8e7bab6f53bc6cc154feaf87e
+data/site/matrix-ethereum.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,7370096,3a80d594f7994c4316258cb026e25e687d78d8231e71d5023436fcef0656ecdf
+data/site/matrix-optimism.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,907884,ec978e2c378c65c2379085f5fcf6781f138beee98a78b31e66e0055e4929dd84
+data/site/matrix-polygon.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1953030,1b66576a577c4209055495212934fab4c1873caa59fb331d9d6a53929b81c8bd
+data/site-counts.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,3567224,3d27877a0dcd959aab63113b4fbea7d9d3e9768f41f9d552ec72a9a19f1eb546
+data/tier2/coverage_check.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,483,901f9fdcf026ac26b8e2c6322c2ace763d0a7cbe68f2c7ddf972d7cb06b71d42
+data/tier2/precision_vs_blind.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,7730,a3722a8640d18f1860353375d39dc24c2aab089926eb1b06b8419d64b146d7f2
+data/tier2/v2/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,4945,5315c1a80289963c63c3d4ebaca47b5ea05e64055f9649a33decd1638ee4fccb
+data/tier2/v2/annual_shares.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,154786,bed7e6c51350e9870599b16aa8c5bd6cbaaea748e68cf4d607b98a6fdaf08f29
+data/tier2/v2/below_origin_stats.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1351,41a1c8ebe16ad394923184613a521ee778a97b4867dbd348ef7e932bccf0a6b7
+data/tier2/v2/blind_coverage_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,19301,92ee73fba72fa109640a3fbf53de446af146cbac58a1f866af3838dd742b540b
+data/tier2/v2/blind_metrics.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,6824,6fdcc48948dd89ae09e642440e53ca3d0060fdfb4717b3784d4d17b632ea8c86
+data/tier2/v2/blind_pair_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,84,d511f9ff8954b4de5ab573c1f801f23991fd2cdea124cefb19b3655fbcacd031
+data/tier2/v2/bootstrap_check.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,402,ecdf73330e5ec2dfcecf23e56a422ea63a34874036542d061f5d62c8e47949be
+data/tier2/v2/bootstrap_check_replicates.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,91187,dabb2049c8ab4dbb5f3c1158baceafb7a652e48f05b31d2052f6b857894779fb
+data/tier2/v2/bounds.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,99024,c53939a28bbf5553793a32212f7f619f5b3ffef394cbec95cbcbe8ed9c39da19
+data/tier2/v2/cohort_weights.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,272192,acc68fba7e774a301d7383fb389d144328e34c17ae8bb6836f0d5df8640e5dbc
+data/tier2/v2/dust_sensitivity.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,137178,8c22aa4b8a42cf9583b3faf7b6c09b75cde31129bc18f8991e23873b8eea6432
+data/tier2/v2/headline_old_vs_new.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,7395,188c7101cc18446ad23ad46ea8d0f4c9d0a4883d8214f8a053c0f00e97b6e591
+data/tier2/v2/launch_liquidity_by_year_venue.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,357889,e6fbcfc132106894a99a5d13dc25b53ef735cf72e68ab8aa9d6482a674dbb13c
+data/tier2/v2/method_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,16476,353de485dd962feb63e2c2a8e61204e147e5ab48078591d0fa8c5c720e04664a
+data/tier2/v2/misclass_adjusted.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,12292,387d1892fcd1cec575973a9a6771c0fdf23d01b8fcf675984d95756672fa062b
+data/tier2/v2/monthly_shares.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1727536,fe58e1a2dd6d7dd6f4ec48fb7eb5c4fd1561c1e306a57ed0c07123ecf0d83984
+data/tier2/v2/offset_transition_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1681,bee18666e6cf365dd3c33f276b426490ad6ab655cc76bc0d75e96daad004cc87
+data/tier2/v2/origin_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,60,f53669abc649b5255ad95ad69170746ba5b9c2e45f5d5cca3a118549feeda8dc
+data/tier2/v2/pooled_assumption_ranges.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,12607,f73150803fcd2826dee6314dc49c51d6c25e9923371f94b17142a1623b4d812b
+data/tier2/v2/pooled_blind_metrics.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1086,bbcc9a62cbbd439f04507548ea308b26b2da74232acb133e4ca7665eeb0e3414
+data/tier2/v2/quarterly_shares.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,603098,b40d82b1515ab37fa339b08425e1e7d53dc23952ff6718a4ac712469c404cae7
+data/tier2/v2/residual_liquidity_harm.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,32925,58aa576c5b15de659ae012dc6355e0d3705ba3a5861cfc6617d31c8ba006c299
+data/tier2/v2/sensitivity.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,482182,680d56f9ba63fcbae826fa3cf4b567de8d6cd5e93b38719d9a84267c2e017271
+data/tier2/v2/standardized.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,5067,a23f2bf6a0099ff839b4fd79978d506198c2dcf8513b5b328b0270b6a9fa8df1
+data/tier2/v2/transition_weights.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,44681,7301041635ae52414cf25af263508df9844e94aab8a791e33abd5d6b2ea3d8dd
+data/tier2/v2/unresolved_dilution_by_year_venue.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,113541,6f7dafb578c021404bba69df06e86b59efbba4516302c7f64c157d5ef988fe1e
+data/tier2/v2/venue_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,18784,8ac072ea881f01829fd75ebf559b7c1168571fb09db4869a9312c3c6d470500b
+data/tier2/v2/verification.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,490,e1262c4361317d79fa2b31872865484e417b0cd150a7deab11c716745d003eb8
+data/universe/arbitrum.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,259121,7d532da61c2bbc5fbd7e34073e65f2f5a71b0aef2a5f7c79721796554e284898
+data/universe/base.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,219202,4fb2ae2f5b1a7c7eab4a62332159530b70a689127897fa28c62c832024563f4c
+data/universe/bsc.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,223073,8ca39a04ff7d0007929ddc9382687f1e4ee74f4ca87e59e179d3f02f3b438379
+data/universe/ethereum.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,823576,a915990bd8db9a106107032104f1717bcf5b64e166314655ef0bdb5ee3cfc087
+data/universe/optimism.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,105388,0f107ad887665e142b8dbcc6ee27545847fcd2b4490426aeb6e9d28a014c35d6
+data/universe/polygon.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,211730,d06c2174324b8a510ef241c966bef690c5c583d21d45d35e32df794f97e288d2
+data/universe/same_asset_groups.csv,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1288067,9fec2ba28084351acfa45e96fae643fff79bcd2ecdd514a9c0e5970aa37042d5
+data/universe/stats.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1999,42dc968dedae9b542abc85aabec3a83f7735b90befae072f671bd1fd05951e6e
+data/validate/round2/adjudicator_counts.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,439,b3b4411748b0a67e866ec91fe62bf509c8ffcff8b905aabff2a90a68d5c2434f
+data/validate/round2/b20_router_counts.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,86,5a4baf2381c0c9725ea46e01645cdc15e9958db2612812a45995d38aed2ee158
+data/validate/round2/prepare_meta.json,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,162,8aca93f22210fbe65f6c659b2ec7a9f2eeea938b4236aee21ef03e75aaa0a68a
+data/validate/round2/summary.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,1623,0ce29aaff1cf7254bd22a6a8f11b67a33a013e79cfc2c1521631577ba1a5a394
+data/validate/round3/README.md,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,1864,a5beec4b2fb62a3d74306ebecdad2a7430dd20e9bb62e38ae2ef190af04b3405
+data/validate/round3/counts.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,1775722,f9a62f8949146b0fcd3f9b1673ba5db7ac2c7413121fa5981f81e85870dfaf4f
+data/validate/round3/exclusions.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,136517,86b4ff60375cb4351e8d74b936646617f13153370dfb04fd3229ad320432d069
+data/validate/round3/headline.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,16207,618cf46aa29d722d5cad433dcb8429925f1ed8f2b60be6412375183126c42ac1
+data/validate/round3/matched_comparisons.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,10634,c19365c066ee9a3ef59b1043be3000cc80e250778b9e4bc3f245b6b463b9887f
+data/validate/round3/summary.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,2908316,57b01760e6c91319e1a9acd9bcb9bbc1a22966c25395b0ac18b838a361188b5d
+data/validate/round3/timing_counts.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,50,202d97c01c541d6225bc05533ae71760ba695ee9b9eab67fcee1c39953c89197
+data/validate/round3/weights.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,119,f042ba7e2ab9f28dad815cf1910405b8391bb89f5e406fb5afb74a9f54fb16b5
+data/validation/historical_baseline.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,168,91bbfc730a16a9e919026d4859e4d16a29f9b3b2963f0e0e3c4fee3ce564e783
+data/validation/summary.csv,Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies,honeypot.is; GoPlus; Weird ERC-20 Live contributors,1623,0ce29aaff1cf7254bd22a6a8f11b67a33a013e79cfc2c1521631577ba1a5a394
+data/verify/blind300/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2019,6a51af5acf6d48b1f93a84199aa41769725c03f9549fadb1cb8d202878de31c9
+data/verify/blind300/audit.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,862,3c25c12d3b9613c55004944224f3f8da55c6641aa44ad7a0aa415964fcea20c2
+data/verify/blind300/comparison_groups.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2280,6a06e5ee1abd8848873a7abb9d2bdd665ef99699e7092e0ea742b9aa797c9466
+data/verify/blind300/report_manifest.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1095,b2e22f9c732a3b834065c571498cadb06deec26e1b0529bcf0952e0433755db7
+data/verify/blind300/sample_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,8,397332099e195a222bbc563494e5dbceca121d07c94155160d852adcf2ca4795
+data/verify/blind300/summary.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,54053,bf7da0e25ef6c70cf1406c789dba32c978e585ad4377e5d39df1e74c70e10f2b
+data/verify/blind_confusion.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,352,e6da21a8a7874f4b98380cf9fe199d3439d715a88aecd42f449e16405380b542
+data/verify/blind_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,218,cf775bb81fc0cf5e03a918685364f08b827ce1f56c63e5e11f39988648738651
+data/verify/blind_metadata.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,126,871bb5256cfd71636b05555c80b5385530f5c1ca73ea433d4f8ec6ba78b2f6e0
+data/verify/claims/checks/core_ethereum.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2152463,dc79ddcac87f02caab0866e44c415308df46426863cd1005f7b2623e93ca1706
+data/verify/claims/verdicts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1421498,87816a2c50acb1204e53f22efe37da80be44d72cadb412f96dab6b0c8c076a4e
+data/verify/delayed/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1870,49b58b0d3da71725c4e9cebff5a950fdc787c64e0921b86c02a42c2c8950b8b9
+data/verify/delayed/case_counts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,362,2a6ff5de4ea51fbbf744a4d1c892d48da5cee50ed05d0f5e5e1d8b139001dabe
+data/verify/delayed/coverage.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,14977,f88786a365da81ba971397f2c82674b42e49f96dc9129f02505cd6e984b7db8a
+data/verify/delayed/matched_weights.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,58697,4dbedfdbb9c7442582dd5ad2ff061790f9c678f2b1e98c0edb2bc7d0f2bbaa09
+data/verify/delayed/transitions_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,223296,1875d0b825bcc8683f9afde9ea41f32f98f7e2d1ee3828565fe20998619d8961
+data/verify/delayed/venue_standardized.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,8207,d51267f97fb8a906503f05dd544a2888659e070a232ab626ccbb9ca0b5b54af8
+data/verify/delayed/verification.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,424,6a0bd2a2aee9a4c7597fcfa1c75a57a2d2c950f84dc9a4869423ad064a5d0b04
+data/verify/delayed/within_day_harm.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,245085,82491ef085bd2acb55b03dbae85f8e3669af389932591b771b479e9e3c46aa49
+data/verify/delayed/year_contrasts.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2125,fb88c73f7f7ee5bf34b35795a7540e21931d7d85e555f8b57f7031dcd5da6ff0
+data/verify/dust/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,790,e9b1181dd6f78ea68a213a0cf5e8806703bbd882d9d8a0012ab52c8426e84f95
+data/verify/dust/activation_window.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,124,2e3f1f27fa682a9f354d8e32c8181cc3422ceb123affd2bea9bf9274eec42ea2
+data/verify/dust/fee_activation.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2080,ad315455c52569259ca3ee045497f55039c9586a6c5b386e87379abcd8453991
+data/verify/dust/fee_mint_formula.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2442,71bc5b4239a4e922d179c059b0691da7d4ddc1781c0feabe492b5f1a418e897b
+data/verify/dust/floor_sensitivity_by_venue_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,43010,5638d2a31a222bb194e939a6cfacf66aa43acab21a1b270fed69bdf1dcc88800
+data/verify/dust/monthly_v2.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2547,19f6e4cc564480164bac3c88efbb9e062fd7fc75ecac4d697a20220b67ed2228
+data/verify/dust/review_monthly_denominators.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,4939,3531121786495868ccb23887baca6c6ccb4390843ba8987b2ed5eb173bc87428
+data/verify/dust/v2_only_floor_series.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,10380,84fa25220d05b77666925da9d2f0eca01ba6c4728236a840955d4cd484d4abdf
+data/verify/dust/validation.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,849,24d0340bf2fc24332e49c27f11a7bc3a4f878e4f28b46401166f6c9c3a23f236
+data/verify/dust/venue_by_year.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,13283,eb0de44b9d8f58e94bac269dcd0a664e5bfde97423101b4999f4501643a34518
+data/verify/rug/summary.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,192,3df4af8fe0548e3d18fa61f775e5a9dca4087a7144c50b728cc7a9016d594408
+data/verify/stats/summary.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,541,454d7cea167100c1a96ea687d3bd91f51b77b5b56e350bbe8a39645effa256a9
+data/verify/stats/validation.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,303,b1d219cb4ffc266005fdb386436bdc5fe94507438f85cebd7760739e458f4937
+data/verify/stats-v2/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,915,c741caa47e4837145b280c17f19bbd2813e03986136ade560b037bdae8f521f7
+data/verify/stats-v2/ci_check.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,122548,f8716ff8f35eb9e268f5f76580adc63ba61ebd289991624465949214881288aa
+data/verify/stats-v2/ci_differences.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,22716,f25f683177b4a45687cf65cf5c9b5d9290023664060880756edde87790e48c4c
+data/verify/stats-v2/coverage_summary.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1986,b33bf91bcf2210ceaa825257dfa34ee7f2e3a2e54c619fa4155f731b4e3a1560
+data/verify/stats-v2/mismatches.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,126,91de6b764422c6f1a25ab7314091cdf3efe2ac2da75001462478618b7d6e964d
+data/verify/stats-v2/recompute.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,10958012,b46fcc664a44b16deb960da54dc74b05e241bdf2d7ea19c3141ef09367bad6bb
+data/verify/stats-v2/summary.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,5188,a24e0336417721f60529b6f33e343e2c49923e253ed427eb782c958ad212be74
+data/verify/stats-v2/supplemental_checks.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,39528,1c7d3398cf9f69c502aecc8912da4232a8b7cfa38bc68d5832dadaa43b2d8872
+data/verify/stats-v2/v2_only.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,13527,978fab75e7f6f4ccd2a40bcdc96d5b36e62bad9deff1c46e4cc967ccb4508de3
+data/verify/v3/README.md,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,524,cddf7b0f11c91566e9f7d7d9e9bcaeab896dab0d0fd18cf434a7b21045969b83
+data/verify/v3/recall.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,9379,c154c715c042a3cca70f159f0a0c74662256638ec31f509c9610b597599ce4ca
+data/verify/v3/v3_default_floor_headline_sensitivity.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1615,a9758d8600e55cd831ddec996230be8e3fea730ec41eaa1ce4975b80ac5ef633
+data/verify/v3/v3_dust_summary.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,2133,05b662f9c79f8ab7ddb3fbc75540735816624574a579173478ff6e7ab1c33ef3
+data/verify/v4/summary.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,136,5784e3355f0ac609574b5c47a0074d768236fc7c57e78d3b72f45bb9d05c90fb
+requirements.txt,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,736,2f76a88f1da13bf48be898fce621b0a1304a88eee197dccd4bb054e567b9213b
+research/memecoin-timeline.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,18538,747880cbeaa50135c3765163a0e7e4afe8ab200721035f5fd7378730f811e8c6
+scripts/census/assemble_pool_frame.py,MIT,Weird ERC-20 Live contributors,3359,b1362fde84bd4751efa2e45f8beaa283dfac119472be1788efb3d5b2b7c94577
+scripts/census/blockmap.py,MIT,Weird ERC-20 Live contributors,2138,bee5fb7d1e8e9d88b41fa4fcd69dda3589f5ec88425274eb3f506fbbefad7349
+scripts/census/build_sampled_tokens.py,MIT,Weird ERC-20 Live contributors,5073,bdde6f9f27c9e80afa22bd710d1894805fb09a85f0450eec14f4d286c2c39dac
+scripts/census/classify.py,MIT,Weird ERC-20 Live contributors,4222,ca4168b3d51accf5315e279d9e9ce6ddaf1f092d57c251742b5cb37598fd61fd
+scripts/census/dex_build.py,MIT,Weird ERC-20 Live contributors,3945,931cfafe405c144d534bcb90f949cd72b1b8aa5463cf405fcd22ba951bf69a4b
+scripts/census/dex_crosscheck.py,MIT,Weird ERC-20 Live contributors,1418,8eea8a79813f061a622743ba51f17893daf50e76cee25b78fbb6ab22c6a94032
+scripts/census/dex_scan.py,MIT,Weird ERC-20 Live contributors,5232,c630a7bd3ff321921d7a1f496e44108a9bba9dee6f2a367977ad8f0806021e3a
+scripts/census/diag_residual.py,MIT,Weird ERC-20 Live contributors,1849,e5bc7643a73555828e9ac4b9ea1d92fd8ac63b0ba8f8e9299f173cdf822d1126
+scripts/census/estimators.py,MIT,Weird ERC-20 Live contributors,1568,0970db0450f4516fe17c95874a30663bec3323c7ee8a9be4546c3d0d12f53ff6
+scripts/census/frame.py,MIT,Weird ERC-20 Live contributors,12072,fd871a037b3f3e74860ed83fb674b8823cdbd7547d23a99834562c3bc48a2ddb
+scripts/census/leads.py,MIT,Weird ERC-20 Live contributors,2900,b7a1fb231fed8a5a885f9fa4b234e0bab94600503f74446d76445bd08b59b46f
+scripts/census/monthly_counts.py,MIT,Weird ERC-20 Live contributors,4469,bb787c393535eb57df84a7d90f425db8a50b53c63f8b1064673c2751752c201d
+scripts/census/paradigm_ingest.py,MIT,Weird ERC-20 Live contributors,6056,1648d14726305f4f32a63138b3420b6417a9fb1168f2c61fb4630cb378eeb126
+scripts/census/paradigm_monthly.py,MIT,Weird ERC-20 Live contributors,4914,9b43ee9661771f31709fe1fe7fbd8f79e83f506499567e6059c8336d7cfb79be
+scripts/census/plot_monthly.py,MIT,Weird ERC-20 Live contributors,1300,1c9a7e68cc6dcfad2426ed08ba9fc14d5a7c6a7f8082935c069ce8b7376d8349
+scripts/census/pool_frame.py,MIT,Weird ERC-20 Live contributors,7971,0db940268c00a498617c539a976b7c5cfe3d70dc29b4bc86af38e07e21d594ca
+scripts/census/proxy_candidates.py,MIT,Weird ERC-20 Live contributors,2351,52b375ef927ee3d46c995d9f59d14a5f941bf040ba11ec6bc2a49a23c03533b9
+scripts/census/rpc.py,MIT,Weird ERC-20 Live contributors,4666,0be53b73b2773de5b29d33095ec9799c5813c263e47941bb8445744638219fdc
+scripts/census/run_all.sh,MIT,Weird ERC-20 Live contributors,1622,b4d7135dfcd3372d32fee16db587afd64415b0f165f4d05c168caee1de1b5e95
+scripts/census/run_sampling.sh,MIT,Weird ERC-20 Live contributors,831,a0a5722c8403449f46cc6055743ef9c6f36681e76516c3f4193b7a6e6ca09d0d
+scripts/census/sample.py,MIT,Weird ERC-20 Live contributors,7257,4dd0ede236fd90f095aeaf89c009565f600a6bfa136410d4451bc3e36cf2034b
+scripts/census/summary_numbers.py,MIT,Weird ERC-20 Live contributors,1742,f9c6ae58c9f484403e7cbeb84915e18292528c78a38c7c86a43a1e2dfa1eeb2c
+scripts/census/validate_dynamic.py,MIT,Weird ERC-20 Live contributors,6471,62f19c2fd2563f6d9a2af9622624836b067ad8b2ae5c25f9faa9e90266ae5e89
+scripts/census/validate_estimator.py,MIT,Weird ERC-20 Live contributors,3173,14b3dc6ae7758ee6e05c1326832400c8b7fe852b10c560b60a4ec2cb19d3b836
+scripts/census/validate_opcode_inference.py,MIT,Weird ERC-20 Live contributors,1232,905f5c4cf3daf9d71801b783337e88236c00673099c8199ba56c5d4577eacfc5
+scripts/census/validate_recall.py,MIT,Weird ERC-20 Live contributors,2918,041c426366594077ebe1c4622989a7f7472208e8d4bb6feff02f56f2081a8c01
+scripts/census/validate_sampling.py,MIT,Weird ERC-20 Live contributors,3876,e30a645a340172b90018cf4ac5071289f365a9becf59ff10588be2d65f672ba1
+scripts/census/validate_zellic_vs_paradigm.py,MIT,Weird ERC-20 Live contributors,2134,b3edeea1c3348afa2e5195eca6a66b2f7d5d1298868e0f17a493d5e8fd022523
+scripts/census/zellic_ingest.py,MIT,Weird ERC-20 Live contributors,4966,d17f8ea562a42029e10bd461b940231e9185e4ab819bf467e09deb383f6e8e1e
+scripts/census/zellic_monthly.py,MIT,Weird ERC-20 Live contributors,3086,8fbe96141af2a480532cb974dec76c8e731ca94798e52aafb6b3c56cd2792141
+scripts/control/README.md,MIT,Weird ERC-20 Live contributors,17570,149dcd546ac9f39d307360525807f18feab2ec664db124b21f1a1491ca5f4e17
+scripts/control/ctl_abi.py,MIT,Weird ERC-20 Live contributors,15627,5360dec4a7a81ea07d4afd732ba5d505be88d9336d3d09a4fe2333ca872fa0a0
+scripts/control/ctl_classify.py,MIT,Weird ERC-20 Live contributors,86885,fdb8eb56214b0bac038c58edb36f4f5341044910838bf3f1b3d99b6836a0231e
+scripts/control/ctl_rpc.py,MIT,Weird ERC-20 Live contributors,21657,f86361a04f13526e1581e8b1d8a3d4a9b2bf71c159517bb2b2ee0a608fcfc6cf
+scripts/control/golden.py,MIT,Weird ERC-20 Live contributors,19511,1d55fac3f7f7ca3b5defb49f4e6941bf4c098896ce4da33a349622d63d945087
+scripts/control/legacy_forward.py,MIT,Weird ERC-20 Live contributors,2077,89ff5643fce43e34b37b1b2edcb01799b4d7308cef2d41b607a5d0fd2c02ce65
+scripts/control/make_expected.py,MIT,Weird ERC-20 Live contributors,3348,5ff4d764ec0e933a1d7b070792fd8afae8b7beee31ac9120cf87939b311a4e73
+scripts/control/revise_legacy_forward.py,MIT,Weird ERC-20 Live contributors,6896,af39c7606ae5c36f67b8ee1c9d95307ec6fad0cd1cbf89d0a939ebef48ee0728
+scripts/control/run.py,MIT,Weird ERC-20 Live contributors,6834,d7713710664cc8d0b4fb5ab70742e171c1b11d2f76e738d393a79ae7bb922bdb
+scripts/control/summarize.py,MIT,Weird ERC-20 Live contributors,10440,744d581da3e32a9bb1be417706e038524cd6409626f3f14f64d83f4523cfea4e
+scripts/control/tests/forge/foundry.toml,MIT,Weird ERC-20 Live contributors,105,61ad29f3d5d1a698efd7fe42f3e37d0c81380ffcfcbd4fa4a909fa4384053a00
+scripts/control/tests/forge/src/Synthetic.sol,MIT,Weird ERC-20 Live contributors,7653,7e7501a35d54d65a363481776154c117557ab9b242dcee8224ee445cbf9456f1
+scripts/control/tests/run_synthetic.py,MIT,Weird ERC-20 Live contributors,10132,954d2a813d00b98de4f0cde66cf06541211d8f3146fe75d06de10346dad5e4fc
+scripts/control/verify_eoa_claims.py,MIT,Weird ERC-20 Live contributors,11039,b81abbe328099451090fa39978982d8c974159d03b3cc78eed5fa95e749cddf2
+scripts/lib/rawfetch.py,MIT,Weird ERC-20 Live contributors,9056,1370e2db3486f8da33f39a6ec9bb114627807438319823c77c81b4467ab3e2eb
+scripts/matrix/build.py,MIT,Weird ERC-20 Live contributors,14394,942006a66d65bf778bf905eca74f551ade959ecb78556afc5afa90eda73122f1
+scripts/matrix/crosschain.py,MIT,Weird ERC-20 Live contributors,4418,d2b65dfb85fbfd026ac2a00c47d0d44a017d99c79067f2679660f3e66f1e2546
+scripts/matrix/features.py,MIT,Weird ERC-20 Live contributors,47609,d5d8fabe03178c460d94137a861f809e60741a0988ae3961b55041d71a937cb5
+scripts/matrix/findings.py,MIT,Weird ERC-20 Live contributors,9616,37bbd5d00854314b2e7929f7b3fc405e4f4b71681b0e46e454a27817de019fbc
+scripts/matrix/group_assets.py,MIT,Weird ERC-20 Live contributors,3044,2bcd279bb22f5ba9aca002b02970454f9b2cfcfd6e9ef731cd41e2fa0f6c6768
+scripts/matrix/prevalence.py,MIT,Weird ERC-20 Live contributors,9327,46f0a0b1b452452a1a55ea37c4c695a689b24a60bbf3bf69b3119f689a383b51
+scripts/matrix/rawdec.py,MIT,Weird ERC-20 Live contributors,7859,0573f75bb1ec76d24edffc56f41b1643de670f88fae77225d202a28683bb2a8c
+scripts/matrix/spotcheck.py,MIT,Weird ERC-20 Live contributors,29661,d33e8dfda497c17d2eae080e8a380bc050a398b36adfc230706d6544a648c70f
+scripts/matrix/subsets.py,MIT,Weird ERC-20 Live contributors,8822,789d5e8623346614301692baaf5312fe471ba6d73f1b9dba39d2c0ba555eba0f
+scripts/matrix/test_revision.py,MIT,Weird ERC-20 Live contributors,5319,626e74ee416cef350d457fed51aa40d75e1ce525d95fc6ee5f81c77e830f9893
+scripts/matrix/verify_eoa_fresh.py,MIT,Weird ERC-20 Live contributors,6113,0bd6227046128bba645edff1b3d28033b7532084e00c91674eb700a728d78179
+scripts/matrix/verify_revision.py,MIT,Weird ERC-20 Live contributors,8693,80585f20434e6cfe17794c91baeb6d81e9db7ef059fe1da461196a10c96bfdc8
+scripts/probe/README.md,MIT,Weird ERC-20 Live contributors,14398,8f6684a02a008530b77ee7ba25dea775ad67a41358619d28e87d156ff95698e6
+scripts/probe/battery.py,MIT,Weird ERC-20 Live contributors,11476,f0241ea1dab7dc5b1d3c18e828c84556d53b34bec1811f803b425e50307dee29
+scripts/probe/bytecode.json,MIT,Weird ERC-20 Live contributors,12523,285faa2428ddca576774b74328a53674dbbbbf2650ddfc9c782c5b05a6eaa202
+scripts/probe/chains.py,MIT,Weird ERC-20 Live contributors,1866,e5a4b26d6de9ca1a9e0402db4c74b4272db76da076ed003df6360d3c295b9947
+scripts/probe/classify.py,MIT,Weird ERC-20 Live contributors,61811,07c57ee93b3d5291bb8a9cad7aaad27788edf041f93aa7aec8e181a127ca6021
+scripts/probe/common.py,MIT,Weird ERC-20 Live contributors,7658,f1f3db9464f040bd14460df2a3fc988f92092176736713f3c9e3239cfb01b29d
+scripts/probe/fund.py,MIT,Weird ERC-20 Live contributors,13400,46f17cc58b70941302912a8ecd7692a02791a867388f08c777135888dc7f6e75
+scripts/probe/golden.py,MIT,Weird ERC-20 Live contributors,5706,f9b9de775f17980d63678df130338a1d83a6a6314603dcaec4080cd09046d139
+scripts/probe/holder.py,MIT,Weird ERC-20 Live contributors,6243,8a547ec97df1438ae1e439a2fbba31ce425fcb49f7da345693eb6891f429b31e
+scripts/probe/probe.py,MIT,Weird ERC-20 Live contributors,11516,b91c48350a2ce115151610508796a2a1900e00012b09944fd792a3763db2e11f
+scripts/probe/rpc.py,MIT,Weird ERC-20 Live contributors,15080,abeaf0ad3dc20612fe72a470220c0e28d152011915aaa5738d68be2d98bacf96
+scripts/probe/run.py,MIT,Weird ERC-20 Live contributors,16607,abf7fbfcdcf3083ff2a85d1044f5d6e5ed5bc33b1c82bfa3e46e050e31376fd1
+scripts/probe/verify.py,MIT,Weird ERC-20 Live contributors,3089,8462b18d3deb73a14899c607cecf2e91c9eaa7483fe6edab5e007a89b8229b91
+scripts/sim/README.md,MIT,Weird ERC-20 Live contributors,10384,45d6427100338ccd421f4fb0627d6b96bed111e87e9345ce17c94f5ccf3bb093
+scripts/sim/abi.py,MIT,Weird ERC-20 Live contributors,4061,7650349a54beffe814e6f8577dc9ec17298a667c205aba960dbf5d077e6646de
+scripts/sim/anvil_check.py,MIT,Weird ERC-20 Live contributors,7709,e4f62e8f7c6de1a14cf74ed6dd4de3f14e1c01290d97f463496ccaceb6099fb1
+scripts/sim/backend_compare.py,MIT,Weird ERC-20 Live contributors,1346,df9ef2ca7bf75fa2a0a31cf7b36134cef7eccd3dd5aadc5c05d4afb32bc0f640
+scripts/sim/classify.py,MIT,Weird ERC-20 Live contributors,13297,d9b44b563cacaab633d4ffc9a0ed6954b1817d5003900aad0fdd999e7c46afb4
+scripts/sim/control.py,MIT,Weird ERC-20 Live contributors,9043,95de224732de987a59c41eec7df906105ce07b2384efe813f2d32d424f6dbea3
+scripts/sim/engine.py,MIT,Weird ERC-20 Live contributors,17052,aa3eef7783c82716d4a319c1d090cdd6eca6ab9e8f3fe826215e650768eae42e
+scripts/sim/golden_build.py,MIT,Weird ERC-20 Live contributors,3444,24e35882196c4f9a22accc3d94c8cecc7d82f12e37bde6f415286e6269edeb20
+scripts/sim/golden_eval.py,MIT,Weird ERC-20 Live contributors,5132,6e963fabbb4fe93a93b6970c4a947dd195283a19afa098689b76888336355b69
+scripts/sim/pipeline.py,MIT,Weird ERC-20 Live contributors,22097,6e3cee984c55c289b9149b056d97bbb42bd9466360e387e7af4ca777aa0fe91d
+scripts/sim/recent_pairs.py,MIT,Weird ERC-20 Live contributors,3685,ffc213406e492cd4364b0a3162d99ee189332bacc6884aa4956ad24640950915
+scripts/sim/reclassify.py,MIT,Weird ERC-20 Live contributors,1865,232960dd91fd0c132fd11d075ea862b6672753c10fde40b62080b22e8026a268
+scripts/sim/rpc.py,MIT,Weird ERC-20 Live contributors,6701,ea852f4bd24712a016542be39e7bce0fe4aa55b21714e87b674a4a44c07f0f42
+scripts/sim/rug.py,MIT,Weird ERC-20 Live contributors,16022,5fc091e38d2e5f53f77b523b5d6e09949d66da99cdc077969008a07a4349b975
+scripts/sim/run.py,MIT,Weird ERC-20 Live contributors,14255,f748839cfac5a8c20e5478a77969e23e71dd1b454e663977f0879fb7b6c005be
+scripts/sim/truth_eval.py,MIT,Weird ERC-20 Live contributors,2071,439d92253d18141ce16833dd6509f3fac778c570d4ee509e1d375bb01c19a099
+scripts/sim/v4.py,MIT,Weird ERC-20 Live contributors,16369,68dfadab409413d811902f191cb2ca871861755986d73946a951b001af53c034
+scripts/site_export/build.sh,MIT,Weird ERC-20 Live contributors,152,ab9900abf58bbdf65f891661fcb7f3fe54e9f55c4557d777d6b1f987e5482531
+scripts/site_export/check_rendered.cjs,MIT,Weird ERC-20 Live contributors,3879,35a1097a091b227410683f7c23d1cb0e605817a5fe0b0c750726695e9b26c9d5
+scripts/site_export/count_contract.py,MIT,Weird ERC-20 Live contributors,3392,aa209646901b4ae1b9a1e288c2960ff5628f088ddcc647377a8bef593d8cb005
+scripts/site_export/derived/uniswap_v2_only.csv,MIT,Weird ERC-20 Live contributors,698,470640853a0af4ce7d84d213316a59e8c15981080e1c62dd8ee38241ca26809e
+scripts/site_export/derived/uniswap_v2_only.source.json,MIT,Weird ERC-20 Live contributors,392,a2d570e3c007a87390370a8c6fcb1a9cb634d368c224a19c4b63339eafedad47
+scripts/site_export/export.py,MIT,Weird ERC-20 Live contributors,3815,2ace49e48e677491c671a0966a654c3055e9888dcfb1eccca7de36766f6a2c24
+scripts/site_export/full_export.py,MIT,Weird ERC-20 Live contributors,637,df102f9cd50112f7fc9daa37a3dc5a26850b1cf11cda52061a756d35d753b596
+scripts/site_export/manual_qa.js,MIT,Weird ERC-20 Live contributors,1451,afc274f340215a68b9c61eda8948e983455c158750197441be9c346a43952ae2
+scripts/site_export/presentation.py,MIT,Weird ERC-20 Live contributors,5439,4e7f5426b1e1eacc466fe398516c5710f86c19c4208acfd7e27fb369f382f312
+scripts/site_export/r1_qa.js,MIT,Weird ERC-20 Live contributors,14709,1ddf50fce1649e2eadfd5bbb4a26f62c2df628b444db1e0ee08811c1d970400f
+scripts/site_export/r2_qa.js,MIT,Weird ERC-20 Live contributors,8256,bc7ab38db72e80982146dca452c56e52121eda6de67187dee99da57cd9bf3de6
+scripts/site_export/r3_qa.js,MIT,Weird ERC-20 Live contributors,7716,93fe03aaac75e59df477ea721fe0a35287b9f3ad125627fb608e1a032a711a1e
+scripts/site_export/rendered_text_qa.js,MIT,Weird ERC-20 Live contributors,5216,76969abfc7cb66fbcde3dd9757fc4249db64bca8b777d25af9af7f942de8a4de
+scripts/site_export/revision_export.py,MIT,Weird ERC-20 Live contributors,6760,89ea4c6939abe5160aff41708fa09834996b40ec9511acfa0d595b3c138ab120
+scripts/site_export/test_data_contract.py,MIT,Weird ERC-20 Live contributors,11483,c72f3e3b7db94c296ee34ac88d34374a32bd00d15833edd1b9cfbde3965b6185
+scripts/site_export/test_evidence.py,MIT,Weird ERC-20 Live contributors,1111,c4e366ba042f62fad54e37d6741b012655f551d57d2279284eee85a0b31ba5d5
+scripts/site_export/test_final.py,MIT,Weird ERC-20 Live contributors,6099,90363007b277f0f8bd89e03d5539baabcc4a07d06c9391a2c09f18e5d17b3c75
+scripts/site_export/test_revision.py,MIT,Weird ERC-20 Live contributors,10343,68fe67c246648753b80a795923267806e6632d8fedeff02914c31824a4c3136a
+scripts/site_export/test_validation.py,MIT,Weird ERC-20 Live contributors,2410,04b59378692566bf4e4a218f724f982bd78a78d0b41fad5df9c8ab9913fe1601
+scripts/site_export/tier2_export.py,MIT,Weird ERC-20 Live contributors,6894,2f518689926d27f9f699a72868942f758b3c2a8807fad6884c8fab5a2fdd295f
+scripts/site_export/tier2_qa.js,MIT,Weird ERC-20 Live contributors,6092,d0dce63d023dc2070e21b405535dd1da9355bf654e13af8a5c2b6e7d38cfe082
+scripts/site_export/visual_qa.js,MIT,Weird ERC-20 Live contributors,13695,8fdf7cdd9f2b7d053773bf7f249b5af0c02a3031d0d8489d24e739bf5ddd9d88
+scripts/tier2/README.md,MIT,Weird ERC-20 Live contributors,2236,c089fb8a4a8bb0a842e18e9d7a693b692274343fab2c811f7e057eb4531f67b2
+scripts/tier2/aggregate.py,MIT,Weird ERC-20 Live contributors,27904,0d519c524d3c475aad5dd92318f0376a879ee9265c0ba846762283c531e8f07c
+scripts/tier2/blind_watch_v21.py,MIT,Weird ERC-20 Live contributors,1210,854966580a7c814ab452c4d481a56757a0d85cc94f2b49541aca88150159abae
+scripts/tier2/bootstrap_check.py,MIT,Weird ERC-20 Live contributors,3678,82f6dfb9e7c1819d56ad97830700b7b564f4989c18359fd89b126ae4c00c85cd
+scripts/tier2/build_outputs.py,MIT,Weird ERC-20 Live contributors,20372,f85a2ebb717e35b2ad46d895df9f94f238b47c75269ead28e816930d7c7dad0b
+scripts/tier2/c17_rpc.py,MIT,Weird ERC-20 Live contributors,5296,435c0c58f5778e0e4a6814e6ecc0d61e67bd6deaa7a49725d4924ed1bb108583
+scripts/tier2/coverage_check.py,MIT,Weird ERC-20 Live contributors,4963,63d408f1467ad5a935382153a665f2f0ee16a8e81de9d899bbbf0f894ee28bb2
+scripts/tier2/descriptive_v21.py,MIT,Weird ERC-20 Live contributors,8374,233f7893dac6e33ed3714fab92f902a68a94c6c1efc84352a12d94b33915b754
+scripts/tier2/early_liquidity.py,MIT,Weird ERC-20 Live contributors,18140,bd866cc226ec24dfcf3e043f0e0176ead5211af101c6f0b5c0405103c02821ac
+scripts/tier2/enrich_peak.py,MIT,Weird ERC-20 Live contributors,4911,a830aa08bcd755d9f0bde4e9a51bd816ea5c4cc4a3d0f6ab4a8c837f5670f51b
+scripts/tier2/fetch_creation_blocks.py,MIT,Weird ERC-20 Live contributors,3298,2571ac5e4c6712a38c9e2db30c371c0ee1d82a6b54e64d14bddb20cdd167073a
+scripts/tier2/finalize_revision.sh,MIT,Weird ERC-20 Live contributors,1175,d1a9b2e2afb037aca008d5c00eceffc370aebec7f0aa3cbf1c3ec4b7e08dc793
+scripts/tier2/finalize_v2.sh,MIT,Weird ERC-20 Live contributors,1010,610c88994fcf086a7318baf7b177b1e82d756130733634b56a08ab756ab29c94
+scripts/tier2/initialize_index_v21.py,MIT,Weird ERC-20 Live contributors,2375,dbb034b5fe74ee8e576bd7a4fc950b88ecdc064e9c05e539b9e343d2fda61d17
+scripts/tier2/legacy_v2.py,MIT,Weird ERC-20 Live contributors,8938,6ae1ba2307988fad09f5772a9841cf14bb5d73fe3ef22e0f19fe95dffa49e8f5
+scripts/tier2/liquidity_v21.py,MIT,Weird ERC-20 Live contributors,25772,337b77473c4e6957657a32c1606ddf9e1352a78509624903a8ac523048752f85
+scripts/tier2/misclassification_v2.py,MIT,Weird ERC-20 Live contributors,16682,f45edab691c85de5627e9d6c6b5dae9344181c05a800b930c6e1bd528a9c94ca
+scripts/tier2/offset_compare.py,MIT,Weird ERC-20 Live contributors,1950,9c6d1c1677dd397b569d890e115133323968bb2e0326a74c895a83c0d2023805
+scripts/tier2/origin_audit.py,MIT,Weird ERC-20 Live contributors,9102,6d461300ea18f97c76579084817d253916dc0a31c2871892e89683e4d39b7e75
+scripts/tier2/peak_crosscheck.py,MIT,Weird ERC-20 Live contributors,1814,78e6388572c053f3e589d648827c43f75fdd263ebd272ada0ea55b591783d823
+scripts/tier2/quote_prices.py,MIT,Weird ERC-20 Live contributors,3525,fb8c58b76f83be875a4d80a2416e941d217e9790e5f1f53204da02d40f1729bb
+scripts/tier2/reaggregate_revision.py,MIT,Weird ERC-20 Live contributors,29952,37de8d35fcbdc8d8650b0cfbc42719f4901af5c985740b42613e0cc500fe829d
+scripts/tier2/recompute_peaks.py,MIT,Weird ERC-20 Live contributors,3213,9841aec5ea1d5c8aa01496e5f1ebccc1b0d7e964b9ebbc4c41644c247ec2da03
+scripts/tier2/reestimate_v2.py,MIT,Weird ERC-20 Live contributors,30452,85f786388fba0622366f54f36b6e1855b162890c44da8bf45e643a702fe70a5c
+scripts/tier2/report_v2.py,MIT,Weird ERC-20 Live contributors,5172,13f25f8d1f29fd6bd7ec41c8e58118adee41fdc563651d299e8d49d47caa19f0
+scripts/tier2/report_v21.py,MIT,Weird ERC-20 Live contributors,4598,af009efb78dc760f23cc953e103961498367fb799f917b4e758022ef459b57f9
+scripts/tier2/rug_second_pass.py,MIT,Weird ERC-20 Live contributors,7814,3d94f9128e79abcf8b6a45b123361e35c3612ecde756eff3fda3540b9092c86d
+scripts/tier2/spotchecks_v2.py,MIT,Weird ERC-20 Live contributors,4745,3cde9407319fcbf2675030c8bc8972f07ed0391775d23233199a701bbfe59dc4
+scripts/tier2/test_v2.py,MIT,Weird ERC-20 Live contributors,7605,feb1cb405402be486f8935aeb81876c34328ee4f9b1d2be4da5108f82af83741
+scripts/tier2/test_v21.py,MIT,Weird ERC-20 Live contributors,4750,69ca1e8f766195582792d0ed004a867c3d7de281c238adad43c997ccc247f62b
+scripts/tier2/v1_reserves.py,MIT,Weird ERC-20 Live contributors,2786,5528e2254006c179ed1d6b3e374d995fe83a404e353c8a21a26cfe704a7467f9
+scripts/tier2/verify_outputs.py,MIT,Weird ERC-20 Live contributors,8037,27cf9e3db44bc8fbb088d6bf3d8e71261610847fb7b9da96c331ae8787cb6077
+scripts/tier2/verify_v2.py,MIT,Weird ERC-20 Live contributors,18465,0f8924e7c16eda4d83fc3c0a25cb7921dd69bf65bb8835dc4d0f05cae38ce440
+scripts/universe/build_candidates.py,MIT,Weird ERC-20 Live contributors,13752,999fcf0ef05586857dcee6d4a7cdb777d4240f28b0989ed4dd466842cec3f1da
+scripts/universe/common.py,MIT,Weird ERC-20 Live contributors,3832,c1fd19b0d9b7c74397747db1db83d0d767e1460df5fed9d4fa56efb2449ab95b
+scripts/universe/fetch_blockscout.py,MIT,Weird ERC-20 Live contributors,1400,3e3b47ac1e31a6ef61c7ff2cb021d0d966272fb6cfb85c29305ee6897c7391ea
+scripts/universe/fetch_cg_categories.py,MIT,Weird ERC-20 Live contributors,975,890984cd37f7fee09f03cbcbcc802e3262cb6088db25c308308ebd82f3914fd8
+scripts/universe/fetch_cg_missing.py,MIT,Weird ERC-20 Live contributors,1524,69bbfe807c5ea34217442559d02ac692dd11a5ca3bccded7fae91593fe17e951
+scripts/universe/fetch_coingecko.py,MIT,Weird ERC-20 Live contributors,1561,985700bc851cad45bc2db02adba07f83fd725c4d086db1007fe839a2c49e0722
+scripts/universe/fetch_geckoterminal.py,MIT,Weird ERC-20 Live contributors,886,bdf1233d35a01236ccc1c59958b3a390dd4e03a4f2c1d23566855625ae2f4e71
+scripts/universe/fetch_tokenlists.py,MIT,Weird ERC-20 Live contributors,675,4858f341a871ab4050afb91a5283c6e57c8863d539f5d4f1af13b70f50e2490b
+scripts/universe/finalize.py,MIT,Weird ERC-20 Live contributors,6134,abdced118f9472e6ee233b825885989abf304fbfe2121413cf4d26f8adf42430
+scripts/universe/make_readme.py,MIT,Weird ERC-20 Live contributors,11131,cdaaf964cea986b3de30711a21ff3bccc1d70030040b4c9912c9696dd72f7274
+scripts/universe/verify_onchain.py,MIT,Weird ERC-20 Live contributors,13036,ec0a4593e5f5659647f35560432ff04e644ffb539af5e35248f48da7384271fe
+scripts/validate/build_new_eth.py,MIT,Weird ERC-20 Live contributors,12544,caffc12830c89ea314d5eff29d07a542b37058873434e819c7b7c2261a1b9180
+scripts/validate/build_top.py,MIT,Weird ERC-20 Live contributors,3540,e962d915014842864ecba2701f0ca455ac9ddf9a970980a4d1725e8d45331627
+scripts/validate/common.py,MIT,Weird ERC-20 Live contributors,3763,b472fce93b40d181ef47f54ab543b584dbb29749e57a3c66885288a7da553a25
+scripts/validate/compare.py,MIT,Weird ERC-20 Live contributors,34451,86260e10f7f2b37701ecfd9f28ab2811f95bd2dc2c2fe96936441f2177d10c79
+scripts/validate/make_sim_pairs.py,MIT,Weird ERC-20 Live contributors,1407,709dddd13e373ec0bcaa0140283595998e423e31280ebd2c5a32aeeaddd6ccd0
+scripts/validate/merge_subset.py,MIT,Weird ERC-20 Live contributors,783,05ee8a50ec4832dd9110a306782eee1f925980b455a2ffad25b3c97ba26356e3
+scripts/validate/normalize.py,MIT,Weird ERC-20 Live contributors,7018,74a020d8664823603e3592683e3998efb2934e399d0a4aa5d89c74e94c8d39a0
+scripts/validate/providers.py,MIT,Weird ERC-20 Live contributors,4252,5396409a068cc269ddef5e9f694cc527aa674d3137d77319037b3fc8b7e36e07
+scripts/validate/query_providers.py,MIT,Weird ERC-20 Live contributors,4015,375f7480f46488c0df602188490191bbb5d751f84101d94a48f006cefbcea24d
+scripts/validate/round2_b20_case.py,MIT,Weird ERC-20 Live contributors,16555,7ddd8162c0bc5d24f476d6e9ad5f7805cc5f8e9ce8ce67aeb143a6c1b24f56da
+scripts/validate/round2_build_new.py,MIT,Weird ERC-20 Live contributors,883,13f62881867804df27fe6a13fc6abe418be8bed42bc6a8c811f9e6afe8bbf512
+scripts/validate/round2_compare.py,MIT,Weird ERC-20 Live contributors,18592,8a6e3d182e35910bd17a4d98ed228ea8a9e8d571b3b5741db6436bafc87530f4
+scripts/validate/round2_prepare.py,MIT,Weird ERC-20 Live contributors,2968,89f05536f9b58cb726cba92d0fc749b48f9c03fd440b95a60b38a3d41e24b791
+scripts/validate/round2_timing.py,MIT,Weird ERC-20 Live contributors,1668,58ef75b91a56631560eb9b474544de22b0def701dc29eb121941dede38330a3f
+scripts/validate/round3_collect.py,MIT,Weird ERC-20 Live contributors,11636,57da5bcdafc530fb6c4647036d599b8bf3a2caf8d5329b87f5b096c6233ba2df
+scripts/validate/round3_liquidity.py,MIT,Weird ERC-20 Live contributors,6808,bae91c52acd1c64b4fdb1beb7d620498311446542a9b2bab896ba913f4031678
+scripts/validate/round3_monitor.py,MIT,Weird ERC-20 Live contributors,1614,b9031ea7ea4f638dca8e2d1954e84493eaffb0c1d135cba7942a38f6f438488f
+scripts/validate/round3_rules.py,MIT,Weird ERC-20 Live contributors,1778,00b9d1858e79bd00de6ca3d89cfc19f0c5b3aa253d969e8a81eadb686d03d65b
+scripts/validate/round3_stats.py,MIT,Weird ERC-20 Live contributors,22136,525e9a8cc29f58146204e993b6f90b07a25f860b0f81e185af27c136894ea7bd
+scripts/validate/round3_timing.py,MIT,Weird ERC-20 Live contributors,5181,3231ad64f94ef780f40560dc4de69be288c154f0371ccfebb53580af76934d03
+scripts/validate/round3_v4.py,MIT,Weird ERC-20 Live contributors,3790,62bfbd22adf3e511a7c19db6d4769b696d9b3b0c22ed9361c35b4c042f2a06f2
+scripts/validate/round3_verify.py,MIT,Weird ERC-20 Live contributors,10469,bdbfa63f03db7e56ac775fc06e55ad8f192c8b7c42cf0e616b3deaaef2fba33c
+scripts/verify/blind300_audit.py,MIT,Weird ERC-20 Live contributors,9729,88b0bdcfc9a9d446d4255c7c033a4e1c0e26d97f5d43cebbfc35d6c70588e60a
+scripts/verify/blind300_followup.py,MIT,Weird ERC-20 Live contributors,6549,6b8e94fed19d2d9ce2c78a72bcc80aa8a48444c0bd98a81d62b2de429b1a5058
+scripts/verify/blind300_prepare.py,MIT,Weird ERC-20 Live contributors,4400,7e90000603cd71d068bac418ddd9b483b8a779c01cd260e3374d483bfbacee79
+scripts/verify/blind300_replay.py,MIT,Weird ERC-20 Live contributors,21775,1f1e8750818f2f64c89cfeb53fe851790a297cf7c42ab192bdd3bb9c2daacd1e
+scripts/verify/blind300_report.py,MIT,Weird ERC-20 Live contributors,11814,6b593e25af3537a798233622facd9f91f90364a7ce7aeb097986175bc158158d
+scripts/verify/blind300_rpc.py,MIT,Weird ERC-20 Live contributors,2761,70943f02446fcc4a918f4066e74924c480f2567fdd3971a3977ceeca16c5da2b
+scripts/verify/delayed_activation.py,MIT,Weird ERC-20 Live contributors,2918,e96402c5abd213616b89d228dcc83fa139d78abf4d5b32d2a065a2b84fac1c80
+scripts/verify/delayed_analyze.py,MIT,Weird ERC-20 Live contributors,13424,18b6db1737703c5c2740c3ac791c15729e9eb9b16a7fa4e4116c135d31e5b746
+scripts/verify/delayed_cases.py,MIT,Weird ERC-20 Live contributors,5764,bbd4d2f27a9098458be8cc76d5f1db6222061ceca2f1cf560e2431ef9716f967
+scripts/verify/delayed_dependency_code.py,MIT,Weird ERC-20 Live contributors,1258,ae6003dda3763ac424dfbd58ade5d754fca0310fc2617517ed1482acc0ad6793
+scripts/verify/delayed_history.py,MIT,Weird ERC-20 Live contributors,3205,4ae50a5a50094571b97153bbc9a4a2acadfcc8a684a8fdd6bacd8372cae75a88
+scripts/verify/delayed_report.py,MIT,Weird ERC-20 Live contributors,13894,0dcffc78dbfbe3350bd6976a62c07532ea095fa83a94583739e60831cf3e7edf
+scripts/verify/delayed_rpc.py,MIT,Weird ERC-20 Live contributors,886,8531e37d814c732d2ece227578cb1aead8eeadb83defda9e652bb21e6de3fccf
+scripts/verify/delayed_simulate.py,MIT,Weird ERC-20 Live contributors,2685,aa692ce65dd275e47f07b9b0b270bab5149d89648602284b17cc9c4f2f8fb6d5
+scripts/verify/delayed_traces.py,MIT,Weird ERC-20 Live contributors,1167,f725615a8cb3af92b0dce89a3ace7193b707794685e101b2e14e4facc88b10b9
+scripts/verify/delayed_verify.py,MIT,Weird ERC-20 Live contributors,6900,4a2c7ecfc02f06aaf116ec524297f9b5f64a019938ac297703555e28a4b69a62
+scripts/verify/dust_collect.py,MIT,Weird ERC-20 Live contributors,7594,e0f1f6d3f5c568b929efbacc50d05a173c5389ecdf21c4c67464d87ce785aaef
+scripts/verify/dust_fee_math.py,MIT,Weird ERC-20 Live contributors,1652,874448058e0bda0ff13bd350c055af99b743254cbd806783c0f416aa265cf3e3
+scripts/verify/dust_fee_switch.py,MIT,Weird ERC-20 Live contributors,4897,8e7b50c0ec89b307b98f4fc6d845a19ff864920f7e28e7c783a3f49dbd940144
+scripts/verify/dust_invariants.py,MIT,Weird ERC-20 Live contributors,5221,0b621b014822774c734321b15be1ef3e093430672bd14f926e842e008bc9b3a8
+scripts/verify/dust_reproduce.py,MIT,Weird ERC-20 Live contributors,6824,b3f2dd91c9c699f66fa5c21bc8bf7bec27af530247332cb744a2cec2e5c51e13
+scripts/verify/dust_rpc.py,MIT,Weird ERC-20 Live contributors,3311,7f3d73b184438488cf2f8b4aecbf738d637494fea6db3380aee806ea32e1f8cd
+scripts/verify/dust_sensitivity.py,MIT,Weird ERC-20 Live contributors,4995,a201648f22cb024d01e142e45eb803cc829fe7b7c1f5a35567d186c6e71e8b4a
+scripts/verify/dust_validate.py,MIT,Weird ERC-20 Live contributors,5358,17f4fc185f4a2ea61b183a67bbbc2084e899d0661c7fe2301b0d54afd37b0cac
+scripts/verify/v3_approval_check.py,MIT,Weird ERC-20 Live contributors,1574,84f12fd2c076910d8ab0e9fc758a7dde094dc4de59ccd46d3b626c7d3052f9a7
+scripts/verify/v3_balance_spots.py,MIT,Weird ERC-20 Live contributors,1219,b2e4bdd88e899d2f187bd2dcc3d5e6c4e42f8039a50e9b0489647364c1e2effe
+scripts/verify/v3_blind.py,MIT,Weird ERC-20 Live contributors,11126,f5b1ba0eb793e1e849454559932d2fd3cd1b75e601b953861dc59b47da8c1c6b
+scripts/verify/v3_dust_report.py,MIT,Weird ERC-20 Live contributors,2562,e1013a2750789961fd43fd9390332dd414e81dbe4fb9acceb588d64cb42d7667
+scripts/verify/v3_report.py,MIT,Weird ERC-20 Live contributors,2832,ab496391fd9494177daba131714388baa1131f2cb563cbb84ea147859e9ba3bc
+site/dist/app.js,MIT,Weird ERC-20 Live contributors,20676,1596bc367f4f407f3187fc119084285b91fe5215b9e165aa353edd2034846f69
+site/dist/build-manifest.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1723,fcdc3e6debfc83a2653115ead778da7daba6c6a91315955a8a4d778cc39d1bf2
+site/dist/data/README.txt,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1406,5fb85b9f70ffcc975b91008eb55141731f766ebb4689ef76ade4bbaab3254ca7
+site/dist/data/matrix-arbitrum.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,2274663,479a6b3db72919efb3cf9cb1a659bd46e4ba329f0c3277d51f98840b1b85da2f
+site/dist/data/matrix-base.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1967986,925820354d49d2d0d248389e5b330aba77d408a5d4f48a44d414215d68c4f69c
+site/dist/data/matrix-bsc.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1995292,d4ece97c6f994c0e49696f76541e45c100143bc8e7bab6f53bc6cc154feaf87e
+site/dist/data/matrix-ethereum.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,7370096,3a80d594f7994c4316258cb026e25e687d78d8231e71d5023436fcef0656ecdf
+site/dist/data/matrix-optimism.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,907884,ec978e2c378c65c2379085f5fcf6781f138beee98a78b31e66e0055e4929dd84
+site/dist/data/matrix-polygon.json,Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms,Powered by CoinGecko; project on-chain measurements,1953030,1b66576a577c4209055495212934fab4c1873caa59fb331d9d6a53929b81c8bd
+site/dist/data/numbers.json,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,32347,11968a216b0d238e9752255eab2039e5be38648b12e6cc42efd0b77846235c44
+site/dist/favicon.svg,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,309,f1b3f908a04355682bd02ea8b8968f5c9bf9049e5628d89b4d2e121896786142
+site/dist/fonts/LICENSE-martian-mono.txt,SIL-OFL-1.1,The Martian Mono Project Authors,4389,bd7d799f6a67b704f9546422ee83d69b4dc5e4ae289d5eabc22581251dd7150a
+site/dist/fonts/LICENSE-newsreader.txt,SIL-OFL-1.1,The Newsreader Project Authors,4520,26028ec4e13b650065fa525a09532176f8a668b76ff849ea01c564a7480f91e7
+site/dist/fonts/martian-mono-latin-standard-normal.woff2,SIL-OFL-1.1,The Martian Mono Project Authors,38492,f9c1655c2c9d1ed5bb8b301a57d1169a1123ffef1a588dc50a7a487810f7d732
+site/dist/fonts/newsreader-latin-standard-italic.woff2,SIL-OFL-1.1,The Newsreader Project Authors,146872,5dfcd10d24af8c82927ba57f7983dd997f7b200594c09c35a1b1ed9fc4597506
+site/dist/fonts/newsreader-latin-standard-normal.woff2,SIL-OFL-1.1,The Newsreader Project Authors,132000,6e4f2958c3a7c4a80acde4e5a679abe7e01bc1e30b92be3c7a8b696ef401d101
+site/dist/index.html,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,243674,b31ede07704ce21dff8d10ccbfd57cd27e1c6e3af97ae7a572909f7cef69ab40
+site/dist/og.png,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,449402,008bc7bfca2c673f866e46682d5ab6242fb5b29903b92c53c61348e7baecbe93
+site/dist/styles.css,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,52466,cc9156a41b4ff30489bbccd354ff0a35c413c26fbbe8ccdb28f2f1ec5476ae1b
+site-v5/src/app.js,MIT,Weird ERC-20 Live contributors,20676,1596bc367f4f407f3187fc119084285b91fe5215b9e165aa353edd2034846f69
+site-v5/src/examples.csv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,112,37b768955ab7fe2d2d49be1f29f99f780280f957153ae96628f902fb226992be
+site-v5/src/favicon.svg,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,309,f1b3f908a04355682bd02ea8b8968f5c9bf9049e5628d89b4d2e121896786142
+site-v5/src/fonts/LICENSE-martian-mono.txt,SIL-OFL-1.1,The Martian Mono Project Authors,4389,bd7d799f6a67b704f9546422ee83d69b4dc5e4ae289d5eabc22581251dd7150a
+site-v5/src/fonts/LICENSE-newsreader.txt,SIL-OFL-1.1,The Newsreader Project Authors,4520,26028ec4e13b650065fa525a09532176f8a668b76ff849ea01c564a7480f91e7
+site-v5/src/fonts/martian-mono-latin-standard-normal.woff2,SIL-OFL-1.1,The Martian Mono Project Authors,38492,f9c1655c2c9d1ed5bb8b301a57d1169a1123ffef1a588dc50a7a487810f7d732
+site-v5/src/fonts/newsreader-latin-standard-italic.woff2,SIL-OFL-1.1,The Newsreader Project Authors,146872,5dfcd10d24af8c82927ba57f7983dd997f7b200594c09c35a1b1ed9fc4597506
+site-v5/src/fonts/newsreader-latin-standard-normal.woff2,SIL-OFL-1.1,The Newsreader Project Authors,132000,6e4f2958c3a7c4a80acde4e5a679abe7e01bc1e30b92be3c7a8b696ef401d101
+site-v5/src/index.html,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,46889,6658b4aa059e8d644877cf361059933ee30fe47ddc6b5e7a37d4165820ce9035
+site-v5/src/og.html,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,4487,bab9c9a482c5037164bdabb1891dd2f465c768ca259dcfe6f663a29134c092c6
+site-v5/src/og.png,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,449402,008bc7bfca2c673f866e46682d5ab6242fb5b29903b92c53c61348e7baecbe93
+site-v5/src/phrases.tsv,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,1735,ff073f9577afb00611fbe02af0764275f535a6c949e3b927bbff48aae11533d8
+site-v5/src/styles.css,CC-BY-4.0 (project content); cited third-party facts retain attribution,Weird ERC-20 Live contributors; citations in file,52466,cc9156a41b4ff30489bbccd354ff0a35c413c26fbbe8ccdb28f2f1ec5476ae1b
+site-v5/tools/build.py,MIT,Weird ERC-20 Live contributors,48603,99fdf23e2445ea894165bfde43cc2ec0d69cb67bd663d655a0e2dffd3aa8929d
+site-v5/tools/check_numbers.py,MIT,Weird ERC-20 Live contributors,17699,a7d054ae227b90cd93d9ff8397410731cdedf8599f6fddf39a939c65b7b46562
+PUBLICATION-SOURCES.csv,CC-BY-4.0,Weird ERC-20 Live contributors,,
+LICENSE-DATA.txt,CC-BY-4.0,Weird ERC-20 Live contributors,,

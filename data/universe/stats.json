@@ -1,0 +1,100 @@
+{
+  "ethereum": {
+    "rows": 2103,
+    "by_source": {
+      "uniswap_default_list": 83,
+      "geckoterminal_dex_volume": 20,
+      "coingecko_ranked": 2000
+    },
+    "by_verify": {
+      "ok": 2103
+    },
+    "candidates": 2103,
+    "onchain_excluded": 0
+  },
+  "base": {
+    "rows": 582,
+    "by_source": {
+      "uniswap_default_list": 46,
+      "geckoterminal_dex_volume": 36,
+      "coingecko_ranked": 500
+    },
+    "by_verify": {
+      "ok": 582
+    },
+    "candidates": 582,
+    "onchain_excluded": 0
+  },
+  "arbitrum": {
+    "rows": 652,
+    "by_source": {
+      "uniswap_default_list": 142,
+      "geckoterminal_dex_volume": 10,
+      "coingecko_ranked": 500
+    },
+    "by_verify": {
+      "ok": 652
+    },
+    "candidates": 652,
+    "onchain_excluded": 0
+  },
+  "bsc": {
+    "rows": 593,
+    "by_source": {
+      "uniswap_default_list": 47,
+      "geckoterminal_dex_volume": 46,
+      "coingecko_ranked": 500
+    },
+    "by_verify": {
+      "ok": 593
+    },
+    "candidates": 593,
+    "onchain_excluded": 0
+  },
+  "polygon": {
+    "rows": 545,
+    "by_source": {
+      "geckoterminal_dex_volume": 23,
+      "uniswap_default_list": 22,
+      "coingecko_ranked": 500
+    },
+    "by_verify": {
+      "ok": 544,
+      "no_code": 1
+    },
+    "candidates": 545,
+    "onchain_excluded": 0
+  },
+  "optimism": {
+    "rows": 265,
+    "by_source": {
+      "uniswap_default_list": 26,
+      "blockscout_holders": 12,
+      "geckoterminal_dex_volume": 2,
+      "coingecko_ranked": 198
+    },
+    "by_verify": {
+      "ok": 265
+    },
+    "candidates": 265,
+    "onchain_excluded": 0
+  },
+  "same_asset_groups_multichain": 1365,
+  "exclusions_by_reason": [
+    {
+      "chain": "base",
+      "reason": "geckoterminal_spam_pattern_name",
+      "n": 1
+    },
+    {
+      "chain": "optimism",
+      "reason": "holders_list_spam_pattern",
+      "n": 1239
+    },
+    {
+      "chain": "optimism",
+      "reason": "holders_list_uncorroborated(no price, not on any token list)",
+      "n": 616
+    }
+  ]
+}

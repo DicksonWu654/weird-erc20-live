@@ -1,0 +1,402 @@
+Project-authored content is licensed under Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/. This grant does not relicense upstream service metadata or cited works.
+
+Code is MIT (LICENSE-CODE.txt). Every exported content file is listed below; PUBLICATION-SOURCES.csv also records its bytes and SHA-256. This licence document and the inventory are project-authored CC BY 4.0; their self-referential inventory size/hash fields are blank.
+
+CoinGecko API terms: https://www.coingecko.com/en/api_terms; retrieved 2026-10-22T14:32:20.941917+00:00; HTTP 200; body sha256 360ee6824a8253f2a7aec112b2e320673df14961c4eab503729d4d9b79da5d77. The terms require Powered by CoinGecko attribution and restrict sublicensing/redistributing API access. CoinGecko-derived numeric market caps, prices and volumes are excluded conservatively; cited historical news prose in timeline notes is permitted; identity and sampling rank bands are attributed, not relicensed. Scanner results are project aggregates only, attributed to honeypot.is and GoPlus; no per-token provider labels or raw responses. Paradigm source is CC0; Zellic statistics are project aggregates only. Unlicensed labelled lists and all their source-derived golden rows are excluded.
+
+| File | Licence / terms | Attribution |
+|---|---|---|
+| CHANGELOG.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| CITATION.cff | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| LICENSE-CODE.txt | MIT | Weird ERC-20 Live contributors |
+| README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| RELEASE-REPORT.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/build_numbers.py | MIT | Weird ERC-20 Live contributors |
+| article/check_numbers.py | MIT | Weird ERC-20 Live contributors |
+| article/figures/annual_headline.png | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/figures/monthly_series.png | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/figures/sensitivity.png | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/figures/sources.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/numbers.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/numeric.csl | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/paper.css | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/paper.html | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/paper.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/paper.template.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| article/refs.bib | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| contracts/Probe.sol | MIT | Weird ERC-20 Live contributors |
+| contracts/foundry.toml | MIT | Weird ERC-20 Live contributors |
+| data/census/evidence/estimator_sim.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/frame_stats.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/monthly_counts.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/paradigm_monthly.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/pool_linked_new_tokens_monthly.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/proxy_candidates_monthly.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/validation_sampling_months.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/census/zellic_monthly.csv | Project aggregate: CC-BY-4.0; Paradigm source: CC0; no Zellic per-token rows | Paradigm Data Portal; Zellic aggregate context; project RPC census |
+| data/control/summary.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/b20_membership_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/c19_verification.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/cross_chain_tests.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/prevalence_by_chain_rank.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/prevalence_ex_securities.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/prevalence_extras.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/security_issuer_composition.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/subsets.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/summary.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/matrix/value_distributions.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/probe-golden/report.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/release-projections.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/sim-golden/expected.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/sim-golden/observed.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/site/README.txt | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/site/index.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/site/matrix-arbitrum.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site/matrix-base.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site/matrix-bsc.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site/matrix-ethereum.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site/matrix-optimism.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site/matrix-polygon.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/site-counts.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/coverage_check.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/precision_vs_blind.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/annual_shares.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/below_origin_stats.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/blind_coverage_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/blind_metrics.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/blind_pair_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/bootstrap_check.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/bootstrap_check_replicates.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/bounds.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/cohort_weights.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/dust_sensitivity.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/headline_old_vs_new.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/launch_liquidity_by_year_venue.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/method_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/misclass_adjusted.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/monthly_shares.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/offset_transition_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/origin_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/pooled_assumption_ranges.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/pooled_blind_metrics.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/quarterly_shares.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/residual_liquidity_harm.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/sensitivity.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/standardized.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/transition_weights.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/unresolved_dilution_by_year_venue.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/venue_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/tier2/v2/verification.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/universe/arbitrum.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/base.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/bsc.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/ethereum.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/optimism.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/polygon.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/same_asset_groups.csv | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/universe/stats.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| data/validate/round2/adjudicator_counts.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round2/b20_router_counts.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round2/prepare_meta.json | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round2/summary.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/README.md | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/counts.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/exclusions.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/headline.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/matched_comparisons.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/summary.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/timing_counts.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validate/round3/weights.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validation/historical_baseline.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/validation/summary.csv | Project-authored comparison aggregates: CC-BY-4.0; no per-token provider labels or bodies | honeypot.is; GoPlus; Weird ERC-20 Live contributors |
+| data/verify/blind300/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind300/audit.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind300/comparison_groups.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind300/report_manifest.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind300/sample_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind300/summary.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind_confusion.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/blind_metadata.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/claims/checks/core_ethereum.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/claims/verdicts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/case_counts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/coverage.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/matched_weights.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/transitions_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/venue_standardized.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/verification.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/within_day_harm.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/delayed/year_contrasts.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/activation_window.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/fee_activation.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/fee_mint_formula.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/floor_sensitivity_by_venue_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/monthly_v2.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/review_monthly_denominators.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/v2_only_floor_series.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/validation.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/dust/venue_by_year.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/rug/summary.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats/summary.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats/validation.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/ci_check.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/ci_differences.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/coverage_summary.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/mismatches.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/recompute.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/summary.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/supplemental_checks.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/stats-v2/v2_only.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/v3/README.md | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/v3/recall.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/v3/v3_default_floor_headline_sensitivity.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/v3/v3_dust_summary.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| data/verify/v4/summary.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| requirements.txt | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| research/memecoin-timeline.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| scripts/census/assemble_pool_frame.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/blockmap.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/build_sampled_tokens.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/classify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/dex_build.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/dex_crosscheck.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/dex_scan.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/diag_residual.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/estimators.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/frame.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/leads.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/monthly_counts.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/paradigm_ingest.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/paradigm_monthly.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/plot_monthly.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/pool_frame.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/proxy_candidates.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/run_all.sh | MIT | Weird ERC-20 Live contributors |
+| scripts/census/run_sampling.sh | MIT | Weird ERC-20 Live contributors |
+| scripts/census/sample.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/summary_numbers.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_dynamic.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_estimator.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_opcode_inference.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_recall.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_sampling.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/validate_zellic_vs_paradigm.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/zellic_ingest.py | MIT | Weird ERC-20 Live contributors |
+| scripts/census/zellic_monthly.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/README.md | MIT | Weird ERC-20 Live contributors |
+| scripts/control/ctl_abi.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/ctl_classify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/ctl_rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/golden.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/legacy_forward.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/make_expected.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/revise_legacy_forward.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/run.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/summarize.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/tests/forge/foundry.toml | MIT | Weird ERC-20 Live contributors |
+| scripts/control/tests/forge/src/Synthetic.sol | MIT | Weird ERC-20 Live contributors |
+| scripts/control/tests/run_synthetic.py | MIT | Weird ERC-20 Live contributors |
+| scripts/control/verify_eoa_claims.py | MIT | Weird ERC-20 Live contributors |
+| scripts/lib/rawfetch.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/build.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/crosschain.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/features.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/findings.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/group_assets.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/prevalence.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/rawdec.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/spotcheck.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/subsets.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/test_revision.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/verify_eoa_fresh.py | MIT | Weird ERC-20 Live contributors |
+| scripts/matrix/verify_revision.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/README.md | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/battery.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/bytecode.json | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/chains.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/classify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/common.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/fund.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/golden.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/holder.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/probe.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/run.py | MIT | Weird ERC-20 Live contributors |
+| scripts/probe/verify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/README.md | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/abi.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/anvil_check.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/backend_compare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/classify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/control.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/engine.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/golden_build.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/golden_eval.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/pipeline.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/recent_pairs.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/reclassify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/rug.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/run.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/truth_eval.py | MIT | Weird ERC-20 Live contributors |
+| scripts/sim/v4.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/build.sh | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/check_rendered.cjs | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/count_contract.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/derived/uniswap_v2_only.csv | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/derived/uniswap_v2_only.source.json | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/export.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/full_export.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/manual_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/presentation.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/r1_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/r2_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/r3_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/rendered_text_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/revision_export.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/test_data_contract.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/test_evidence.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/test_final.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/test_revision.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/test_validation.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/tier2_export.py | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/tier2_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/site_export/visual_qa.js | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/README.md | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/aggregate.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/blind_watch_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/bootstrap_check.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/build_outputs.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/c17_rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/coverage_check.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/descriptive_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/early_liquidity.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/enrich_peak.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/fetch_creation_blocks.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/finalize_revision.sh | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/finalize_v2.sh | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/initialize_index_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/legacy_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/liquidity_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/misclassification_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/offset_compare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/origin_audit.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/peak_crosscheck.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/quote_prices.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/reaggregate_revision.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/recompute_peaks.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/reestimate_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/report_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/report_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/rug_second_pass.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/spotchecks_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/test_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/test_v21.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/v1_reserves.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/verify_outputs.py | MIT | Weird ERC-20 Live contributors |
+| scripts/tier2/verify_v2.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/build_candidates.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/common.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_blockscout.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_cg_categories.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_cg_missing.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_coingecko.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_geckoterminal.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/fetch_tokenlists.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/finalize.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/make_readme.py | MIT | Weird ERC-20 Live contributors |
+| scripts/universe/verify_onchain.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/build_new_eth.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/build_top.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/common.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/compare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/make_sim_pairs.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/merge_subset.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/normalize.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/providers.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/query_providers.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round2_b20_case.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round2_build_new.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round2_compare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round2_prepare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round2_timing.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_collect.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_liquidity.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_monitor.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_rules.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_stats.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_timing.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_v4.py | MIT | Weird ERC-20 Live contributors |
+| scripts/validate/round3_verify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_audit.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_followup.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_prepare.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_replay.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_report.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/blind300_rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_activation.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_analyze.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_cases.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_dependency_code.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_history.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_report.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_simulate.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_traces.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/delayed_verify.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_collect.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_fee_math.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_fee_switch.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_invariants.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_reproduce.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_rpc.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_sensitivity.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/dust_validate.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/v3_approval_check.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/v3_balance_spots.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/v3_blind.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/v3_dust_report.py | MIT | Weird ERC-20 Live contributors |
+| scripts/verify/v3_report.py | MIT | Weird ERC-20 Live contributors |
+| site/dist/app.js | MIT | Weird ERC-20 Live contributors |
+| site/dist/build-manifest.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/data/README.txt | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/data/matrix-arbitrum.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/matrix-base.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/matrix-bsc.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/matrix-ethereum.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/matrix-optimism.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/matrix-polygon.json | Project observations: CC-BY-4.0; upstream identity/ranking metadata: CoinGecko API terms | Powered by CoinGecko; project on-chain measurements |
+| site/dist/data/numbers.json | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/favicon.svg | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/fonts/LICENSE-martian-mono.txt | SIL-OFL-1.1 | The Martian Mono Project Authors |
+| site/dist/fonts/LICENSE-newsreader.txt | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site/dist/fonts/martian-mono-latin-standard-normal.woff2 | SIL-OFL-1.1 | The Martian Mono Project Authors |
+| site/dist/fonts/newsreader-latin-standard-italic.woff2 | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site/dist/fonts/newsreader-latin-standard-normal.woff2 | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site/dist/index.html | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/og.png | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site/dist/styles.css | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/app.js | MIT | Weird ERC-20 Live contributors |
+| site-v5/src/examples.csv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/favicon.svg | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/fonts/LICENSE-martian-mono.txt | SIL-OFL-1.1 | The Martian Mono Project Authors |
+| site-v5/src/fonts/LICENSE-newsreader.txt | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site-v5/src/fonts/martian-mono-latin-standard-normal.woff2 | SIL-OFL-1.1 | The Martian Mono Project Authors |
+| site-v5/src/fonts/newsreader-latin-standard-italic.woff2 | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site-v5/src/fonts/newsreader-latin-standard-normal.woff2 | SIL-OFL-1.1 | The Newsreader Project Authors |
+| site-v5/src/index.html | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/og.html | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/og.png | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/phrases.tsv | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/src/styles.css | CC-BY-4.0 (project content); cited third-party facts retain attribution | Weird ERC-20 Live contributors; citations in file |
+| site-v5/tools/build.py | MIT | Weird ERC-20 Live contributors |
+| site-v5/tools/check_numbers.py | MIT | Weird ERC-20 Live contributors |
+| PUBLICATION-SOURCES.csv | CC-BY-4.0 | Weird ERC-20 Live contributors |
+| LICENSE-DATA.txt | CC-BY-4.0 | Weird ERC-20 Live contributors |

@@ -1,0 +1,8 @@
+hand_reviewed,mechanism_group,diagnostic_exact_plus7200,n
+True,fee_recipient_contract_activation,honeypot,2
+True,fee_recipient_eip7702_activation,honeypot,9
+True,pool_switch_and_supply_change,honeypot,1
+True,preexisting_external_gate,honeypot,4
+True,swapback_cost_threshold,high_tax,1
+True,tax_setter,honeypot,5
+True,token_arithmetic_or_dynamic_limit,honeypot,2

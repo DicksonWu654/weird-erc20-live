@@ -1,0 +1,13 @@
+set,blind_verdict,n,original_label
+v4,no_liquidity,31,honeypot
+v4,sellable,4,honeypot
+v4,sellable,15,normal
+v23,high_tax,4,high_tax
+v23,no_liquidity,4,high_tax
+v23,sellable,2,high_tax
+v23,high_tax,1,honeypot
+v23,no_liquidity,21,honeypot
+v23,not_sellable,16,honeypot
+v23,sellable,2,honeypot
+v23,no_liquidity,5,normal
+v23,sellable,10,normal

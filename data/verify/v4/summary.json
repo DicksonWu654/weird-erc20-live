@@ -1,0 +1,8 @@
+{
+  "plain_transfer_counts": {
+    "not_available_no_buy": 31,
+    "success": 16,
+    "failure": 3
+  },
+  "route_agreement_count": 50
+}

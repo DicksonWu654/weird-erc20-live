@@ -1,0 +1,12 @@
+{
+  "unsealed_at_utc": "2026-10-22T19:56:08.097952+00:00",
+  "sample_sha256": "4482cd6fb6a6790c8526ace5173aac7fc47f06f890f2b7c6efc336ee52e6bc34",
+  "labels_sha256": "eda51cb7be7672b0f8bddd973d777df187a97dd3f0ddf53d652d8edf4294c1e2",
+  "verdict_freeze_sha256": "8f569d24467eef1bf3220253850b433e870717dea3ccc9eadb869069a4f4dae9",
+  "summary_sha256": "bf7da0e25ef6c70cf1406c789dba32c978e585ad4377e5d39df1e74c70e10f2b",
+  "analysis_weight": "original census weight * predicted-cell N/n (two-stage HT expansion)",
+  "confidence": "95% Wilson for raw precision/NPV; Kish Wilson for weighted precision/NPV; Bonferroni Wilson component envelope for sensitivity/specificity",
+  "limitations": "Known outcomes only; unknown assignment ranges are identification bounds, not CIs. Approximate weighted CIs condition on original sampled census frame; omit census estimation, dependence, and classification error. No FPC applied, including fully replayed cells.",
+  "label_unsealed_after_verdict_freeze": true,
+  "comparison_groups_sha256": "6a06e5ee1abd8848873a7abb9d2bdd665ef99699e7092e0ea742b9aa797c9466"
+}

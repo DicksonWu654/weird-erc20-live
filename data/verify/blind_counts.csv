@@ -1,0 +1,11 @@
+set,verdict,n
+v4,no_liquidity,31
+v4,sellable,19
+v23,high_tax,5
+v23,no_liquidity,30
+v23,not_sellable,16
+v23,sellable,14
+rug,died_by_selling,5
+rug,rugged_insider,21
+rug,stable_or_growing,8
+rug,undetermined,26

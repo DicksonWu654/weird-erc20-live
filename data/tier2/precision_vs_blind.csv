@@ -1,0 +1,41 @@
+set,label,metric,n,tp,estimate,ci_low,ci_high,mapping,n_blind_total,n_decidable,n_resolved_both,n_pred_unresolved
+v23,high_tax,precision,6,5.0,0.8333333333333334,0.4364971778208858,0.9699466302508214,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,high_tax,recall,6,5.0,0.8333333333333334,0.4364971778208858,0.9699466302508214,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,no_liquidity,precision,34,30.0,0.8823529411764706,0.7337915722999742,0.953285533350335,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,no_liquidity,recall,30,30.0,1.0,0.8864866068301441,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,honeypot,precision,16,14.0,0.875,0.6397717273480201,0.9650225122559384,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,honeypot,recall,16,14.0,0.875,0.6397717273480201,0.9650225122559384,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,sellable,precision,9,9.0,1.0,0.700854951589025,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,sellable,recall,13,9.0,0.6923076923076923,0.4236934318105546,0.8731929634405983,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v23,owner_controlled,precision,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v23,owner_controlled,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v23,normal,precision,9,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v23,normal,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v4,high_tax,precision,3,3.0,1.0,0.4385029682550179,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,high_tax,recall,3,3.0,1.0,0.4385029682550179,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,no_liquidity,precision,31,31.0,1.0,0.8897446045435735,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,no_liquidity,recall,31,31.0,1.0,0.8897446045435735,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,sellable,precision,16,16.0,1.0,0.8063923194719446,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,sellable,recall,16,16.0,1.0,0.8063923194719446,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+v4,owner_controlled,precision,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v4,owner_controlled,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v4,normal,precision,16,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+v4,normal,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+combined,high_tax,precision,9,8.0,0.8888888888888888,0.565000294430583,0.9801091123608808,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,high_tax,recall,9,8.0,0.8888888888888888,0.565000294430583,0.9801091123608808,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,no_liquidity,precision,65,61.0,0.9384615384615383,0.852178481347092,0.9758109450332144,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,no_liquidity,recall,61,61.0,1.0,0.9407561321041652,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,honeypot,precision,16,14.0,0.875,0.6397717273480201,0.9650225122559384,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,honeypot,recall,16,14.0,0.875,0.6397717273480201,0.9650225122559384,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,sellable,precision,25,25.0,1.0,0.8668077490656704,1.0,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,sellable,recall,29,25.0,0.8620689655172413,0.6944100628005277,0.9450256003578892,normal/owner_controlled->sellable; honeypot->not_sellable; dust/no_active_liquidity->no_liquidity; tax>=10%->high_tax,,,,
+combined,owner_controlled,precision,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+combined,owner_controlled,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+combined,normal,precision,25,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+combined,normal,recall,0,,,,,"not independently adjudicated: sellability does not verify owner control, LP attribution, or absence of both",,,,
+rug_C11,liquidity_pulled,precision,23,23.0,1.0,0.8568833815495731,1.0,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,53.0,39.0,14.0
+rug_C11,liquidity_pulled,recall,23,23.0,1.0,0.8568833815495731,1.0,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,53.0,39.0,14.0
+rug_C11,insider_rug,precision,19,19.0,1.0,0.8318207759473838,0.9999999999999999,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,34.0,25.0,9.0
+rug_C11,insider_rug,recall,19,19.0,1.0,0.8318207759473838,0.9999999999999999,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,34.0,25.0,9.0
+rug_C11,legacy_rugged,precision,24,19.0,0.7916666666666666,0.5952954674681133,0.9075517464714814,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,34.0,34.0,0.0
+rug_C11,legacy_rugged,recall,21,19.0,0.9047619047619048,0.7108586092608176,0.9734812325619255,C11 exact peak/single withdrawal or complete total bound for liquidity; creator-linked verdict for insider/legacy; both unresolved truths and predictions excluded,60.0,34.0,34.0,0.0

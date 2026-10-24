@@ -1,0 +1,9 @@
+# Matched within-day outcomes: public aggregates
+
+`within_day_harm.csv` compares launch harm with launch OR delayed harm in the same launch-measurable, known-late-liquidity denominator, including late depleted pools. Do not add a survivor-conditional delayed rate to the annual headline. `transitions_by_year.csv` separates delayed harm given surviving launch-normal pools, below-floor outcomes and unresolved states. Launch normal includes normal and owner-controlled categories. `coverage.csv` records matching coverage and support; `venue_standardized.csv` and `year_contrasts.csv` retain conditional sensitivities.
+
+`exact_plus7200` requires the same pool at first positive liquidity +7200 blocks. Near-day and arbitrary later legacy matches have different scopes. These are fresh-buyer simulations at two historical states, not one wallet holding overnight. Below-floor liquidity is not proof of a rug or maliciousness.
+
+`matched_weights.csv` groups year/venue/domain/category predicates with counts, weight sums and squared-weight sums. It permits independent weighted points, coverage and Kish support checks. `case_counts.csv` groups the purposive hand-reviewed mechanism cases without identifiers; its fractions are not population prevalence. `verification.json` records upstream verification totals. Restricted matched rows, case lists, decoded histories and raw traces are omitted; local evidence pointers elsewhere do not imply public evidence bundles.
+
+Saved intervals use full-frame stratified cluster bootstrap/FPC or boundary Kish-Wilson, conditional on observed matching. The public grouped moments cannot recreate the sampling-unit bootstrap. Classification, matching-selection, coverage and clustered-burst uncertainty remain outside those intervals. Followup ends at the supplied observation. See the root README and `data/release-projections.json`.

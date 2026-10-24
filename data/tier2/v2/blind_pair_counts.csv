@@ -1,0 +1,5 @@
+predicted_harm,truth_harm,n
+False,False,253
+False,True,1
+True,False,4
+True,True,132

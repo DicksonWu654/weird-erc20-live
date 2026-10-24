@@ -1,0 +1,27 @@
+{
+  "activation_block": 24106378,
+  "activation_timestamp": 1766867591,
+  "fee_to": "0xf38521f130fccf29db1961597bc5d2b60f995f85",
+  "previous_fee_to": "0x0000000000000000000000000000000000000000",
+  "evidence": [
+    "data/verify/dust/raw/45583d8caac09a97858127f2bb4fec470a76b540be21ccf5f08ab7dd8af671f4.json",
+    "data/verify/dust/raw/bd80a056a7c1246fb2bb6f448618dd1d33d1e04888f5a388ca3544a633318ed7.json",
+    "data/verify/dust/raw/8ec98a4f6bdca472178792e8552abdd97e998557c5ea1638b4e92d0222ff7f28.json",
+    "data/verify/dust/raw/f5a3229eea04fde5b045382aa702eb2e3f07a129560abbf1d706e888e439252e.json",
+    "data/verify/dust/raw/c869ed5b05c0771f9820619eecc7bb4fb86f990c9ad53211062ed5e556ebc479.json",
+    "data/verify/dust/raw/7c81a4bfe4aa061d446f831e27d28962498d84f6d6d5e186b11e1e2fd7f43901.json",
+    "data/verify/dust/raw/af89cdf314f4e101a911292df3c639659ebd183c059167004ed189005dcaa286.json",
+    "data/verify/dust/raw/600f052730fbf6a3f2f1e387e42e67acdf236abaf18b0f2a70aa85614bf5310a.json",
+    "data/verify/dust/raw/d9c8b30eb5fe1489365759df09c17509e315ef22fcd6298bdb1e5a3c0b083718.json",
+    "data/verify/dust/raw/b8d66a5e733dd2050b56c402d6dc99764f1deddb47cefad1a105e40e28635429.json",
+    "data/verify/dust/raw/a18be94a455e0c9c03252bbeaaf0a94f2576effb10d27c7317c8cf81cca8c2f3.json",
+    "data/verify/dust/raw/297fa9a98fcd7784e4b0f17c35d46fdc7ea43e1889fd2289251e5f8c9aaa2056.json",
+    "data/verify/dust/raw/580f78375242cf06def457217a647aff750f86651081de8a76e8de8b0bf62ee2.json",
+    "data/verify/dust/raw/78d51e1586706a843d449d77382cc1e4741d954fd8de4347024dcb7081339e27.json",
+    "data/verify/dust/raw/76abae78570ef201fc5fc7fec0434cd375542bfc279e17ec5bcc7c54302cc25f.json",
+    "data/verify/dust/raw/21600082a2ba96fab953994d3fd612b96856fd3bd4a93345bf7b6e6af9fd51f3.json",
+    "data/verify/dust/raw/21600082a2ba96fab953994d3fd612b96856fd3bd4a93345bf7b6e6af9fd51f3.json",
+    "data/verify/dust/raw/78d51e1586706a843d449d77382cc1e4741d954fd8de4347024dcb7081339e27.json",
+    "data/verify/dust/raw/407c6e40e7ddafa566e738784e149ea6abcf3f634ee887b93ed67b76665ae5c5.json"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "n_deployments": 4740,
+  "golden": "107/114",
+  "phantom_raw_checks": 10,
+  "fee_raw_checks": 29,
+  "packing_raw_checks": 9,
+  "new_raw_response_hashes_verified": 26,
+  "upgrade_text_class_checks": 1886,
+  "main_prevalence_rows": 3745,
+  "ex_securities_rows": 3745,
+  "cross_chain_tests": 2600,
+  "tornado_total_overlap_outside": [
+    33,
+    32,
+    1
+  ]
+}
